@@ -1,0 +1,72 @@
+{
+  "note": "One entry per country. scripts/sync.mjs copies every file into the repository (path) from its site (url); scripts/zenodo.mjs publishes a new Zenodo version of record zenodo.recordId when a file that is not volatile has changed. The website stays the original source.",
+  "languages": ["en", "fr", "de", "es", "ja", "ko", "ru", "zh"],
+  "datasets": [
+    {
+      "id": "laos",
+      "name": "Laos",
+      "site": "https://laosbustickets.com",
+      "siteName": "Laos Bus Tickets",
+      "dataPage": "https://laosbustickets.com/sources/#open-data",
+      "license": "CC BY 4.0",
+      "zenodo": { "recordId": "23751856", "conceptDoi": "10.5281/zenodo.23751855" },
+      "files": [
+        { "key": "README.md", "path": "laos/README.md" },
+        { "key": "checkpoints.json", "path": "laos/checkpoints.json" },
+        { "key": "routes.json", "path": "laos/routes.json" },
+        { "key": "laos-train-timetable.json", "path": "laos/laos-train-timetable.json", "volatile": true }
+      ],
+      "maps": { "pattern": "laos-transport-map-{lang}{variant}.svg", "variants": ["", "-landscape"], "dir": "laos/maps" },
+      "description": "<p>Open data behind <a href=\"https://laosbustickets.com/\">laosbustickets.com</a>, an independent guide to travelling to, from and around Laos by bus, train and plane. These are the exact files the site's pages are generated from, archived as they were on the publication date of this version.</p><ul><li><strong>checkpoints.json</strong>: the official Laos international checkpoints on the Lao Department of Immigration register (land borders with Thailand, Vietnam, Cambodia and China, international airports and railway checkpoints), with opening hours, visa-on-arrival and eVisa status, field reports where they differ from the register, coordinates and a per-checkpoint verified date.</li><li><strong>routes.json</strong>: bus, train and flight routes to, from and within Laos, each with the border crossing used, duration, an indicative fare snapshot and whether it is bookable online. The bookingUrl fields are the site's own booking redirects (affiliate links, disclosed at <a href=\"https://laosbustickets.com/affiliate-disclosure/\">laosbustickets.com/affiliate-disclosure</a>).</li><li><strong>laos-train-timetable.json</strong>: Laos–China Railway passenger trains for the next seven days on the archive date (the live file is refreshed every morning).</li><li><strong>laos-transport-map-&lt;lang&gt;.svg</strong>: the Laos transport map in eight languages (en, fr, de, es, ja, ko, ru, zh), portrait and landscape.</li><li><strong>README.md</strong>: file descriptions, licence and suggested citation.</li></ul><p>Coordinates mark the border post itself, taken from OpenStreetMap and checked against satellite imagery; they are for map placement, not navigation.</p><p><strong>Licence:</strong> CC BY 4.0. Please credit \"Laos Bus Tickets (laosbustickets.com)\" and link to <a href=\"https://laosbustickets.com/laos-border-checkpoints/\">laosbustickets.com/laos-border-checkpoints</a> (checkpoints) or <a href=\"https://laosbustickets.com/routes/\">laosbustickets.com/routes</a> (routes). Positions from OpenStreetMap: © OpenStreetMap contributors.</p><p>Live versions: <a href=\"https://laosbustickets.com/data/\">laosbustickets.com/data</a>. Map: <a href=\"https://laosbustickets.com/laos-transport-map/\">laosbustickets.com/laos-transport-map</a>.</p>"
+    },
+    {
+      "id": "thailand",
+      "name": "Thailand",
+      "site": "https://thailandtransporthub.com",
+      "siteName": "Thailand Transport Hub",
+      "dataPage": "https://thailandtransporthub.com/about/#open-data",
+      "license": "ODbL 1.0 (data files), CC BY 4.0 (map images)",
+      "zenodo": { "recordId": "23751897", "conceptDoi": "10.5281/zenodo.23751896", "rights": ["odbl-1.0", "cc-by-4.0"] },
+      "files": [
+        { "key": "thailand-transport-map.geojson", "path": "thailand/thailand-transport-map.geojson" },
+        { "key": "thailand-transport-map.json", "path": "thailand/thailand-transport-map.json" },
+        { "key": "thailand-transport-map-places.csv", "path": "thailand/thailand-transport-map-places.csv" },
+        { "key": "LICENSE.txt", "path": "thailand/LICENSE.txt" }
+      ],
+      "maps": { "pattern": "thailand-transport-map-{lang}{variant}", "variants": [".svg", ".png"], "dir": "thailand/maps" },
+      "description": "<p>Geographic data and map files behind the <a href=\"https://thailandtransporthub.com/thailand-transport-map/\">Thailand transport map</a> on <a href=\"https://thailandtransporthub.com/\">thailandtransporthub.com</a>, an independent eight-language guide to getting around Thailand and onward to Laos, Cambodia and Malaysia, archived as they were on the publication date of this version.</p><ul><li><strong>thailand-transport-map.geojson</strong> and <strong>thailand-transport-map.json</strong>: places (cities, islands, airports, stations, piers and border crossings) and schematic connections (rail lines, main road corridors and ferry routes), with names in eight languages and a source for every place.</li><li><strong>thailand-transport-map-places.csv</strong>: the places as a flat table (id, name, type, latitude, longitude, coordinate role, source URLs).</li><li><strong>thailand-transport-map-&lt;lang&gt;.svg / .png</strong>: the finished map in eight languages (en, fr, de, es, ja, ko, ru, zh).</li><li><strong>LICENSE.txt</strong>: licence and source terms.</li></ul><p>Coordinates are area references, not boarding points. Lines are schematic corridors and do not guarantee current services, schedules or border access.</p><p><strong>Licence:</strong> the data files are under the Open Database License (ODbL 1.0) and the map images under CC BY 4.0. Please credit \"Thailand Transport Hub (thailandtransporthub.com)\" and link to <a href=\"https://thailandtransporthub.com/thailand-transport-map/\">thailandtransporthub.com/thailand-transport-map</a>. Underlying sources keep their own terms: Natural Earth (public domain), GeoNames (CC BY 4.0), airport-codes / OurAirports (PDDL), checkpoint positions © OpenStreetMap contributors (ODbL). See LICENSE.txt.</p>"
+    },
+    {
+      "id": "vietnam",
+      "name": "Vietnam",
+      "site": "https://vietnamtransportguide.com",
+      "siteName": "Vietnam Transport Guide",
+      "dataPage": "https://vietnamtransportguide.com/about/#open-data",
+      "license": "ODbL 1.0",
+      "zenodo": { "recordId": "23751899", "conceptDoi": "10.5281/zenodo.23751898" },
+      "files": [
+        { "key": "vietnam-border-crossings.csv", "path": "vietnam/vietnam-border-crossings.csv" },
+        { "key": "vietnam-border-crossings.json", "path": "vietnam/vietnam-border-crossings.json" },
+        { "key": "vietnam-transport-map.geo.json", "path": "vietnam/vietnam-transport-map.geo.json" }
+      ],
+      "maps": { "pattern": "vietnam-transport-map-{lang}{variant}.svg", "variants": ["", "-landscape"], "dir": "vietnam/maps" },
+      "description": "<p>Open data behind the <a href=\"https://vietnamtransportguide.com/vietnam-transport-map/\">Vietnam transport map</a> on <a href=\"https://vietnamtransportguide.com/\">vietnamtransportguide.com</a>, an independent eight-language guide to trains, buses, ferries and border crossings in and around Vietnam, archived as they were on the publication date of this version.</p><ul><li><strong>vietnam-border-crossings.json</strong> and <strong>.csv</strong>: Vietnam's international land border crossings with China, Laos and Cambodia, each with coordinates, status, whether Vietnam's e-visa is accepted for entry, what the neighbouring country accepts, the date checked and source URLs.</li><li><strong>vietnam-transport-map.geo.json</strong>: the cities, airports, stations, piers, crossings, connections and railway lines behind the map.</li><li><strong>vietnam-transport-map-&lt;lang&gt;.svg</strong>: the finished map in eight languages (en, fr, de, es, ja, ko, ru, zh), portrait and landscape.</li></ul><p>Lines show which crossing a route uses, not the exact road.</p><p><strong>Licence:</strong> Open Database License (ODbL 1.0). Positions © OpenStreetMap contributors; Laos gates from LaosBusTickets.com; status and visa notes by VietnamTransportGuide.com. Please credit \"Vietnam Transport Guide (vietnamtransportguide.com)\" and link to <a href=\"https://vietnamtransportguide.com/vietnam-transport-map/\">vietnamtransportguide.com/vietnam-transport-map</a>.</p>"
+    },
+    {
+      "id": "cambodia",
+      "name": "Cambodia",
+      "site": "https://cambodiatransportguide.com",
+      "siteName": "Cambodia Transport Guide",
+      "dataPage": "https://cambodiatransportguide.com/about/#open-data",
+      "license": "ODbL 1.0",
+      "zenodo": { "recordId": "23751901", "conceptDoi": "10.5281/zenodo.23751900" },
+      "files": [
+        { "key": "cambodia-border-crossings.csv", "path": "cambodia/cambodia-border-crossings.csv" },
+        { "key": "cambodia-border-crossings.json", "path": "cambodia/cambodia-border-crossings.json" },
+        { "key": "cambodia-transport-map.geo.json", "path": "cambodia/cambodia-transport-map.geo.json" }
+      ],
+      "maps": { "pattern": "cambodia-transport-map-{lang}{variant}.svg", "variants": ["", "-landscape"], "dir": "cambodia/maps" },
+      "description": "<p>Open data behind the <a href=\"https://cambodiatransportguide.com/cambodia-transport-map/\">Cambodia transport map</a> on <a href=\"https://cambodiatransportguide.com/\">cambodiatransportguide.com</a>, an independent eight-language guide to buses, trains, ferries and border crossings in and around Cambodia, archived as they were on the publication date of this version.</p><ul><li><strong>cambodia-border-crossings.json</strong> and <strong>.csv</strong>: Cambodia's international border crossings with Vietnam, Laos and Thailand, each with coordinates, status, whether Cambodia's e-visa is accepted for entry, and the sources checked.</li><li><strong>cambodia-transport-map.geo.json</strong>: the towns, airports, stations, piers, crossings, connections and railway behind the map.</li><li><strong>cambodia-transport-map-&lt;lang&gt;.svg</strong>: the finished map in eight languages (en, fr, de, es, ja, ko, ru, zh), portrait and landscape.</li></ul><p>Lines show which crossing or pier a route uses, not the exact road.</p><p><strong>Licence:</strong> Open Database License (ODbL 1.0). Positions © OpenStreetMap contributors; status and e-visa fields by CambodiaTransportGuide.com from the sources listed per crossing. Please credit \"Cambodia Transport Guide (cambodiatransportguide.com)\" and link to <a href=\"https://cambodiatransportguide.com/cambodia-transport-map/\">cambodiatransportguide.com/cambodia-transport-map</a>.</p>"
+    }
+  ]
+}
