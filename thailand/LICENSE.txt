@@ -1,5 +1,13 @@
-Thailand Transport Hub geographic map presentation: Creative Commons Attribution 4.0 International, https://creativecommons.org/licenses/by/4.0/
+Thailand Transport Hub map data and map images
 
-Underlying geographic sources retain their own terms: Natural Earth public domain (country outlines, places); GeoNames CC BY 4.0; airport-codes / OurAirports PDDL; inherited checkpoint positions © OpenStreetMap contributors, Open Database License (ODbL). OpenStreetMap attribution: https://www.openstreetmap.org/copyright .
+Data files (thailand-transport-map.json, thailand-transport-map-places.csv, thailand-transport-map.geojson):
+Open Database License (ODbL) 1.0, https://opendatacommons.org/licenses/odbl/1-0/
+Credit "Thailand Transport Hub (thailandtransporthub.com)" and "© OpenStreetMap contributors".
 
-Data source URLs and exact scopes are in thailand-transport-map.json. Coordinate area references are not boarding entrances. Rail, road and ferry lines are schematic corridors and do not guarantee current operation, schedules, availability or border access.
+Map images (thailand-transport-map-<language>.svg and .png):
+Creative Commons Attribution 4.0 International, https://creativecommons.org/licenses/by/4.0/
+Credit Thailand Transport Hub with a link to https://thailandtransporthub.com/thailand-transport-map/
+
+Sources inside the data keep their own terms: Natural Earth, public domain (country outlines, places); GeoNames, CC BY 4.0; airport-codes / OurAirports, PDDL; border-crossing positions © OpenStreetMap contributors, ODbL (https://www.openstreetmap.org/copyright). The source of each place is listed in thailand-transport-map.json.
+
+A coordinate marks an area, not a station or pier entrance, and a line is a corridor, not a timetable: neither says that a service runs or that a border is open.

@@ -13,11 +13,13 @@ file-level date, since not every checkpoint is necessarily re-confirmed in the s
 - `routes.json`: every bus, train and flight route this site checks against live booking
   inventory, with the border crossing used, duration, indicative fare and whether it is
   bookable online.
+- `checkpoints.csv` and `routes.csv`: the same two lists as flat tables, one row per
+  checkpoint and per route, for spreadsheets. The JSON files hold the full details.
 - `laos-train-timetable.json`: every passenger train on the Laos–China Railway for the next
   seven days (stations, times, running days, through trains to Kunming), refreshed every
   morning at 06:00 Laos time from the official LCR Ticket app. Canonical page:
   https://laosbustickets.com/train-tickets-laos/#timetable
-- `laos-transport-map-<lang>.svg` (and `-landscape.svg`): the Laos transport map in seven
+- `laos-transport-map-<lang>.svg` (and `-landscape.svg`): the Laos transport map in eight
   languages, redrawn from the two JSON files above. Canonical page:
   https://laosbustickets.com/laos-transport-map/
 - `checkpoint-badge.svg`: a small embeddable badge showing the checkpoint count and the
@@ -36,5 +38,7 @@ cross-border route carries checkpointRegisterUrl, the official Lao register page
 crossing it uses. checkpoints.json and routes.json change when the facts they describe
 change; the timetable changes every morning.
 
-The same files are mirrored at https://github.com/laosbustickets/laos-transport-data and
-https://huggingface.co/datasets/laosbustickets/laos-transport-data. This site remains the original source; please cite the pages above.
+You can also download the same files from GitHub (https://github.com/laosbustickets/laos-transport-data)
+or Hugging Face (https://huggingface.co/datasets/laosbustickets/laos-transport-data), refreshed there every day.
+To cite the data or the map in a report or article, use their permanent link on Zenodo:
+https://doi.org/10.5281/zenodo.23751855 (it always opens the newest version).

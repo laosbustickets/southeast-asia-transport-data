@@ -1,0 +1,61 @@
+type,name,from,to,country,border_checkpoint,modes,duration,from_lak,fare_note,bookable_online,direct,verified,page_url
+route,Vientiane to Bangkok,Vientiane,Bangkok,thailand,friendship-bridge-1,train|bus|van|flight|taxi,20–24 hrs,225559,,yes,yes,2026-10-21,https://laosbustickets.com/vientiane-bangkok/
+route,Vientiane to Nong Khai,Vientiane,Nong Khai,thailand,friendship-bridge-1,bus|van|train|taxi,1–1.5 hrs,80478,,yes,yes,2026-10-21,https://laosbustickets.com/laos-thailand-border-crossings/
+route,Vientiane to Udon Thani,Vientiane,Udon Thani,thailand,friendship-bridge-1,bus|van|train|flight|taxi,approx 3 hrs,107295,,yes,yes,2026-10-21,https://laosbustickets.com/laos-thailand-border-crossings/
+route,Vientiane to Khon Kaen,Vientiane,Khon Kaen,thailand,friendship-bridge-1,train|bus|flight|taxi,approx 5 hrs,137001,,yes,yes,2026-10-21,https://laosbustickets.com/laos-thailand-border-crossings/
+route,Luang Prabang to Chiang Mai,Luang Prabang,Chiang Mai,thailand,friendship-bridge-4,bus|van|flight|taxi,approx 20 hrs,1225798,,yes,yes,2026-10-21,https://laosbustickets.com/chiang-mai-luang-prabang-bus/
+route,Luang Prabang to Chiang Rai,Luang Prabang,Chiang Rai,thailand,friendship-bridge-4,bus|van|ferry|flight,approx 16 hrs,1425657,,yes,,2026-10-21,https://laosbustickets.com/chiang-mai-luang-prabang-bus/
+route,Huay Xai to Chiang Rai,Huay Xai,Chiang Rai,thailand,friendship-bridge-4,van|bus|taxi,approx 3 hrs,379319,,yes,yes,2026-10-21,https://laosbustickets.com/chiang-khong-huay-xai-border/
+route,Chiang Khong to Huay Xai,Chiang Khong,Huay Xai,thailand,friendship-bridge-4,,about 5 minutes across the bridge itself,,,no,,2026-10-14,https://laosbustickets.com/chiang-khong-huay-xai-border/
+route,Pakse to Ubon Ratchathani,Pakse,Ubon Ratchathani,thailand,vangtao,bus|taxi,approx 3 hrs,310050,,yes,yes,2026-10-21,https://laosbustickets.com/laos-thailand-border-crossings/
+route,Savannakhet to Mukdahan,Savannakhet,Mukdahan,thailand,friendship-bridge-2,bus,approx 1 hr,236474,,no,yes,2026-10-21,https://laosbustickets.com/laos-thailand-border-crossings/
+route,Thakhek to Nakhon Phanom,Thakhek,Nakhon Phanom,thailand,friendship-bridge-3,bus|taxi,approx 1 hr,281384,,yes,yes,2026-10-21,https://laosbustickets.com/laos-thailand-border-crossings/
+route,Paksan to Bueng Kan,Paksan,Bueng Kan,thailand,friendship-bridge-5,bus,approx 3 hrs,,,no,,2026-10-14,https://laosbustickets.com/laos-thailand-border-crossings/
+route,Vientiane to Hanoi,Vientiane,Hanoi,vietnam,namphao,bus|van|flight,approx 24 hrs,846792,,yes,yes,2026-10-21,https://laosbustickets.com/vientiane-hanoi/
+route,Vientiane to Vinh,Vientiane,Vinh,vietnam,namphao,bus|van|flight|taxi,approx 14 hrs,834107,,no,yes,2026-10-21,https://laosbustickets.com/laos-vietnam-border-crossings/
+route,Vientiane to Hue,Vientiane,Hue,vietnam,namphao,bus|van|flight|taxi,approx 22 hrs,861041,,yes,,2026-10-21,https://laosbustickets.com/laos-vietnam-border-crossings/
+route,Vientiane to Da Nang,Vientiane,Da Nang,vietnam,namphao,bus|van|flight|taxi,approx 24 hrs,967537,,yes,,2026-10-21,https://laosbustickets.com/laos-vietnam-border-crossings/
+route,Savannakhet to Hue,Savannakhet,Hue,vietnam,dansavan,bus,approx 12 hrs,658650,,yes,yes,2026-10-21,https://laosbustickets.com/laos-vietnam-border-crossings/
+route,Savannakhet to Da Nang,Savannakhet,Da Nang,vietnam,dansavan,bus,approx 15 hrs,924037,,yes,yes,2026-10-21,https://laosbustickets.com/laos-vietnam-border-crossings/
+route,Savannakhet to Hanoi,Savannakhet,Hanoi,vietnam,dansavan,flight,approx 24 hrs,1165268,,yes,,2026-10-21,https://laosbustickets.com/laos-vietnam-border-crossings/
+route,Pakse to Hue,Pakse,Hue,vietnam,la-lai,bus|taxi,10–12 hrs,1154929,,yes,,2026-10-21,https://laosbustickets.com/laos-vietnam-border-crossings/
+route,Pakse to Da Nang,Pakse,Da Nang,vietnam,la-lai,bus|flight|taxi,11–14 hrs,1321741,,yes,,2026-10-21,https://laosbustickets.com/laos-vietnam-border-crossings/
+route,Thakhek to Da Nang,Thakhek,Da Nang,vietnam,naphao,bus,approx 16 hrs,1043930,,yes,,2026-10-21,https://laosbustickets.com/laos-vietnam-border-crossings/
+route,Luang Prabang to Hanoi,Luang Prabang,Hanoi,vietnam,namkan,train|bus|van|flight,approx 24 hrs,1251150,,yes,,2026-10-21,https://laosbustickets.com/luang-prabang-hanoi/
+route,Thakhek to Vinh,Thakhek,Vinh,vietnam,naphao,,overnight,,,no,,2026-10-14,https://laosbustickets.com/laos-vietnam-border-crossings/
+route,Thakhek to Phong Nha,Thakhek,Phong Nha,vietnam,naphao,,approx 8 hrs,,,no,,2026-10-14,https://laosbustickets.com/laos-vietnam-border-crossings/
+route,Thakhek to Hue,Thakhek,Hue,vietnam,dansavan,bus,"10 h to 10 h 15 m, departing 23:30 or 06:00",846792,,yes,,2026-10-21,https://laosbustickets.com/laos-vietnam-border-crossings/
+route,Attapeu to Kon Tum / Pleiku,Attapeu,Kon Tum / Pleiku,vietnam,phoukeua,,approx 8 hrs,,,no,,2026-10-14,https://laosbustickets.com/laos-vietnam-border-crossings/
+route,Sam Neua to Hanoi,Sam Neua,Hanoi,vietnam,namsoy,flight,"4 h 35 m by air, via Vientiane",6772329,,no,,2026-10-21,https://laosbustickets.com/laos-vietnam-border-crossings/
+route,Pakse to Siem Reap,Pakse,Siem Reap,cambodia,nongnokkheane,bus|van|flight,9.5–10 hrs advertised,694671,,yes,yes,2026-10-21,https://laosbustickets.com/laos-cambodia-border-crossing/
+route,Pakse to Phnom Penh,Pakse,Phnom Penh,cambodia,nongnokkheane,bus|van|flight|taxi,11–12 hrs advertised,789620,,yes,yes,2026-10-21,https://laosbustickets.com/laos-cambodia-border-crossing/
+route,Pakse to Stung Treng,Pakse,Stung Treng,cambodia,nongnokkheane,bus|van,approx 6 hrs,487697,,yes,yes,2026-10-21,https://laosbustickets.com/laos-cambodia-border-crossing/
+route,4000 Islands to Siem Reap,4000 Islands,Siem Reap,cambodia,nongnokkheane,bus|van,approx 8 hrs advertised,554708,,yes,,2026-10-21,https://laosbustickets.com/laos-cambodia-border-crossing/
+route,4000 Islands to Stung Treng,4000 Islands,Stung Treng,cambodia,nongnokkheane,bus|van|taxi,4–5 hrs,213804,,yes,yes,2026-10-21,https://laosbustickets.com/laos-cambodia-border-crossing/
+route,4000 Islands to Phnom Penh,4000 Islands,Phnom Penh,cambodia,nongnokkheane,van|bus|taxi,9–10 hrs advertised,800857,,yes,,2026-10-21,https://laosbustickets.com/laos-cambodia-border-crossing/
+route,Vientiane to Vang Vieng,Vientiane,Vang Vieng,domestic,,van|train|bus|taxi,approx 4 hrs by road,283709,,yes,,2026-10-21,https://laosbustickets.com/vang-vieng-bus-train-tickets/
+route,Vientiane to Luang Prabang,Vientiane,Luang Prabang,domestic,,train|van|bus|flight|taxi,approx 10 hrs by road,516946,,yes,,2026-10-21,https://laosbustickets.com/luang-prabang-bus-train-tickets/
+route,Vientiane to Pakse,Vientiane,Pakse,domestic,,bus|van|flight|taxi,"approx 10 hrs, usually overnight",518245,,yes,,2026-10-21,https://laosbustickets.com/pakse-bus-tickets/
+route,Vientiane to Thakhek,Vientiane,Thakhek,domestic,,bus|van|taxi,approx 8–9 hrs,367011,,yes,,2026-10-21,https://laosbustickets.com/thakhek-bus-tickets/
+route,Luang Prabang to Vang Vieng,Luang Prabang,Vang Vieng,domestic,,train|bus|van|taxi,approx 6 hrs by road,329394,,yes,,2026-10-21,https://laosbustickets.com/vang-vieng-bus-train-tickets/
+route,Luang Prabang to Nong Khiaw,Luang Prabang,Nong Khiaw,domestic,,van|bus|taxi,approx 4 hrs,276986,,yes,,2026-10-21,https://laosbustickets.com/nong-khiaw-bus-tickets/
+route,Huay Xai to Luang Prabang,Huay Xai,Luang Prabang,domestic,,ferry,"2 days, one night in Pakbeng",,,yes,,2026-10-25,https://laosbustickets.com/chiang-mai-luang-prabang-bus/
+route,Vientiane to Phonsavan,Vientiane,Phonsavan,domestic,,bus|van|flight|taxi,approx 12 hrs,412500,,yes,yes,2026-10-21,https://laosbustickets.com/phonsavan-bus-tickets/
+route,Luang Prabang to Phonsavan,Luang Prabang,Phonsavan,domestic,,van|bus,approx 8 hrs,325890,,yes,yes,2026-10-21,https://laosbustickets.com/phonsavan-bus-tickets/
+route,Paksan to Phonsavan,Paksan,Phonsavan,domestic,,bus,,,,no,,2026-10-21,https://laosbustickets.com/phonsavan-bus-tickets/
+route,Muang Khua to Dien Bien Phu,Muang Khua,Dien Bien Phu,vietnam,panghok,bus,,,,no,,2026-10-16,https://laosbustickets.com/laos-vietnam-border-crossings/
+train,Vientiane to Luang Prabang,Vientiane,Luang Prabang,,,,1 h 46 m – 2 h 54 m,977768,"234,000 LAK second class on the slower K11/K12; 330,000 LAK on the faster C85–C96 services",yes,,2026-10-14,https://laosbustickets.com/train-tickets-laos/
+train,Vientiane to Vang Vieng,Vientiane,Vang Vieng,,,,about 1 hr,311950,,yes,,2026-10-14,https://laosbustickets.com/train-tickets-laos/
+train,Vang Vieng to Luang Prabang,Vang Vieng,Luang Prabang,,,,about 1 hr,321315,,yes,,2026-10-14,https://laosbustickets.com/train-tickets-laos/
+train,Vientiane to Boten,Vientiane,Boten,,,,3 h 6 m – 4 h 59 m,788371,,yes,,2026-10-14,https://laosbustickets.com/laos-china-border-crossing/
+train,Vientiane to Kunming,Vientiane,Kunming,,,,9.5–10 hrs including border formalities,2478052,,yes,,2026-10-14,https://laosbustickets.com/laos-china-border-crossing/
+flight,Bangkok to Vientiane,Bangkok,Vientiane,,,,about 1 h 15 m,,"from THB 3,745",yes,,2026-10-14,https://laosbustickets.com/flights-to-laos/
+flight,Bangkok to Luang Prabang,Bangkok,Luang Prabang,,,,about 1 h 50 m,,from USD 119,yes,,2026-10-14,https://laosbustickets.com/flights-to-laos/
+flight,Chiang Mai to Luang Prabang,Chiang Mai,Luang Prabang,,,,about 1 h 10 m,,"from THB 4,418",yes,,2026-10-14,https://laosbustickets.com/flights-to-laos/
+flight,Hanoi to Vientiane,Hanoi,Vientiane,,,,about 1 h 10 m,,"from VND 4,957k",yes,,2026-10-14,https://laosbustickets.com/flights-to-laos/
+flight,Hanoi to Luang Prabang,Hanoi,Luang Prabang,,,,about 1 h,,"from VND 4,359k",yes,,2026-10-14,https://laosbustickets.com/flights-to-laos/
+flight,Siem Reap to Luang Prabang,Siem Reap,Luang Prabang,,,,about 2 h,,from USD 201,yes,,2026-10-14,https://laosbustickets.com/flights-to-laos/
+flight,Vientiane to Pakse,Vientiane,Pakse,,,,about 1 h 15 m,,"from LAK 2,285,959",yes,yes,2026-10-14,https://laosbustickets.com/flights-to-laos/
+flight,Ho Chi Minh City to Pakse,Ho Chi Minh City,Pakse,,,,about 1 h 35 m,,"from VND 3,750k",yes,yes,2026-10-14,https://laosbustickets.com/flights-to-laos/
+flight,Vientiane to Phnom Penh,Vientiane,Phnom Penh,,,,about 1 h 40 m,,from USD 186,yes,,2026-10-14,https://laosbustickets.com/flights-to-laos/
+flight,Pakse to Siem Reap,Pakse,Siem Reap,,,,about 55 min,,from USD 190,yes,,2026-10-14,https://laosbustickets.com/flights-to-laos/
