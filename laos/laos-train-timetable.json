@@ -1,0 +1,1021 @@
+{
+ "name": "Laos–China Railway timetable: every passenger train for the next 7 days",
+ "publisher": "Laos Bus Tickets",
+ "page": "https://laosbustickets.com/train-tickets-laos/#timetable",
+ "source": {
+  "name": "LCR Ticket, the official app of the Laos-China Railway Company",
+  "url": "https://play.google.com/store/apps/details?id=com.cars.laosticket"
+ },
+ "license": "https://creativecommons.org/licenses/by/4.0/",
+ "citation": "Laos Bus Tickets, \"Laos–China Railway timetable\", https://laosbustickets.com/train-tickets-laos/",
+ "checkedAt": "2026-10-28T23:00:08.344Z",
+ "updated": "every morning at 06:00 Laos time; if a check fails the previous timetable is kept",
+ "timezones": {
+  "LA": "Asia/Vientiane, UTC+7",
+  "CN": "Asia/Shanghai, UTC+8 (stops in China)"
+ },
+ "dates": [
+  "2026-10-29",
+  "2026-10-30",
+  "2026-10-31",
+  "2026-11-01",
+  "2026-11-02",
+  "2026-11-03",
+  "2026-11-04"
+ ],
+ "summary": {
+  "trainsNorthbound": 6,
+  "trainsSouthbound": 6,
+  "fastestVientianeLuangPrabangMinutes": 106,
+  "slowestVientianeLuangPrabangMinutes": 174
+ },
+ "trains": [
+  {
+   "train": "D88",
+   "direction": "northbound",
+   "from": "Vientiane",
+   "to": "Kunming South",
+   "runsOn": [
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04"
+   ],
+   "weekdays": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "weekdaysNotOnSaleYet": [],
+   "stops": [
+    {
+     "station": "Vientiane",
+     "code": "LAVTM",
+     "country": "LA",
+     "arrive": null,
+     "depart": "08:00",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vang Vieng",
+     "code": "LAVOM",
+     "country": "LA",
+     "arrive": "08:52",
+     "depart": "08:55",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Luang Prabang",
+     "code": "LAVJM",
+     "country": "LA",
+     "arrive": "09:46",
+     "depart": "09:50",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Muang Xai",
+     "code": "LAVFM",
+     "country": "LA",
+     "arrive": "10:41",
+     "depart": "10:44",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Boten",
+     "code": "LAVBM",
+     "country": "LA",
+     "arrive": "11:15",
+     "depart": "12:07",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Mohan",
+     "code": "CNMHM",
+     "country": "CN",
+     "arrive": "13:19",
+     "depart": "14:11",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Xishuangbanna",
+     "code": "CNENM",
+     "country": "CN",
+     "arrive": "15:10",
+     "depart": "15:16",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Pu'er",
+     "code": "CNPEM",
+     "country": "CN",
+     "arrive": "15:56",
+     "depart": "16:00",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Yuxi",
+     "code": "CNAXM",
+     "country": "CN",
+     "arrive": "17:52",
+     "depart": "17:56",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Kunming South",
+     "code": "CNKOM",
+     "country": "CN",
+     "arrive": "18:34",
+     "depart": null,
+     "utcOffset": "+08:00"
+    }
+   ]
+  },
+  {
+   "train": "K12",
+   "direction": "northbound",
+   "from": "Vientiane",
+   "to": "Boten",
+   "runsOn": [
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "weekdays": [
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "weekdaysNotOnSaleYet": [
+    "Monday",
+    "Tuesday",
+    "Wednesday"
+   ],
+   "stops": [
+    {
+     "station": "Vientiane",
+     "code": "LAVTM",
+     "country": "LA",
+     "arrive": null,
+     "depart": "08:25",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Phonhong",
+     "code": "LAVQM",
+     "country": "LA",
+     "arrive": "09:04",
+     "depart": "09:08",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vang Vieng",
+     "code": "LAVOM",
+     "country": "LA",
+     "arrive": "09:44",
+     "depart": "09:49",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Kasi",
+     "code": "LAVMM",
+     "country": "LA",
+     "arrive": "10:16",
+     "depart": "10:24",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Luang Prabang",
+     "code": "LAVJM",
+     "country": "LA",
+     "arrive": "11:09",
+     "depart": "11:15",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Muang Nga",
+     "code": "LAVHM",
+     "country": "LA",
+     "arrive": "11:52",
+     "depart": "11:55",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Muang Xai",
+     "code": "LAVFM",
+     "country": "LA",
+     "arrive": "12:23",
+     "depart": "12:28",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Namor",
+     "code": "LAVDM",
+     "country": "LA",
+     "arrive": "12:54",
+     "depart": "12:57",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Nateuy",
+     "code": "LAVCM",
+     "country": "LA",
+     "arrive": "13:10",
+     "depart": "13:13",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Boten",
+     "code": "LAVBM",
+     "country": "LA",
+     "arrive": "13:24",
+     "depart": null,
+     "utcOffset": "+07:00"
+    }
+   ]
+  },
+  {
+   "train": "C92",
+   "direction": "northbound",
+   "from": "Vientiane",
+   "to": "Luang Prabang",
+   "runsOn": [
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04"
+   ],
+   "weekdays": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "weekdaysNotOnSaleYet": [],
+   "stops": [
+    {
+     "station": "Vientiane",
+     "code": "LAVTM",
+     "country": "LA",
+     "arrive": null,
+     "depart": "09:20",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vang Vieng",
+     "code": "LAVOM",
+     "country": "LA",
+     "arrive": "10:12",
+     "depart": "10:16",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Luang Prabang",
+     "code": "LAVJM",
+     "country": "LA",
+     "arrive": "11:38",
+     "depart": null,
+     "utcOffset": "+07:00"
+    }
+   ]
+  },
+  {
+   "train": "D84",
+   "direction": "northbound",
+   "from": "Vientiane",
+   "to": "Kunming",
+   "runsOn": [
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04"
+   ],
+   "weekdays": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "weekdaysNotOnSaleYet": [],
+   "stops": [
+    {
+     "station": "Vientiane",
+     "code": "LAVTM",
+     "country": "LA",
+     "arrive": null,
+     "depart": "11:25",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vang Vieng",
+     "code": "LAVOM",
+     "country": "LA",
+     "arrive": "12:17",
+     "depart": "12:20",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Luang Prabang",
+     "code": "LAVJM",
+     "country": "LA",
+     "arrive": "13:11",
+     "depart": "13:15",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Boten",
+     "code": "LAVBM",
+     "country": "LA",
+     "arrive": "14:31",
+     "depart": "15:25",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Mohan",
+     "code": "CNMHM",
+     "country": "CN",
+     "arrive": "16:37",
+     "depart": "17:29",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Xishuangbanna",
+     "code": "CNENM",
+     "country": "CN",
+     "arrive": "18:28",
+     "depart": "18:34",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Pu'er",
+     "code": "CNPEM",
+     "country": "CN",
+     "arrive": "19:15",
+     "depart": "19:19",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Kunming South",
+     "code": "CNKOM",
+     "country": "CN",
+     "arrive": "21:44",
+     "depart": "21:48",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Kunming",
+     "code": "CNKMM",
+     "country": "CN",
+     "arrive": "22:08",
+     "depart": null,
+     "utcOffset": "+08:00"
+    }
+   ]
+  },
+  {
+   "train": "C96",
+   "direction": "northbound",
+   "from": "Vientiane",
+   "to": "Boten",
+   "runsOn": [
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02"
+   ],
+   "weekdays": [
+    "Monday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "weekdaysNotOnSaleYet": [
+    "Tuesday",
+    "Wednesday"
+   ],
+   "stops": [
+    {
+     "station": "Vientiane",
+     "code": "LAVTM",
+     "country": "LA",
+     "arrive": null,
+     "depart": "14:05",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vang Vieng",
+     "code": "LAVOM",
+     "country": "LA",
+     "arrive": "15:08",
+     "depart": "15:15",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Luang Prabang",
+     "code": "LAVJM",
+     "country": "LA",
+     "arrive": "16:48",
+     "depart": "16:52",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Muang Xai",
+     "code": "LAVFM",
+     "country": "LA",
+     "arrive": "17:50",
+     "depart": "17:53",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Nateuy",
+     "code": "LAVCM",
+     "country": "LA",
+     "arrive": "18:20",
+     "depart": "18:25",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Boten",
+     "code": "LAVBM",
+     "country": "LA",
+     "arrive": "18:35",
+     "depart": null,
+     "utcOffset": "+07:00"
+    }
+   ]
+  },
+  {
+   "train": "C86",
+   "direction": "northbound",
+   "from": "Vientiane",
+   "to": "Luang Prabang",
+   "runsOn": [
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04"
+   ],
+   "weekdays": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "weekdaysNotOnSaleYet": [],
+   "stops": [
+    {
+     "station": "Vientiane",
+     "code": "LAVTM",
+     "country": "LA",
+     "arrive": null,
+     "depart": "15:15",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Phonhong",
+     "code": "LAVQM",
+     "country": "LA",
+     "arrive": "15:44",
+     "depart": "15:47",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vang Vieng",
+     "code": "LAVOM",
+     "country": "LA",
+     "arrive": "16:26",
+     "depart": "16:30",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Luang Prabang",
+     "code": "LAVJM",
+     "country": "LA",
+     "arrive": "17:26",
+     "depart": null,
+     "utcOffset": "+07:00"
+    }
+   ]
+  },
+  {
+   "train": "C95",
+   "direction": "southbound",
+   "from": "Boten",
+   "to": "Vientiane",
+   "runsOn": [
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+   ],
+   "weekdays": [
+    "Monday",
+    "Tuesday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "weekdaysNotOnSaleYet": [],
+   "stops": [
+    {
+     "station": "Boten",
+     "code": "LAVBM",
+     "country": "LA",
+     "arrive": null,
+     "depart": "08:00",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Nateuy",
+     "code": "LAVCM",
+     "country": "LA",
+     "arrive": "08:09",
+     "depart": "08:14",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Muang Xai",
+     "code": "LAVFM",
+     "country": "LA",
+     "arrive": "08:41",
+     "depart": "08:48",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Luang Prabang",
+     "code": "LAVJM",
+     "country": "LA",
+     "arrive": "09:35",
+     "depart": "09:48",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vang Vieng",
+     "code": "LAVOM",
+     "country": "LA",
+     "arrive": "10:42",
+     "depart": "10:46",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vientiane",
+     "code": "LAVTM",
+     "country": "LA",
+     "arrive": "11:47",
+     "depart": null,
+     "utcOffset": "+07:00"
+    }
+   ]
+  },
+  {
+   "train": "C91",
+   "direction": "southbound",
+   "from": "Luang Prabang",
+   "to": "Vientiane",
+   "runsOn": [
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04"
+   ],
+   "weekdays": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "weekdaysNotOnSaleYet": [],
+   "stops": [
+    {
+     "station": "Luang Prabang",
+     "code": "LAVJM",
+     "country": "LA",
+     "arrive": null,
+     "depart": "12:28",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vang Vieng",
+     "code": "LAVOM",
+     "country": "LA",
+     "arrive": "13:34",
+     "depart": "13:38",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vientiane",
+     "code": "LAVTM",
+     "country": "LA",
+     "arrive": "14:31",
+     "depart": null,
+     "utcOffset": "+07:00"
+    }
+   ]
+  },
+  {
+   "train": "D87",
+   "direction": "southbound",
+   "from": "Kunming South",
+   "to": "Vientiane",
+   "runsOn": [
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04"
+   ],
+   "weekdays": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "weekdaysNotOnSaleYet": [],
+   "stops": [
+    {
+     "station": "Kunming South",
+     "code": "CNKOM",
+     "country": "CN",
+     "arrive": null,
+     "depart": "08:08",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Yuxi",
+     "code": "CNAXM",
+     "country": "CN",
+     "arrive": "08:45",
+     "depart": "08:49",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Pu'er",
+     "code": "CNPEM",
+     "country": "CN",
+     "arrive": "10:38",
+     "depart": "10:42",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Xishuangbanna",
+     "code": "CNENM",
+     "country": "CN",
+     "arrive": "11:24",
+     "depart": "11:30",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Mohan",
+     "code": "CNMHM",
+     "country": "CN",
+     "arrive": "12:31",
+     "depart": "13:23",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Boten",
+     "code": "LAVBM",
+     "country": "LA",
+     "arrive": "12:35",
+     "depart": "13:27",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Muang Xai",
+     "code": "LAVFM",
+     "country": "LA",
+     "arrive": "13:58",
+     "depart": "14:04",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Luang Prabang",
+     "code": "LAVJM",
+     "country": "LA",
+     "arrive": "14:54",
+     "depart": "14:58",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vang Vieng",
+     "code": "LAVOM",
+     "country": "LA",
+     "arrive": "15:49",
+     "depart": "15:52",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vientiane",
+     "code": "LAVTM",
+     "country": "LA",
+     "arrive": "16:44",
+     "depart": null,
+     "utcOffset": "+07:00"
+    }
+   ]
+  },
+  {
+   "train": "K11",
+   "direction": "southbound",
+   "from": "Boten",
+   "to": "Vientiane",
+   "runsOn": [
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01"
+   ],
+   "weekdays": [
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "weekdaysNotOnSaleYet": [
+    "Monday",
+    "Tuesday",
+    "Wednesday"
+   ],
+   "stops": [
+    {
+     "station": "Boten",
+     "code": "LAVBM",
+     "country": "LA",
+     "arrive": null,
+     "depart": "14:10",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Nateuy",
+     "code": "LAVCM",
+     "country": "LA",
+     "arrive": "14:21",
+     "depart": "14:26",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Namor",
+     "code": "LAVDM",
+     "country": "LA",
+     "arrive": "14:39",
+     "depart": "14:42",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Muang Xai",
+     "code": "LAVFM",
+     "country": "LA",
+     "arrive": "15:08",
+     "depart": "15:13",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Muang Nga",
+     "code": "LAVHM",
+     "country": "LA",
+     "arrive": "15:42",
+     "depart": "15:48",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Luang Prabang",
+     "code": "LAVJM",
+     "country": "LA",
+     "arrive": "16:24",
+     "depart": "16:31",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Kasi",
+     "code": "LAVMM",
+     "country": "LA",
+     "arrive": "17:29",
+     "depart": "17:33",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vang Vieng",
+     "code": "LAVOM",
+     "country": "LA",
+     "arrive": "18:00",
+     "depart": "18:06",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Phonhong",
+     "code": "LAVQM",
+     "country": "LA",
+     "arrive": "18:42",
+     "depart": "18:46",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vientiane",
+     "code": "LAVTM",
+     "country": "LA",
+     "arrive": "19:25",
+     "depart": null,
+     "utcOffset": "+07:00"
+    }
+   ]
+  },
+  {
+   "train": "D83",
+   "direction": "southbound",
+   "from": "Kunming",
+   "to": "Vientiane",
+   "runsOn": [
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04"
+   ],
+   "weekdays": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "weekdaysNotOnSaleYet": [],
+   "stops": [
+    {
+     "station": "Kunming",
+     "code": "CNKMM",
+     "country": "CN",
+     "arrive": null,
+     "depart": "10:55",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Kunming South",
+     "code": "CNKOM",
+     "country": "CN",
+     "arrive": "11:14",
+     "depart": "11:20",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Pu'er",
+     "code": "CNPEM",
+     "country": "CN",
+     "arrive": "13:42",
+     "depart": "13:46",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Xishuangbanna",
+     "code": "CNENM",
+     "country": "CN",
+     "arrive": "14:30",
+     "depart": "14:36",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Mohan",
+     "code": "CNMHM",
+     "country": "CN",
+     "arrive": "15:50",
+     "depart": "16:42",
+     "utcOffset": "+08:00"
+    },
+    {
+     "station": "Boten",
+     "code": "LAVBM",
+     "country": "LA",
+     "arrive": "15:54",
+     "depart": "16:44",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Muang Xai",
+     "code": "LAVFM",
+     "country": "LA",
+     "arrive": "17:15",
+     "depart": "17:18",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Luang Prabang",
+     "code": "LAVJM",
+     "country": "LA",
+     "arrive": "18:07",
+     "depart": "18:11",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vang Vieng",
+     "code": "LAVOM",
+     "country": "LA",
+     "arrive": "19:02",
+     "depart": "19:06",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vientiane",
+     "code": "LAVTM",
+     "country": "LA",
+     "arrive": "19:59",
+     "depart": null,
+     "utcOffset": "+07:00"
+    }
+   ]
+  },
+  {
+   "train": "C85",
+   "direction": "southbound",
+   "from": "Luang Prabang",
+   "to": "Vientiane",
+   "runsOn": [
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03",
+    "2026-11-04"
+   ],
+   "weekdays": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+    "Sunday"
+   ],
+   "weekdaysNotOnSaleYet": [],
+   "stops": [
+    {
+     "station": "Luang Prabang",
+     "code": "LAVJM",
+     "country": "LA",
+     "arrive": null,
+     "depart": "18:35",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vang Vieng",
+     "code": "LAVOM",
+     "country": "LA",
+     "arrive": "19:31",
+     "depart": "19:35",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vientiane",
+     "code": "LAVTM",
+     "country": "LA",
+     "arrive": "20:28",
+     "depart": null,
+     "utcOffset": "+07:00"
+    }
+   ]
+  }
+ ]
+}

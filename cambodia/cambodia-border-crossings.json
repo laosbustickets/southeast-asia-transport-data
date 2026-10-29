@@ -1,0 +1,170 @@
+{
+  "name": "Cambodia border crossings",
+  "publisher": "CambodiaTransportGuide.com",
+  "homepage": "https://cambodiatransportguide.com/cambodia-transport-map/",
+  "updated": "2026-10-25",
+  "license": "ODbL-1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "Positions © OpenStreetMap contributors (ODbL). Status and e-visa fields: CambodiaTransportGuide.com from the sources listed per crossing.",
+  "note": "'cambodianEvisaForEntry' says whether Cambodia's e-visa is accepted there for entry. It does not say whether a crossing is open to every traveller or which other visas work.",
+  "crossings": [
+    {
+      "number": 1,
+      "id": "bavet",
+      "name": "Bavet ↔ Mộc Bài",
+      "neighbour": "vietnam",
+      "lat": 11.07562,
+      "lon": 106.17161,
+      "position": "relation/6923723 (border_control)",
+      "status": "open",
+      "cambodianEvisaForEntry": true,
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "Cambodia Ministry of Foreign Affairs: e-Visa entry ports",
+          "url": "https://www.evisa.gov.kh/information/port_entry/3",
+          "checked": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "prek-chak",
+      "name": "Prek Chak ↔ Hà Tiên",
+      "neighbour": "vietnam",
+      "lat": 10.42454,
+      "lon": 104.45516,
+      "position": "way/251721577 (Ha Tien international gate)",
+      "status": "open",
+      "cambodianEvisaForEntry": false,
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "Cambodia Ministry of Foreign Affairs: e-Visa entry ports",
+          "url": "https://www.evisa.gov.kh/information/port_entry/3",
+          "checked": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": "phnom-den",
+      "name": "Phnom Den ↔ Tịnh Biên",
+      "neighbour": "vietnam",
+      "lat": 10.60264,
+      "lon": 104.93089,
+      "position": "way/1100970581 (Tinh Bien gate)",
+      "status": "open",
+      "cambodianEvisaForEntry": false,
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "Cambodia Ministry of Foreign Affairs: e-Visa entry ports",
+          "url": "https://www.evisa.gov.kh/information/port_entry/3",
+          "checked": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": "kaoam-samnor",
+      "name": "Kaoam Samnor ↔ Vĩnh Xương",
+      "neighbour": "vietnam",
+      "lat": 10.91189,
+      "lon": 105.17886,
+      "position": "node/7004450185 (named for the gate; approximate)",
+      "status": "open",
+      "cambodianEvisaForEntry": false,
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "Cambodia Ministry of Foreign Affairs: e-Visa entry ports",
+          "url": "https://www.evisa.gov.kh/information/port_entry/3",
+          "checked": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "trapeang-kriel",
+      "name": "Trapeang Kriel ↔ Nongnokkhene",
+      "neighbour": "laos",
+      "lat": 13.92548,
+      "lon": 106.02849,
+      "position": "LaosBusTickets checkpoints.json (satellite-checked)",
+      "status": "open",
+      "cambodianEvisaForEntry": true,
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "Cambodia Ministry of Foreign Affairs: e-Visa entry ports",
+          "url": "https://www.evisa.gov.kh/information/port_entry/3",
+          "checked": "2026-10-22"
+        },
+        {
+          "name": "Lao Immigration: Nongnokkheane checkpoint",
+          "url": "https://immigration.gov.la/en/checkpoints/detail/nongnokkheane-international-border-checkpoint",
+          "checked": "2026-10-17"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "poipet",
+      "name": "Poipet ↔ Aranyaprathet",
+      "neighbour": "thailand",
+      "lat": 13.66246,
+      "lon": 102.54817,
+      "position": "relation/10704749 (Khlong Luek checkpoint)",
+      "status": "suspended",
+      "cambodianEvisaForEntry": false,
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "UK FCDO: Cambodia travel advice",
+          "url": "https://www.gov.uk/foreign-travel-advice/cambodia",
+          "checked": "2026-10-22"
+        },
+        {
+          "name": "UK FCDO: Cambodia travel advice",
+          "url": "https://www.gov.uk/foreign-travel-advice/cambodia",
+          "checked": "2026-10-22"
+        },
+        {
+          "name": "Cambodia Ministry of Foreign Affairs: e-Visa entry ports",
+          "url": "https://www.evisa.gov.kh/information/port_entry/3",
+          "checked": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "id": "cham-yeam",
+      "name": "Cham Yeam ↔ Hat Lek",
+      "neighbour": "thailand",
+      "lat": 11.65125,
+      "lon": 102.9088,
+      "position": "way/1565355210 (Khlong Yai checkpoint)",
+      "status": "suspended",
+      "cambodianEvisaForEntry": false,
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "UK FCDO: Cambodia travel advice",
+          "url": "https://www.gov.uk/foreign-travel-advice/cambodia",
+          "checked": "2026-10-22"
+        },
+        {
+          "name": "UK FCDO: Cambodia travel advice",
+          "url": "https://www.gov.uk/foreign-travel-advice/cambodia",
+          "checked": "2026-10-22"
+        },
+        {
+          "name": "Cambodia Ministry of Foreign Affairs: e-Visa entry ports",
+          "url": "https://www.evisa.gov.kh/information/port_entry/3",
+          "checked": "2026-10-22"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Thailand Transport Hub geographic map presentation: Creative Commons Attribution 4.0 International, https://creativecommons.org/licenses/by/4.0/
+
+Underlying geographic sources retain their own terms: Natural Earth public domain (country outlines, places); GeoNames CC BY 4.0; airport-codes / OurAirports PDDL; inherited checkpoint positions © OpenStreetMap contributors, Open Database License (ODbL). OpenStreetMap attribution: https://www.openstreetmap.org/copyright .
+
+Data source URLs and exact scopes are in thailand-transport-map.json. Coordinate area references are not boarding entrances. Rail, road and ferry lines are schematic corridors and do not guarantee current operation, schedules, availability or border access.

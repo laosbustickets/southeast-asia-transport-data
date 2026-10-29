@@ -1,0 +1,20 @@
+number,id,name,neighbour,lat,lon,status,vietnamese_evisa_for_entry,other_side,checked,source_urls
+1,lao-cai,Lào Cai ↔ Hekou,china,22.50642,103.96573,open,yes,Chinese visa or exemption,2026-10-25,https://vietnamtransportguide.com/vietnam-china-border/
+2,huu-nghi,Hữu Nghị ↔ Youyiguan,china,21.97315,106.71149,open,yes,Chinese visa or exemption,2026-10-25,https://vietnamtransportguide.com/vietnam-china-border/
+3,dong-dang,Đồng Đăng ↔ Pingxiang (rail),china,21.943,106.69763,open,yes,Chinese visa or exemption,2026-10-25,https://vietnamtransportguide.com/vietnam-china-border/
+4,mong-cai,Móng Cái ↔ Dongxing,china,21.53626,107.9694,open,yes,Chinese visa or exemption,2026-10-25,https://vietnamtransportguide.com/vietnam-china-border/
+5,panghok,Tây Trang ↔ Pang Hok,laos,21.21487,102.89023,open,yes,no Lao e-visa,2026-10-25,https://vietnamtransportguide.com/vietnam-laos-border/
+6,long-sap,Lóng Sập ↔ Pa Hang,laos,20.72398,104.49243,open,yes,no Lao e-visa,2026-10-25,https://vietnamtransportguide.com/vietnam-laos-border/
+7,namsoy,Na Mèo ↔ Nam Soy,laos,20.29444,104.62047,open,yes,no Lao e-visa,2026-10-25,https://vietnamtransportguide.com/vietnam-laos-border/
+8,namkan,Nậm Cắn ↔ Nam Kan,laos,19.46911,104.08698,open,yes,no Lao e-visa,2026-10-25,https://vietnamtransportguide.com/vietnam-laos-border/
+9,namphao,Cầu Treo ↔ Nam Phao,laos,18.38818,105.15883,open,yes,no Lao e-visa,2026-10-25,https://vietnamtransportguide.com/vietnam-laos-border/
+10,naphao,Cha Lo ↔ Na Phao,laos,17.66373,105.7619,open,yes,no Lao e-visa,2026-10-25,https://vietnamtransportguide.com/vietnam-laos-border/
+11,dansavan,Lao Bảo ↔ Dansavanh,laos,16.62276,106.5879,open,yes,Lao visa on arrival,2026-10-25,https://vietnamtransportguide.com/vietnam-laos-border/
+12,la-lai,La Lay ↔ La Lai,laos,16.31325,106.9669,open,yes,no Lao e-visa,2026-10-25,https://vietnamtransportguide.com/vietnam-laos-border/
+13,dak-ta-ock,Nam Giang ↔ Dak Ta Ock,laos,15.54163,107.36566,open,yes,no Lao e-visa,2026-10-25,https://vietnamtransportguide.com/vietnam-laos-border/
+14,phoukeua,Bờ Y ↔ Phou Keua,laos,14.70706,107.55263,open,yes,no Lao e-visa,2026-10-25,https://vietnamtransportguide.com/vietnam-laos-border/
+15,moc-bai,Mộc Bài ↔ Bavet,cambodia,11.07683,106.17517,open,yes,Cambodian e-visa,2026-10-25,https://vietnamtransportguide.com/vietnam-cambodia-border/
+16,xa-mat,Xa Mát ↔ Trapeang Phlong,cambodia,11.66716,105.98214,open,yes,no Cambodian e-visa,2026-10-25,https://vietnamtransportguide.com/vietnam-cambodia-border/
+17,vinh-xuong,Vĩnh Xương ↔ Kaoam Samnor,cambodia,10.91189,105.17886,open,yes,no Cambodian e-visa,2026-10-25,https://vietnamtransportguide.com/vietnam-cambodia-border/
+18,tinh-bien,Tịnh Biên ↔ Phnom Den,cambodia,10.60264,104.93089,open,yes,no Cambodian e-visa,2026-10-25,https://vietnamtransportguide.com/vietnam-cambodia-border/
+19,ha-tien,Hà Tiên ↔ Prek Chak,cambodia,10.42454,104.45516,open,yes,no Cambodian e-visa,2026-10-25,https://vietnamtransportguide.com/vietnam-cambodia-border/

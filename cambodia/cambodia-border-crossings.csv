@@ -1,0 +1,8 @@
+number,id,name,neighbour,lat,lon,status,cambodian_evisa_for_entry,checked,source_urls
+1,bavet,Bavet ↔ Mộc Bài,vietnam,11.07562,106.17161,open,yes,2026-10-25,https://www.evisa.gov.kh/information/port_entry/3
+2,prek-chak,Prek Chak ↔ Hà Tiên,vietnam,10.42454,104.45516,open,no,2026-10-25,https://www.evisa.gov.kh/information/port_entry/3
+3,phnom-den,Phnom Den ↔ Tịnh Biên,vietnam,10.60264,104.93089,open,no,2026-10-25,https://www.evisa.gov.kh/information/port_entry/3
+4,kaoam-samnor,Kaoam Samnor ↔ Vĩnh Xương,vietnam,10.91189,105.17886,open,no,2026-10-25,https://www.evisa.gov.kh/information/port_entry/3
+5,trapeang-kriel,Trapeang Kriel ↔ Nongnokkhene,laos,13.92548,106.02849,open,yes,2026-10-25,https://www.evisa.gov.kh/information/port_entry/3 https://immigration.gov.la/en/checkpoints/detail/nongnokkheane-international-border-checkpoint
+6,poipet,Poipet ↔ Aranyaprathet,thailand,13.66246,102.54817,suspended,no,2026-10-25,https://www.gov.uk/foreign-travel-advice/cambodia https://www.gov.uk/foreign-travel-advice/cambodia https://www.evisa.gov.kh/information/port_entry/3
+7,cham-yeam,Cham Yeam ↔ Hat Lek,thailand,11.65125,102.9088,suspended,no,2026-10-25,https://www.gov.uk/foreign-travel-advice/cambodia https://www.gov.uk/foreign-travel-advice/cambodia https://www.evisa.gov.kh/information/port_entry/3

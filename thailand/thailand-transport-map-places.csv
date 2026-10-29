@@ -1,0 +1,108 @@
+id,name,type,latitude,longitude,coordinate_role,source_urls
+bangkok,Bangkok,city,13.75194,100.5147,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+chiang-mai,Chiang Mai,city,18.79997,98.98005,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+chiang-rai,Chiang Rai,city,19.91187,99.82645,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+phuket,Phuket,city,7.87653,98.38153,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+krabi,Krabi,city,8.052,98.912,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+ayutthaya,Ayutthaya,city,14.3588,100.56842,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+lop-buri,Lopburi,city,14.80402,100.6186,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+nakhon-sawan,Nakhon Sawan,city,15.70003,100.07,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+phitsanulok,Phitsanulok,city,16.82831,100.27289,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+uttaradit,Uttaradit,city,17.63162,100.09719,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+lampang,Lampang,city,18.29156,99.48126,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+lamphun,Lamphun,city,18.57399,99.00705,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+sukhothai,Sukhothai,city,17.01187,99.75152,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+nakhon-ratchasima,Nakhon Ratchasima,city,15.00003,102.10001,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+buri-ram,Buri Ram,city,15.00044,103.11664,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+surin,Surin,city,14.88683,103.49145,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+si-sa-ket,Si Sa Ket,city,15.12025,104.32985,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+ubon-ratchathani,Ubon Ratchathani,city,15.24996,104.83003,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+khon-kaen,Khon Kaen,city,16.42004,102.83004,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+udon-thani,Udon Thani,city,17.40476,102.78932,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+nong-khai,Nong Khai,city,17.87326,102.74788,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+nakhon-phanom,Nakhon Phanom,city,17.39448,104.76946,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+nakhon-pathom,Nakhon Pathom,city,13.818,100.064,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+kanchanaburi,Kanchanaburi,city,14.01742,99.52203,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+ratchaburi,Ratchaburi,city,13.5419,99.82155,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+phetchaburi,Phetchaburi,city,13.11329,99.94118,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+hua-hin,Hua Hin,city,12.56971,99.94433,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+prachuap-khiri-khan,Prachuap Khiri Khan,city,11.803,99.8,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+chumphon,Chumphon,city,10.51268,99.18722,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+surat-thani,Surat Thani,city,9.1501,99.34013,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+thung-song,Thung Song,city,8.15396,99.72863,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+nakhon-si-thammarat,Nakhon Si Thammarat,city,8.39999,99.97001,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+phatthalung,Phatthalung,city,7.615,100.081,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+trang,Trang,city,7.5634,99.60802,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+hat-yai,Hat Yai,city,6.99643,100.47143,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+yala,Yala,city,6.55049,101.28507,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+chachoengsao,Chachoengsao,city,13.679,101.076,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+chon-buri,Chon Buri,city,13.40041,100.99997,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+si-racha,Si Racha,city,13.15903,100.92866,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+prachin-buri,Prachin Buri,city,14.05722,101.3768,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+aranyaprathet,Aranyaprathet,city,13.68235,102.49694,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+trat,Trat,city,12.237,102.509,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+mae-sot,Mae Sot ↔ Myawaddy,border,16.71617,98.57077,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+satun,Satun,city,6.6167,100.0667,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+den-chai,Den Chai,city,17.98372,100.05217,area-reference,https://download.geonames.org/export/dump/TH.zip
+sawankhalok,Sawankhalok,city,17.31597,99.83186,area-reference,https://download.geonames.org/export/dump/TH.zip
+bueng-kan,Bueng Kan,city,18.36303,103.65194,area-reference,https://download.geonames.org/export/dump/TH.zip
+donsak,Don Sak,city,9.31676,99.69184,area-reference,https://download.geonames.org/export/dump/TH.zip
+pak-bara,Pak Bara,city,6.85677,99.72453,area-reference,https://download.geonames.org/export/dump/TH.zip
+pattaya,Pattaya,city,12.93333,100.88333,area-reference,https://download.geonames.org/export/dump/TH.zip
+koh-tao,Koh Tao,city,10.09166,99.83774,area-reference,https://download.geonames.org/export/dump/TH.zip
+koh-samui,Koh Samui,city,9.50376,99.99357,area-reference,https://download.geonames.org/export/dump/TH.zip
+koh-phangan,Koh Phangan,city,9.74512,100.02489,area-reference,https://download.geonames.org/export/dump/TH.zip
+koh-phi-phi,Koh Phi Phi,city,7.74433,98.78112,area-reference,https://download.geonames.org/export/dump/TH.zip
+koh-lanta,Koh Lanta,city,7.56593,99.05654,area-reference,https://download.geonames.org/export/dump/TH.zip
+koh-lipe,Koh Lipe,city,6.49082,99.30316,area-reference,https://download.geonames.org/export/dump/TH.zip
+nam-tok,Nam Tok,city,14.23214,99.06814,area-reference,https://download.geonames.org/export/dump/TH.zip
+kantang,Kantang,city,7.41086,99.51472,area-reference,https://download.geonames.org/export/dump/TH.zip
+ban-phachi,Ban Phachi Junction,city,14.45056,100.72086,area-reference,https://download.geonames.org/export/dump/TH.zip
+ban-dara,Ban Dara Junction,city,17.38355,100.08304,area-reference,https://download.geonames.org/export/dump/TH.zip
+nong-pladuk,Nong Pladuk Junction,city,13.81812,99.91146,area-reference,https://download.geonames.org/export/dump/TH.zip
+khao-chum-thong,Khao Chum Thong Junction,city,8.14947,99.88203,area-reference,https://download.geonames.org/export/dump/TH.zip
+ban-phlu-ta-luang,Ban Phlu Ta Luang,city,12.7045,100.97214,area-reference,https://download.geonames.org/export/dump/TH.zip
+wongwian-yai,Wongwian Yai,city,13.72463,100.49226,area-reference,https://download.geonames.org/export/dump/TH.zip
+maha-chai,Maha Chai,city,13.54644,100.27669,area-reference,https://download.geonames.org/export/dump/TH.zip
+ban-laem,Ban Laem,city,13.54183,100.26996,area-reference,https://download.geonames.org/export/dump/TH.zip
+mae-klong,Mae Klong,city,13.40751,99.99851,area-reference,https://download.geonames.org/export/dump/TH.zip
+ao-nang,Ao Nang,city,8.0509,98.81567,area-reference,https://download.geonames.org/export/dump/TH.zip
+laem-sok,Laem Sok,city,12.04484,102.58494,area-reference,https://download.geonames.org/export/dump/TH.zip
+koh-chang,Koh Chang,city,12.04888,102.29947,area-reference,https://download.geonames.org/export/dump/TH.zip
+koh-mak,Koh Mak,city,11.82027,102.48428,area-reference,https://download.geonames.org/export/dump/TH.zip
+koh-kood,Koh Kood,city,11.66222,102.56915,area-reference,https://download.geonames.org/export/dump/TH.zip
+suphan-buri,Suphan Buri,city,14.471,100.129,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+saraburi,Saraburi,city,14.53036,100.87998,area-reference,https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_10m_populated_places.geojson
+chiang-khong,Chiang Khong,city,20.26078,100.40689,area-reference,https://laosbustickets.com/laos-transport-map/
+huay-xai,Huay Xai,city,20.27931,100.41222,area-reference,https://laosbustickets.com/laos-transport-map/
+mukdahan,Mukdahan,city,16.54141,104.72907,area-reference,https://laosbustickets.com/laos-transport-map/
+vientiane,Vientiane,city,17.9641,102.61337,area-reference,https://laosbustickets.com/laos-transport-map/
+savannakhet,Savannakhet,city,16.56991,104.76569,area-reference,https://laosbustickets.com/laos-transport-map/
+thakhek,Thakhek,city,17.39462,104.80645,area-reference,https://laosbustickets.com/laos-transport-map/
+pakse,Pakse,city,15.12015,105.8044,area-reference,https://laosbustickets.com/laos-transport-map/
+friendship-bridge-1,Friendship Bridge I,border,17.88716,102.70974,area-reference,https://laosbustickets.com/laos-transport-map/
+friendship-bridge-2,Friendship Bridge II,border,16.5996,104.75655,area-reference,https://laosbustickets.com/laos-transport-map/
+friendship-bridge-3,Friendship Bridge III,border,17.48904,104.7426,area-reference,https://laosbustickets.com/laos-transport-map/
+friendship-bridge-4,Friendship Bridge IV,border,20.21687,100.46131,area-reference,https://laosbustickets.com/laos-transport-map/
+friendship-bridge-5,Friendship Bridge V,border,18.42365,103.56589,area-reference,https://laosbustickets.com/laos-transport-map/
+vangtao,Chong Mek ↔ Vang Tao,border,15.13165,105.46937,area-reference,https://laosbustickets.com/laos-transport-map/
+poipet,Aranyaprathet ↔ Poipet,border,13.66246,102.54817,area-reference,https://cambodiatransportguide.com/cambodia-transport-map/
+cham-yeam,Hat Lek ↔ Cham Yeam,border,11.65125,102.9088,area-reference,https://cambodiatransportguide.com/cambodia-transport-map/
+padang-besar,Padang Besar,border,6.66728,100.32315,area-reference,https://download.geonames.org/export/dump/TH.zip
+su-ngai-kolok,Su-ngai Kolok,border,6.02977,101.96586,area-reference,https://download.geonames.org/export/dump/TH.zip
+don-mueang-airport,DMK,airport,13.9126,100.607,area-reference,https://github.com/datasets/airport-codes/blob/master/data/airport-codes.csv
+suvarnabhumi-airport,BKK,airport,13.6811,100.747,area-reference,https://github.com/datasets/airport-codes/blob/master/data/airport-codes.csv
+u-tapao-airport,UTP,airport,12.6799,101.005,area-reference,https://github.com/datasets/airport-codes/blob/master/data/airport-codes.csv
+chiang-mai-airport,CNX,airport,18.7668,98.9626,area-reference,https://github.com/datasets/airport-codes/blob/master/data/airport-codes.csv
+pai,Pai,city,19.35811,98.44058,area-reference,https://www.openstreetmap.org/node/262585787
+chiang-rai-airport,CEI,airport,19.9523,99.8829,area-reference,https://github.com/datasets/airport-codes/blob/master/data/airport-codes.csv
+surat-thani-airport,URT,airport,9.1326,99.1356,area-reference,https://github.com/datasets/airport-codes/blob/master/data/airport-codes.csv
+chumphon-airport,CJM,airport,10.7112,99.3617,area-reference,https://github.com/datasets/airport-codes/blob/master/data/airport-codes.csv
+krabi-airport,KBV,airport,8.09559,98.98896,area-reference,https://github.com/datasets/airport-codes/blob/master/data/airport-codes.csv
+samui-airport,USM,airport,9.54779,100.062,area-reference,https://github.com/datasets/airport-codes/blob/master/data/airport-codes.csv
+phuket-airport,HKT,airport,8.11326,98.3174,area-reference,https://github.com/datasets/airport-codes/blob/master/data/airport-codes.csv
+hat-yai-airport,HDY,airport,6.93321,100.393,area-reference,https://github.com/datasets/airport-codes/blob/master/data/airport-codes.csv
+trang-airport,TST,airport,7.50874,99.6166,area-reference,https://github.com/datasets/airport-codes/blob/master/data/airport-codes.csv
+mae-sai,Mae Sai ↔ Tachileik,border,20.43353,99.87617,area-reference,https://download.geonames.org/export/dump/TH.zip
+sadao,Sadao ↔ Bukit Kayu Hitam,border,6.63883,100.42342,area-reference,https://download.geonames.org/export/dump/TH.zip
+ranong,Ranong ↔ Kawthaung,border,9.96583,98.63476,area-reference,https://download.geonames.org/export/dump/TH.zip

@@ -1,0 +1,373 @@
+{
+  "name": "Vietnam border crossings",
+  "publisher": "VietnamTransportGuide.com",
+  "homepage": "https://vietnamtransportguide.com/vietnam-transport-map/",
+  "updated": "2026-10-25",
+  "license": "ODbL-1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "Positions © OpenStreetMap contributors (ODbL); Laos gates from LaosBusTickets.com. Status and visa notes: VietnamTransportGuide.com.",
+  "note": "Every gate listed is on Vietnam's e-visa list (Resolution 389/NQ-CP, 2 December 2025). 'otherSide' says what the neighbouring country accepts there.",
+  "crossings": [
+    {
+      "number": 1,
+      "id": "lao-cai",
+      "name": "Lào Cai ↔ Hekou",
+      "neighbour": "china",
+      "lat": 22.50642,
+      "lon": 103.96573,
+      "position": "way/304226083 (Lào Cai international border gate centre)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "Chinese visa or exemption",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-china-border",
+          "url": "https://vietnamtransportguide.com/vietnam-china-border/"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "id": "huu-nghi",
+      "name": "Hữu Nghị ↔ Youyiguan",
+      "neighbour": "china",
+      "lat": 21.97315,
+      "lon": 106.71149,
+      "position": "node/1577103619 (border control)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "Chinese visa or exemption",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-china-border",
+          "url": "https://vietnamtransportguide.com/vietnam-china-border/"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "id": "dong-dang",
+      "name": "Đồng Đăng ↔ Pingxiang (rail)",
+      "neighbour": "china",
+      "lat": 21.943,
+      "lon": 106.69763,
+      "position": "node/6300643433 (Ga Đồng Đăng, where formalities are done)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "Chinese visa or exemption",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-china-border",
+          "url": "https://vietnamtransportguide.com/vietnam-china-border/"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "id": "mong-cai",
+      "name": "Móng Cái ↔ Dongxing",
+      "neighbour": "china",
+      "lat": 21.53626,
+      "lon": 107.9694,
+      "position": "node/1192964137 (Mong Cai border checkpoint)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "Chinese visa or exemption",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-china-border",
+          "url": "https://vietnamtransportguide.com/vietnam-china-border/"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "id": "panghok",
+      "name": "Tây Trang ↔ Pang Hok",
+      "neighbour": "laos",
+      "lat": 21.21487,
+      "lon": 102.89023,
+      "position": "LaosBusTickets checkpoints.json (satellite-checked 4 Oct 2026)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "no Lao e-visa",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-laos-border",
+          "url": "https://vietnamtransportguide.com/vietnam-laos-border/"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "id": "long-sap",
+      "name": "Lóng Sập ↔ Pa Hang",
+      "neighbour": "laos",
+      "lat": 20.72398,
+      "lon": 104.49243,
+      "position": "way/1347244348 (Lóng Sập international border gate)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "no Lao e-visa",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-laos-border",
+          "url": "https://vietnamtransportguide.com/vietnam-laos-border/"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "id": "namsoy",
+      "name": "Na Mèo ↔ Nam Soy",
+      "neighbour": "laos",
+      "lat": 20.29444,
+      "lon": 104.62047,
+      "position": "LaosBusTickets checkpoints.json (satellite-checked 4 Oct 2026)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "no Lao e-visa",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-laos-border",
+          "url": "https://vietnamtransportguide.com/vietnam-laos-border/"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "id": "namkan",
+      "name": "Nậm Cắn ↔ Nam Kan",
+      "neighbour": "laos",
+      "lat": 19.46911,
+      "lon": 104.08698,
+      "position": "LaosBusTickets checkpoints.json (satellite-checked 4 Oct 2026)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "no Lao e-visa",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-laos-border",
+          "url": "https://vietnamtransportguide.com/vietnam-laos-border/"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "id": "namphao",
+      "name": "Cầu Treo ↔ Nam Phao",
+      "neighbour": "laos",
+      "lat": 18.38818,
+      "lon": 105.15883,
+      "position": "LaosBusTickets checkpoints.json (satellite-checked 4 Oct 2026)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "no Lao e-visa",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-laos-border",
+          "url": "https://vietnamtransportguide.com/vietnam-laos-border/"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "id": "naphao",
+      "name": "Cha Lo ↔ Na Phao",
+      "neighbour": "laos",
+      "lat": 17.66373,
+      "lon": 105.7619,
+      "position": "LaosBusTickets checkpoints.json (satellite-checked 4 Oct 2026)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "no Lao e-visa",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-laos-border",
+          "url": "https://vietnamtransportguide.com/vietnam-laos-border/"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "id": "dansavan",
+      "name": "Lao Bảo ↔ Dansavanh",
+      "neighbour": "laos",
+      "lat": 16.62276,
+      "lon": 106.5879,
+      "position": "LaosBusTickets checkpoints.json (satellite-checked 4 Oct 2026)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "Lao visa on arrival",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-laos-border",
+          "url": "https://vietnamtransportguide.com/vietnam-laos-border/"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "id": "la-lai",
+      "name": "La Lay ↔ La Lai",
+      "neighbour": "laos",
+      "lat": 16.31325,
+      "lon": 106.9669,
+      "position": "LaosBusTickets checkpoints.json (satellite-checked 4 Oct 2026)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "no Lao e-visa",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-laos-border",
+          "url": "https://vietnamtransportguide.com/vietnam-laos-border/"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "id": "dak-ta-ock",
+      "name": "Nam Giang ↔ Dak Ta Ock",
+      "neighbour": "laos",
+      "lat": 15.54163,
+      "lon": 107.36566,
+      "position": "LaosBusTickets checkpoints.json (satellite-checked 4 Oct 2026)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "no Lao e-visa",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-laos-border",
+          "url": "https://vietnamtransportguide.com/vietnam-laos-border/"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "id": "phoukeua",
+      "name": "Bờ Y ↔ Phou Keua",
+      "neighbour": "laos",
+      "lat": 14.70706,
+      "lon": 107.55263,
+      "position": "LaosBusTickets checkpoints.json (satellite-checked 4 Oct 2026)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "no Lao e-visa",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-laos-border",
+          "url": "https://vietnamtransportguide.com/vietnam-laos-border/"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "id": "moc-bai",
+      "name": "Mộc Bài ↔ Bavet",
+      "neighbour": "cambodia",
+      "lat": 11.07683,
+      "lon": 106.17517,
+      "position": "way/1019000034 (Mộc Bài international border gate)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "Cambodian e-visa",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-cambodia-border",
+          "url": "https://vietnamtransportguide.com/vietnam-cambodia-border/"
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "id": "xa-mat",
+      "name": "Xa Mát ↔ Trapeang Phlong",
+      "neighbour": "cambodia",
+      "lat": 11.66716,
+      "lon": 105.98214,
+      "position": "way/554574829 (Xa Mát border control station)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "no Cambodian e-visa",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-cambodia-border",
+          "url": "https://vietnamtransportguide.com/vietnam-cambodia-border/"
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "id": "vinh-xuong",
+      "name": "Vĩnh Xương ↔ Kaoam Samnor",
+      "neighbour": "cambodia",
+      "lat": 10.91189,
+      "lon": 105.17886,
+      "position": "node/7004450185 (named for the gate; approximate)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "no Cambodian e-visa",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-cambodia-border",
+          "url": "https://vietnamtransportguide.com/vietnam-cambodia-border/"
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "id": "tinh-bien",
+      "name": "Tịnh Biên ↔ Phnom Den",
+      "neighbour": "cambodia",
+      "lat": 10.60264,
+      "lon": 104.93089,
+      "position": "way/1100970581 (Tịnh Biên international border gate)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "no Cambodian e-visa",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-cambodia-border",
+          "url": "https://vietnamtransportguide.com/vietnam-cambodia-border/"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "id": "ha-tien",
+      "name": "Hà Tiên ↔ Prek Chak",
+      "neighbour": "cambodia",
+      "lat": 10.42454,
+      "lon": 104.45516,
+      "position": "way/251721577 (Hà Tiên international border gate)",
+      "status": "open",
+      "vietnameseEvisaForEntry": true,
+      "otherSide": "no Cambodian e-visa",
+      "checked": "2026-10-25",
+      "sources": [
+        {
+          "name": "VietnamTransportGuide: vietnam-cambodia-border",
+          "url": "https://vietnamtransportguide.com/vietnam-cambodia-border/"
+        }
+      ]
+    }
+  ]
+}

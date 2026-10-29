@@ -1,0 +1,4479 @@
+{
+  "type": "FeatureCollection",
+  "name": "Thailand transport map geographic data",
+  "dateModified": "2026-10-18",
+  "attribution": "Geography: Natural Earth (public domain), GeoNames (CC BY 4.0), airport-codes/OurAirports (PDDL); inherited checkpoint positions © OpenStreetMap contributors (ODbL).",
+  "license": "https://thailandtransporthub.com/data/LICENSE.txt",
+  "note": "Geographic area references and schematic connections, not boarding entrances, current passenger services, fares or border permission.",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.5147,
+          13.75194
+        ]
+      },
+      "properties": {
+        "id": "bangkok",
+        "name": "Bangkok",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.98005,
+          18.79997
+        ]
+      },
+      "properties": {
+        "id": "chiang-mai",
+        "name": "Chiang Mai",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.82645,
+          19.91187
+        ]
+      },
+      "properties": {
+        "id": "chiang-rai",
+        "name": "Chiang Rai",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.38153,
+          7.87653
+        ]
+      },
+      "properties": {
+        "id": "phuket",
+        "name": "Phuket",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.912,
+          8.052
+        ]
+      },
+      "properties": {
+        "id": "krabi",
+        "name": "Krabi",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.56842,
+          14.3588
+        ]
+      },
+      "properties": {
+        "id": "ayutthaya",
+        "name": "Ayutthaya",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.6186,
+          14.80402
+        ]
+      },
+      "properties": {
+        "id": "lop-buri",
+        "name": "Lopburi",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.07,
+          15.70003
+        ]
+      },
+      "properties": {
+        "id": "nakhon-sawan",
+        "name": "Nakhon Sawan",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.27289,
+          16.82831
+        ]
+      },
+      "properties": {
+        "id": "phitsanulok",
+        "name": "Phitsanulok",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.09719,
+          17.63162
+        ]
+      },
+      "properties": {
+        "id": "uttaradit",
+        "name": "Uttaradit",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.48126,
+          18.29156
+        ]
+      },
+      "properties": {
+        "id": "lampang",
+        "name": "Lampang",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.00705,
+          18.57399
+        ]
+      },
+      "properties": {
+        "id": "lamphun",
+        "name": "Lamphun",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.75152,
+          17.01187
+        ]
+      },
+      "properties": {
+        "id": "sukhothai",
+        "name": "Sukhothai",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.10001,
+          15.00003
+        ]
+      },
+      "properties": {
+        "id": "nakhon-ratchasima",
+        "name": "Nakhon Ratchasima",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.11664,
+          15.00044
+        ]
+      },
+      "properties": {
+        "id": "buri-ram",
+        "name": "Buri Ram",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.49145,
+          14.88683
+        ]
+      },
+      "properties": {
+        "id": "surin",
+        "name": "Surin",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.32985,
+          15.12025
+        ]
+      },
+      "properties": {
+        "id": "si-sa-ket",
+        "name": "Si Sa Ket",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.83003,
+          15.24996
+        ]
+      },
+      "properties": {
+        "id": "ubon-ratchathani",
+        "name": "Ubon Ratchathani",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.83004,
+          16.42004
+        ]
+      },
+      "properties": {
+        "id": "khon-kaen",
+        "name": "Khon Kaen",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.78932,
+          17.40476
+        ]
+      },
+      "properties": {
+        "id": "udon-thani",
+        "name": "Udon Thani",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.74788,
+          17.87326
+        ]
+      },
+      "properties": {
+        "id": "nong-khai",
+        "name": "Nong Khai",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.76946,
+          17.39448
+        ]
+      },
+      "properties": {
+        "id": "nakhon-phanom",
+        "name": "Nakhon Phanom",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.064,
+          13.818
+        ]
+      },
+      "properties": {
+        "id": "nakhon-pathom",
+        "name": "Nakhon Pathom",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.52203,
+          14.01742
+        ]
+      },
+      "properties": {
+        "id": "kanchanaburi",
+        "name": "Kanchanaburi",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.82155,
+          13.5419
+        ]
+      },
+      "properties": {
+        "id": "ratchaburi",
+        "name": "Ratchaburi",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.94118,
+          13.11329
+        ]
+      },
+      "properties": {
+        "id": "phetchaburi",
+        "name": "Phetchaburi",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.94433,
+          12.56971
+        ]
+      },
+      "properties": {
+        "id": "hua-hin",
+        "name": "Hua Hin",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.8,
+          11.803
+        ]
+      },
+      "properties": {
+        "id": "prachuap-khiri-khan",
+        "name": "Prachuap Khiri Khan",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.18722,
+          10.51268
+        ]
+      },
+      "properties": {
+        "id": "chumphon",
+        "name": "Chumphon",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.34013,
+          9.1501
+        ]
+      },
+      "properties": {
+        "id": "surat-thani",
+        "name": "Surat Thani",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.72863,
+          8.15396
+        ]
+      },
+      "properties": {
+        "id": "thung-song",
+        "name": "Thung Song",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.97001,
+          8.39999
+        ]
+      },
+      "properties": {
+        "id": "nakhon-si-thammarat",
+        "name": "Nakhon Si Thammarat",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.081,
+          7.615
+        ]
+      },
+      "properties": {
+        "id": "phatthalung",
+        "name": "Phatthalung",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.60802,
+          7.5634
+        ]
+      },
+      "properties": {
+        "id": "trang",
+        "name": "Trang",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.47143,
+          6.99643
+        ]
+      },
+      "properties": {
+        "id": "hat-yai",
+        "name": "Hat Yai",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.28507,
+          6.55049
+        ]
+      },
+      "properties": {
+        "id": "yala",
+        "name": "Yala",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.076,
+          13.679
+        ]
+      },
+      "properties": {
+        "id": "chachoengsao",
+        "name": "Chachoengsao",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.99997,
+          13.40041
+        ]
+      },
+      "properties": {
+        "id": "chon-buri",
+        "name": "Chon Buri",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.92866,
+          13.15903
+        ]
+      },
+      "properties": {
+        "id": "si-racha",
+        "name": "Si Racha",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.3768,
+          14.05722
+        ]
+      },
+      "properties": {
+        "id": "prachin-buri",
+        "name": "Prachin Buri",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.49694,
+          13.68235
+        ]
+      },
+      "properties": {
+        "id": "aranyaprathet",
+        "name": "Aranyaprathet",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.509,
+          12.237
+        ]
+      },
+      "properties": {
+        "id": "trat",
+        "name": "Trat",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.57077,
+          16.71617
+        ]
+      },
+      "properties": {
+        "id": "mae-sot",
+        "name": "Mae Sot ↔ Myawaddy",
+        "kind": "border",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.0667,
+          6.6167
+        ]
+      },
+      "properties": {
+        "id": "satun",
+        "name": "Satun",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.05217,
+          17.98372
+        ]
+      },
+      "properties": {
+        "id": "den-chai",
+        "name": "Den Chai",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.83186,
+          17.31597
+        ]
+      },
+      "properties": {
+        "id": "sawankhalok",
+        "name": "Sawankhalok",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.65194,
+          18.36303
+        ]
+      },
+      "properties": {
+        "id": "bueng-kan",
+        "name": "Bueng Kan",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.69184,
+          9.31676
+        ]
+      },
+      "properties": {
+        "id": "donsak",
+        "name": "Don Sak",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.72453,
+          6.85677
+        ]
+      },
+      "properties": {
+        "id": "pak-bara",
+        "name": "Pak Bara",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.88333,
+          12.93333
+        ]
+      },
+      "properties": {
+        "id": "pattaya",
+        "name": "Pattaya",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.83774,
+          10.09166
+        ]
+      },
+      "properties": {
+        "id": "koh-tao",
+        "name": "Koh Tao",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.99357,
+          9.50376
+        ]
+      },
+      "properties": {
+        "id": "koh-samui",
+        "name": "Koh Samui",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.02489,
+          9.74512
+        ]
+      },
+      "properties": {
+        "id": "koh-phangan",
+        "name": "Koh Phangan",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.78112,
+          7.74433
+        ]
+      },
+      "properties": {
+        "id": "koh-phi-phi",
+        "name": "Koh Phi Phi",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.05654,
+          7.56593
+        ]
+      },
+      "properties": {
+        "id": "koh-lanta",
+        "name": "Koh Lanta",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.30316,
+          6.49082
+        ]
+      },
+      "properties": {
+        "id": "koh-lipe",
+        "name": "Koh Lipe",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.06814,
+          14.23214
+        ]
+      },
+      "properties": {
+        "id": "nam-tok",
+        "name": "Nam Tok",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.51472,
+          7.41086
+        ]
+      },
+      "properties": {
+        "id": "kantang",
+        "name": "Kantang",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.72086,
+          14.45056
+        ]
+      },
+      "properties": {
+        "id": "ban-phachi",
+        "name": "Ban Phachi Junction",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.08304,
+          17.38355
+        ]
+      },
+      "properties": {
+        "id": "ban-dara",
+        "name": "Ban Dara Junction",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.91146,
+          13.81812
+        ]
+      },
+      "properties": {
+        "id": "nong-pladuk",
+        "name": "Nong Pladuk Junction",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.88203,
+          8.14947
+        ]
+      },
+      "properties": {
+        "id": "khao-chum-thong",
+        "name": "Khao Chum Thong Junction",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.97214,
+          12.7045
+        ]
+      },
+      "properties": {
+        "id": "ban-phlu-ta-luang",
+        "name": "Ban Phlu Ta Luang",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.49226,
+          13.72463
+        ]
+      },
+      "properties": {
+        "id": "wongwian-yai",
+        "name": "Wongwian Yai",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.27669,
+          13.54644
+        ]
+      },
+      "properties": {
+        "id": "maha-chai",
+        "name": "Maha Chai",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.26996,
+          13.54183
+        ]
+      },
+      "properties": {
+        "id": "ban-laem",
+        "name": "Ban Laem",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.99851,
+          13.40751
+        ]
+      },
+      "properties": {
+        "id": "mae-klong",
+        "name": "Mae Klong",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.81567,
+          8.0509
+        ]
+      },
+      "properties": {
+        "id": "ao-nang",
+        "name": "Ao Nang",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.58494,
+          12.04484
+        ]
+      },
+      "properties": {
+        "id": "laem-sok",
+        "name": "Laem Sok",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.29947,
+          12.04888
+        ]
+      },
+      "properties": {
+        "id": "koh-chang",
+        "name": "Koh Chang",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.48428,
+          11.82027
+        ]
+      },
+      "properties": {
+        "id": "koh-mak",
+        "name": "Koh Mak",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.56915,
+          11.66222
+        ]
+      },
+      "properties": {
+        "id": "koh-kood",
+        "name": "Koh Kood",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.129,
+          14.471
+        ]
+      },
+      "properties": {
+        "id": "suphan-buri",
+        "name": "Suphan Buri",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.87998,
+          14.53036
+        ]
+      },
+      "properties": {
+        "id": "saraburi",
+        "name": "Saraburi",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.40689,
+          20.26078
+        ]
+      },
+      "properties": {
+        "id": "chiang-khong",
+        "name": "Chiang Khong",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.41222,
+          20.27931
+        ]
+      },
+      "properties": {
+        "id": "huay-xai",
+        "name": "Huay Xai",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.72907,
+          16.54141
+        ]
+      },
+      "properties": {
+        "id": "mukdahan",
+        "name": "Mukdahan",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.61337,
+          17.9641
+        ]
+      },
+      "properties": {
+        "id": "vientiane",
+        "name": "Vientiane",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.76569,
+          16.56991
+        ]
+      },
+      "properties": {
+        "id": "savannakhet",
+        "name": "Savannakhet",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.80645,
+          17.39462
+        ]
+      },
+      "properties": {
+        "id": "thakhek",
+        "name": "Thakhek",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8044,
+          15.12015
+        ]
+      },
+      "properties": {
+        "id": "pakse",
+        "name": "Pakse",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.70974,
+          17.88716
+        ]
+      },
+      "properties": {
+        "id": "friendship-bridge-1",
+        "name": "Friendship Bridge I",
+        "kind": "border",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.75655,
+          16.5996
+        ]
+      },
+      "properties": {
+        "id": "friendship-bridge-2",
+        "name": "Friendship Bridge II",
+        "kind": "border",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.7426,
+          17.48904
+        ]
+      },
+      "properties": {
+        "id": "friendship-bridge-3",
+        "name": "Friendship Bridge III",
+        "kind": "border",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.46131,
+          20.21687
+        ]
+      },
+      "properties": {
+        "id": "friendship-bridge-4",
+        "name": "Friendship Bridge IV",
+        "kind": "border",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.56589,
+          18.42365
+        ]
+      },
+      "properties": {
+        "id": "friendship-bridge-5",
+        "name": "Friendship Bridge V",
+        "kind": "border",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.46937,
+          15.13165
+        ]
+      },
+      "properties": {
+        "id": "vangtao",
+        "name": "Chong Mek ↔ Vang Tao",
+        "kind": "border",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.54817,
+          13.66246
+        ]
+      },
+      "properties": {
+        "id": "poipet",
+        "name": "Aranyaprathet ↔ Poipet",
+        "kind": "border",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-ctg-geographic-snapshot"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.9088,
+          11.65125
+        ]
+      },
+      "properties": {
+        "id": "cham-yeam",
+        "name": "Hat Lek ↔ Cham Yeam",
+        "kind": "border",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-ctg-geographic-snapshot"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.32315,
+          6.66728
+        ]
+      },
+      "properties": {
+        "id": "padang-besar",
+        "name": "Padang Besar",
+        "kind": "border",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.96586,
+          6.02977
+        ]
+      },
+      "properties": {
+        "id": "su-ngai-kolok",
+        "name": "Su-ngai Kolok",
+        "kind": "border",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.607,
+          13.9126
+        ]
+      },
+      "properties": {
+        "id": "don-mueang-airport",
+        "name": "DMK",
+        "kind": "airport",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-airport-codes"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.747,
+          13.6811
+        ]
+      },
+      "properties": {
+        "id": "suvarnabhumi-airport",
+        "name": "BKK",
+        "kind": "airport",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-airport-codes"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.005,
+          12.6799
+        ]
+      },
+      "properties": {
+        "id": "u-tapao-airport",
+        "name": "UTP",
+        "kind": "airport",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-airport-codes"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.9626,
+          18.7668
+        ]
+      },
+      "properties": {
+        "id": "chiang-mai-airport",
+        "name": "CNX",
+        "kind": "airport",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-airport-codes"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.44058,
+          19.35811
+        ]
+      },
+      "properties": {
+        "id": "pai",
+        "name": "Pai",
+        "kind": "city",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-osm-places"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.8829,
+          19.9523
+        ]
+      },
+      "properties": {
+        "id": "chiang-rai-airport",
+        "name": "CEI",
+        "kind": "airport",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-airport-codes"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.1356,
+          9.1326
+        ]
+      },
+      "properties": {
+        "id": "surat-thani-airport",
+        "name": "URT",
+        "kind": "airport",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-airport-codes"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.3617,
+          10.7112
+        ]
+      },
+      "properties": {
+        "id": "chumphon-airport",
+        "name": "CJM",
+        "kind": "airport",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-airport-codes"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.98896,
+          8.09559
+        ]
+      },
+      "properties": {
+        "id": "krabi-airport",
+        "name": "KBV",
+        "kind": "airport",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-airport-codes"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.062,
+          9.54779
+        ]
+      },
+      "properties": {
+        "id": "samui-airport",
+        "name": "USM",
+        "kind": "airport",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-airport-codes"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.3174,
+          8.11326
+        ]
+      },
+      "properties": {
+        "id": "phuket-airport",
+        "name": "HKT",
+        "kind": "airport",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-airport-codes"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.393,
+          6.93321
+        ]
+      },
+      "properties": {
+        "id": "hat-yai-airport",
+        "name": "HDY",
+        "kind": "airport",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-airport-codes"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.6166,
+          7.50874
+        ]
+      },
+      "properties": {
+        "id": "trang-airport",
+        "name": "TST",
+        "kind": "airport",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-airport-codes"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.87617,
+          20.43353
+        ]
+      },
+      "properties": {
+        "id": "mae-sai",
+        "name": "Mae Sai ↔ Tachileik",
+        "kind": "border",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.42342,
+          6.63883
+        ]
+      },
+      "properties": {
+        "id": "sadao",
+        "name": "Sadao ↔ Bukit Kayu Hitam",
+        "kind": "border",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.63476,
+          9.96583
+        ]
+      },
+      "properties": {
+        "id": "ranong",
+        "name": "Ranong ↔ Kawthaung",
+        "kind": "border",
+        "coordinateRole": "area-reference",
+        "sourceIds": [
+          "map-geonames"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.5147,
+            13.75194
+          ],
+          [
+            100.56842,
+            14.3588
+          ]
+        ]
+      },
+      "properties": {
+        "id": "bangkok--ayutthaya--rail",
+        "from": "bangkok",
+        "to": "ayutthaya",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-north"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.56842,
+            14.3588
+          ],
+          [
+            100.72086,
+            14.45056
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ayutthaya--ban-phachi--rail",
+        "from": "ayutthaya",
+        "to": "ban-phachi",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-north"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.72086,
+            14.45056
+          ],
+          [
+            100.6186,
+            14.80402
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ban-phachi--lop-buri--rail",
+        "from": "ban-phachi",
+        "to": "lop-buri",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-north"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.6186,
+            14.80402
+          ],
+          [
+            100.07,
+            15.70003
+          ]
+        ]
+      },
+      "properties": {
+        "id": "lop-buri--nakhon-sawan--rail",
+        "from": "lop-buri",
+        "to": "nakhon-sawan",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-north"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.07,
+            15.70003
+          ],
+          [
+            100.27289,
+            16.82831
+          ]
+        ]
+      },
+      "properties": {
+        "id": "nakhon-sawan--phitsanulok--rail",
+        "from": "nakhon-sawan",
+        "to": "phitsanulok",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-north"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.27289,
+            16.82831
+          ],
+          [
+            100.08304,
+            17.38355
+          ]
+        ]
+      },
+      "properties": {
+        "id": "phitsanulok--ban-dara--rail",
+        "from": "phitsanulok",
+        "to": "ban-dara",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-north"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.08304,
+            17.38355
+          ],
+          [
+            100.09719,
+            17.63162
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ban-dara--uttaradit--rail",
+        "from": "ban-dara",
+        "to": "uttaradit",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-north"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.09719,
+            17.63162
+          ],
+          [
+            100.05217,
+            17.98372
+          ]
+        ]
+      },
+      "properties": {
+        "id": "uttaradit--den-chai--rail",
+        "from": "uttaradit",
+        "to": "den-chai",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-north"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.05217,
+            17.98372
+          ],
+          [
+            99.48126,
+            18.29156
+          ]
+        ]
+      },
+      "properties": {
+        "id": "den-chai--lampang--rail",
+        "from": "den-chai",
+        "to": "lampang",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-north"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.48126,
+            18.29156
+          ],
+          [
+            99.00705,
+            18.57399
+          ]
+        ]
+      },
+      "properties": {
+        "id": "lampang--lamphun--rail",
+        "from": "lampang",
+        "to": "lamphun",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-north"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.00705,
+            18.57399
+          ],
+          [
+            98.98005,
+            18.79997
+          ]
+        ]
+      },
+      "properties": {
+        "id": "lamphun--chiang-mai--rail",
+        "from": "lamphun",
+        "to": "chiang-mai",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-north"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.08304,
+            17.38355
+          ],
+          [
+            99.83186,
+            17.31597
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ban-dara--sawankhalok--rail",
+        "from": "ban-dara",
+        "to": "sawankhalok",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-north"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.72086,
+            14.45056
+          ],
+          [
+            100.87998,
+            14.53036
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ban-phachi--saraburi--rail",
+        "from": "ban-phachi",
+        "to": "saraburi",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-northeast"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.87998,
+            14.53036
+          ],
+          [
+            102.10001,
+            15.00003
+          ]
+        ]
+      },
+      "properties": {
+        "id": "saraburi--nakhon-ratchasima--rail",
+        "from": "saraburi",
+        "to": "nakhon-ratchasima",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-northeast"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.10001,
+            15.00003
+          ],
+          [
+            103.11664,
+            15.00044
+          ]
+        ]
+      },
+      "properties": {
+        "id": "nakhon-ratchasima--buri-ram--rail",
+        "from": "nakhon-ratchasima",
+        "to": "buri-ram",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-northeast"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.11664,
+            15.00044
+          ],
+          [
+            103.49145,
+            14.88683
+          ]
+        ]
+      },
+      "properties": {
+        "id": "buri-ram--surin--rail",
+        "from": "buri-ram",
+        "to": "surin",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-northeast"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.49145,
+            14.88683
+          ],
+          [
+            104.32985,
+            15.12025
+          ]
+        ]
+      },
+      "properties": {
+        "id": "surin--si-sa-ket--rail",
+        "from": "surin",
+        "to": "si-sa-ket",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-northeast"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.32985,
+            15.12025
+          ],
+          [
+            104.83003,
+            15.24996
+          ]
+        ]
+      },
+      "properties": {
+        "id": "si-sa-ket--ubon-ratchathani--rail",
+        "from": "si-sa-ket",
+        "to": "ubon-ratchathani",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-northeast"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.10001,
+            15.00003
+          ],
+          [
+            102.83004,
+            16.42004
+          ]
+        ]
+      },
+      "properties": {
+        "id": "nakhon-ratchasima--khon-kaen--rail",
+        "from": "nakhon-ratchasima",
+        "to": "khon-kaen",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-northeast"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.83004,
+            16.42004
+          ],
+          [
+            102.78932,
+            17.40476
+          ]
+        ]
+      },
+      "properties": {
+        "id": "khon-kaen--udon-thani--rail",
+        "from": "khon-kaen",
+        "to": "udon-thani",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-northeast"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.78932,
+            17.40476
+          ],
+          [
+            102.74788,
+            17.87326
+          ]
+        ]
+      },
+      "properties": {
+        "id": "udon-thani--nong-khai--rail",
+        "from": "udon-thani",
+        "to": "nong-khai",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-northeast"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.5147,
+            13.75194
+          ],
+          [
+            100.064,
+            13.818
+          ]
+        ]
+      },
+      "properties": {
+        "id": "bangkok--nakhon-pathom--rail",
+        "from": "bangkok",
+        "to": "nakhon-pathom",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.064,
+            13.818
+          ],
+          [
+            99.91146,
+            13.81812
+          ]
+        ]
+      },
+      "properties": {
+        "id": "nakhon-pathom--nong-pladuk--rail",
+        "from": "nakhon-pathom",
+        "to": "nong-pladuk",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.91146,
+            13.81812
+          ],
+          [
+            99.82155,
+            13.5419
+          ]
+        ]
+      },
+      "properties": {
+        "id": "nong-pladuk--ratchaburi--rail",
+        "from": "nong-pladuk",
+        "to": "ratchaburi",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.82155,
+            13.5419
+          ],
+          [
+            99.94118,
+            13.11329
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ratchaburi--phetchaburi--rail",
+        "from": "ratchaburi",
+        "to": "phetchaburi",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.94118,
+            13.11329
+          ],
+          [
+            99.94433,
+            12.56971
+          ]
+        ]
+      },
+      "properties": {
+        "id": "phetchaburi--hua-hin--rail",
+        "from": "phetchaburi",
+        "to": "hua-hin",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.94433,
+            12.56971
+          ],
+          [
+            99.8,
+            11.803
+          ]
+        ]
+      },
+      "properties": {
+        "id": "hua-hin--prachuap-khiri-khan--rail",
+        "from": "hua-hin",
+        "to": "prachuap-khiri-khan",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.8,
+            11.803
+          ],
+          [
+            99.18722,
+            10.51268
+          ]
+        ]
+      },
+      "properties": {
+        "id": "prachuap-khiri-khan--chumphon--rail",
+        "from": "prachuap-khiri-khan",
+        "to": "chumphon",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.18722,
+            10.51268
+          ],
+          [
+            99.34013,
+            9.1501
+          ]
+        ]
+      },
+      "properties": {
+        "id": "chumphon--surat-thani--rail",
+        "from": "chumphon",
+        "to": "surat-thani",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.34013,
+            9.1501
+          ],
+          [
+            99.72863,
+            8.15396
+          ]
+        ]
+      },
+      "properties": {
+        "id": "surat-thani--thung-song--rail",
+        "from": "surat-thani",
+        "to": "thung-song",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.72863,
+            8.15396
+          ],
+          [
+            99.88203,
+            8.14947
+          ]
+        ]
+      },
+      "properties": {
+        "id": "thung-song--khao-chum-thong--rail",
+        "from": "thung-song",
+        "to": "khao-chum-thong",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.88203,
+            8.14947
+          ],
+          [
+            100.081,
+            7.615
+          ]
+        ]
+      },
+      "properties": {
+        "id": "khao-chum-thong--phatthalung--rail",
+        "from": "khao-chum-thong",
+        "to": "phatthalung",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.081,
+            7.615
+          ],
+          [
+            100.47143,
+            6.99643
+          ]
+        ]
+      },
+      "properties": {
+        "id": "phatthalung--hat-yai--rail",
+        "from": "phatthalung",
+        "to": "hat-yai",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.47143,
+            6.99643
+          ],
+          [
+            101.28507,
+            6.55049
+          ]
+        ]
+      },
+      "properties": {
+        "id": "hat-yai--yala--rail",
+        "from": "hat-yai",
+        "to": "yala",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.28507,
+            6.55049
+          ],
+          [
+            101.96586,
+            6.02977
+          ]
+        ]
+      },
+      "properties": {
+        "id": "yala--su-ngai-kolok--rail",
+        "from": "yala",
+        "to": "su-ngai-kolok",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.91146,
+            13.81812
+          ],
+          [
+            99.52203,
+            14.01742
+          ]
+        ]
+      },
+      "properties": {
+        "id": "nong-pladuk--kanchanaburi--rail",
+        "from": "nong-pladuk",
+        "to": "kanchanaburi",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.52203,
+            14.01742
+          ],
+          [
+            99.06814,
+            14.23214
+          ]
+        ]
+      },
+      "properties": {
+        "id": "kanchanaburi--nam-tok--rail",
+        "from": "kanchanaburi",
+        "to": "nam-tok",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.91146,
+            13.81812
+          ],
+          [
+            100.129,
+            14.471
+          ]
+        ]
+      },
+      "properties": {
+        "id": "nong-pladuk--suphan-buri--rail",
+        "from": "nong-pladuk",
+        "to": "suphan-buri",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.72863,
+            8.15396
+          ],
+          [
+            99.60802,
+            7.5634
+          ]
+        ]
+      },
+      "properties": {
+        "id": "thung-song--trang--rail",
+        "from": "thung-song",
+        "to": "trang",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.60802,
+            7.5634
+          ],
+          [
+            99.51472,
+            7.41086
+          ]
+        ]
+      },
+      "properties": {
+        "id": "trang--kantang--rail",
+        "from": "trang",
+        "to": "kantang",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.88203,
+            8.14947
+          ],
+          [
+            99.97001,
+            8.39999
+          ]
+        ]
+      },
+      "properties": {
+        "id": "khao-chum-thong--nakhon-si-thammarat--rail",
+        "from": "khao-chum-thong",
+        "to": "nakhon-si-thammarat",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.47143,
+            6.99643
+          ],
+          [
+            100.32315,
+            6.66728
+          ]
+        ]
+      },
+      "properties": {
+        "id": "hat-yai--padang-besar--rail",
+        "from": "hat-yai",
+        "to": "padang-besar",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-south"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.5147,
+            13.75194
+          ],
+          [
+            101.076,
+            13.679
+          ]
+        ]
+      },
+      "properties": {
+        "id": "bangkok--chachoengsao--rail",
+        "from": "bangkok",
+        "to": "chachoengsao",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-east"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.076,
+            13.679
+          ],
+          [
+            100.99997,
+            13.40041
+          ]
+        ]
+      },
+      "properties": {
+        "id": "chachoengsao--chon-buri--rail",
+        "from": "chachoengsao",
+        "to": "chon-buri",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-east"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.99997,
+            13.40041
+          ],
+          [
+            100.92866,
+            13.15903
+          ]
+        ]
+      },
+      "properties": {
+        "id": "chon-buri--si-racha--rail",
+        "from": "chon-buri",
+        "to": "si-racha",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-east"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.92866,
+            13.15903
+          ],
+          [
+            100.88333,
+            12.93333
+          ]
+        ]
+      },
+      "properties": {
+        "id": "si-racha--pattaya--rail",
+        "from": "si-racha",
+        "to": "pattaya",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-east"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.88333,
+            12.93333
+          ],
+          [
+            100.97214,
+            12.7045
+          ]
+        ]
+      },
+      "properties": {
+        "id": "pattaya--ban-phlu-ta-luang--rail",
+        "from": "pattaya",
+        "to": "ban-phlu-ta-luang",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-east"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.076,
+            13.679
+          ],
+          [
+            101.3768,
+            14.05722
+          ]
+        ]
+      },
+      "properties": {
+        "id": "chachoengsao--prachin-buri--rail",
+        "from": "chachoengsao",
+        "to": "prachin-buri",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-east"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            101.3768,
+            14.05722
+          ],
+          [
+            102.49694,
+            13.68235
+          ]
+        ]
+      },
+      "properties": {
+        "id": "prachin-buri--aranyaprathet--rail",
+        "from": "prachin-buri",
+        "to": "aranyaprathet",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-east"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.49226,
+            13.72463
+          ],
+          [
+            100.27669,
+            13.54644
+          ]
+        ]
+      },
+      "properties": {
+        "id": "wongwian-yai--maha-chai--rail",
+        "from": "wongwian-yai",
+        "to": "maha-chai",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-mahachai"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.26996,
+            13.54183
+          ],
+          [
+            99.99851,
+            13.40751
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ban-laem--mae-klong--rail",
+        "from": "ban-laem",
+        "to": "mae-klong",
+        "via": [],
+        "mode": "rail",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-srt-maeklong"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.18722,
+            10.51268
+          ],
+          [
+            99.83774,
+            10.09166
+          ]
+        ]
+      },
+      "properties": {
+        "id": "chumphon--koh-tao--ferry",
+        "from": "chumphon",
+        "to": "koh-tao",
+        "via": [],
+        "mode": "ferry",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lomprayah"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.83774,
+            10.09166
+          ],
+          [
+            100.02489,
+            9.74512
+          ]
+        ]
+      },
+      "properties": {
+        "id": "koh-tao--koh-phangan--ferry",
+        "from": "koh-tao",
+        "to": "koh-phangan",
+        "via": [],
+        "mode": "ferry",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lomprayah"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.02489,
+            9.74512
+          ],
+          [
+            99.99357,
+            9.50376
+          ]
+        ]
+      },
+      "properties": {
+        "id": "koh-phangan--koh-samui--ferry",
+        "from": "koh-phangan",
+        "to": "koh-samui",
+        "via": [],
+        "mode": "ferry",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lomprayah"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.69184,
+            9.31676
+          ],
+          [
+            99.99357,
+            9.50376
+          ]
+        ]
+      },
+      "properties": {
+        "id": "donsak--koh-samui--ferry",
+        "from": "donsak",
+        "to": "koh-samui",
+        "via": [],
+        "mode": "ferry",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lomprayah"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.69184,
+            9.31676
+          ],
+          [
+            100.02489,
+            9.74512
+          ]
+        ]
+      },
+      "properties": {
+        "id": "donsak--koh-phangan--ferry",
+        "from": "donsak",
+        "to": "koh-phangan",
+        "via": [],
+        "mode": "ferry",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lomprayah"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.38153,
+            7.87653
+          ],
+          [
+            98.78112,
+            7.74433
+          ]
+        ]
+      },
+      "properties": {
+        "id": "phuket--koh-phi-phi--ferry",
+        "from": "phuket",
+        "to": "koh-phi-phi",
+        "via": [],
+        "mode": "ferry",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-andaman"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.78112,
+            7.74433
+          ],
+          [
+            98.912,
+            8.052
+          ]
+        ]
+      },
+      "properties": {
+        "id": "koh-phi-phi--krabi--ferry",
+        "from": "koh-phi-phi",
+        "to": "krabi",
+        "via": [],
+        "mode": "ferry",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-andaman"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.72453,
+            6.85677
+          ],
+          [
+            99.30316,
+            6.49082
+          ]
+        ]
+      },
+      "properties": {
+        "id": "pak-bara--koh-lipe--ferry",
+        "from": "pak-bara",
+        "to": "koh-lipe",
+        "via": [],
+        "mode": "ferry",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-bundhaya"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.81567,
+            8.0509
+          ],
+          [
+            99.05654,
+            7.56593
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ao-nang--koh-lanta--ferry",
+        "from": "ao-nang",
+        "to": "koh-lanta",
+        "via": [],
+        "mode": "ferry",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-bundhaya"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.58494,
+            12.04484
+          ],
+          [
+            102.48428,
+            11.82027
+          ]
+        ]
+      },
+      "properties": {
+        "id": "laem-sok--koh-mak--ferry",
+        "from": "laem-sok",
+        "to": "koh-mak",
+        "via": [],
+        "mode": "ferry",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-boonsiri"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.58494,
+            12.04484
+          ],
+          [
+            102.56915,
+            11.66222
+          ]
+        ]
+      },
+      "properties": {
+        "id": "laem-sok--koh-kood--ferry",
+        "from": "laem-sok",
+        "to": "koh-kood",
+        "via": [],
+        "mode": "ferry",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-boonsiri"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.98005,
+            18.79997
+          ],
+          [
+            99.82645,
+            19.91187
+          ]
+        ]
+      },
+      "properties": {
+        "id": "chiang-mai--chiang-rai--road",
+        "from": "chiang-mai",
+        "to": "chiang-rai",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.98005,
+            18.79997
+          ],
+          [
+            98.44058,
+            19.35811
+          ]
+        ]
+      },
+      "properties": {
+        "id": "chiang-mai--pai--road",
+        "from": "chiang-mai",
+        "to": "pai",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-osm-places"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.82645,
+            19.91187
+          ],
+          [
+            100.40689,
+            20.26078
+          ]
+        ]
+      },
+      "properties": {
+        "id": "chiang-rai--chiang-khong--road",
+        "from": "chiang-rai",
+        "to": "chiang-khong",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.27289,
+            16.82831
+          ],
+          [
+            99.75152,
+            17.01187
+          ]
+        ]
+      },
+      "properties": {
+        "id": "phitsanulok--sukhothai--road",
+        "from": "phitsanulok",
+        "to": "sukhothai",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.75152,
+            17.01187
+          ],
+          [
+            99.83186,
+            17.31597
+          ]
+        ]
+      },
+      "properties": {
+        "id": "sukhothai--sawankhalok--road",
+        "from": "sukhothai",
+        "to": "sawankhalok",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.5147,
+            13.75194
+          ],
+          [
+            100.88333,
+            12.93333
+          ]
+        ]
+      },
+      "properties": {
+        "id": "bangkok--pattaya--road",
+        "from": "bangkok",
+        "to": "pattaya",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.34013,
+            9.1501
+          ],
+          [
+            99.69184,
+            9.31676
+          ]
+        ]
+      },
+      "properties": {
+        "id": "surat-thani--donsak--road",
+        "from": "surat-thani",
+        "to": "donsak",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.34013,
+            9.1501
+          ],
+          [
+            98.38153,
+            7.87653
+          ]
+        ]
+      },
+      "properties": {
+        "id": "surat-thani--phuket--road",
+        "from": "surat-thani",
+        "to": "phuket",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            99.34013,
+            9.1501
+          ],
+          [
+            98.912,
+            8.052
+          ]
+        ]
+      },
+      "properties": {
+        "id": "surat-thani--krabi--road",
+        "from": "surat-thani",
+        "to": "krabi",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.38153,
+            7.87653
+          ],
+          [
+            98.912,
+            8.052
+          ]
+        ]
+      },
+      "properties": {
+        "id": "phuket--krabi--road",
+        "from": "phuket",
+        "to": "krabi",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.912,
+            8.052
+          ],
+          [
+            99.05654,
+            7.56593
+          ]
+        ]
+      },
+      "properties": {
+        "id": "krabi--koh-lanta--road",
+        "from": "krabi",
+        "to": "koh-lanta",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.912,
+            8.052
+          ],
+          [
+            98.81567,
+            8.0509
+          ]
+        ]
+      },
+      "properties": {
+        "id": "krabi--ao-nang--road",
+        "from": "krabi",
+        "to": "ao-nang",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.47143,
+            6.99643
+          ],
+          [
+            99.72453,
+            6.85677
+          ]
+        ]
+      },
+      "properties": {
+        "id": "hat-yai--pak-bara--road",
+        "from": "hat-yai",
+        "to": "pak-bara",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-natural-earth-places"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.78932,
+            17.40476
+          ],
+          [
+            102.74788,
+            17.87326
+          ]
+        ]
+      },
+      "properties": {
+        "id": "udon-thani--nong-khai--road",
+        "from": "udon-thani",
+        "to": "nong-khai",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.83004,
+            16.42004
+          ],
+          [
+            104.72907,
+            16.54141
+          ]
+        ]
+      },
+      "properties": {
+        "id": "khon-kaen--mukdahan--road",
+        "from": "khon-kaen",
+        "to": "mukdahan",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.83003,
+            15.24996
+          ],
+          [
+            105.46937,
+            15.13165
+          ]
+        ]
+      },
+      "properties": {
+        "id": "ubon-ratchathani--vangtao--road",
+        "from": "ubon-ratchathani",
+        "to": "vangtao",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.74788,
+            17.87326
+          ],
+          [
+            102.70974,
+            17.88716
+          ]
+        ]
+      },
+      "properties": {
+        "id": "nong-khai--friendship-bridge-1--road",
+        "from": "nong-khai",
+        "to": "friendship-bridge-1",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.72907,
+            16.54141
+          ],
+          [
+            104.75655,
+            16.5996
+          ]
+        ]
+      },
+      "properties": {
+        "id": "mukdahan--friendship-bridge-2--road",
+        "from": "mukdahan",
+        "to": "friendship-bridge-2",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.76946,
+            17.39448
+          ],
+          [
+            104.7426,
+            17.48904
+          ]
+        ]
+      },
+      "properties": {
+        "id": "nakhon-phanom--friendship-bridge-3--road",
+        "from": "nakhon-phanom",
+        "to": "friendship-bridge-3",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            100.40689,
+            20.26078
+          ],
+          [
+            100.46131,
+            20.21687
+          ]
+        ]
+      },
+      "properties": {
+        "id": "chiang-khong--friendship-bridge-4--road",
+        "from": "chiang-khong",
+        "to": "friendship-bridge-4",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            103.65194,
+            18.36303
+          ],
+          [
+            103.56589,
+            18.42365
+          ]
+        ]
+      },
+      "properties": {
+        "id": "bueng-kan--friendship-bridge-5--road",
+        "from": "bueng-kan",
+        "to": "friendship-bridge-5",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.49694,
+            13.68235
+          ],
+          [
+            102.54817,
+            13.66246
+          ]
+        ]
+      },
+      "properties": {
+        "id": "aranyaprathet--poipet--road",
+        "from": "aranyaprathet",
+        "to": "poipet",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.509,
+            12.237
+          ],
+          [
+            102.9088,
+            11.65125
+          ]
+        ]
+      },
+      "properties": {
+        "id": "trat--cham-yeam--road",
+        "from": "trat",
+        "to": "cham-yeam",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-lbt-geographic-snapshot"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            102.509,
+            12.237
+          ],
+          [
+            102.58494,
+            12.04484
+          ]
+        ]
+      },
+      "properties": {
+        "id": "trat--laem-sok--road",
+        "from": "trat",
+        "to": "laem-sok",
+        "via": [],
+        "mode": "road",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-boonsiri"
+        ],
+        "kind": "schematic-connection"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            98.78112,
+            7.74433
+          ],
+          [
+            99.05654,
+            7.56593
+          ]
+        ]
+      },
+      "properties": {
+        "id": "koh-phi-phi--koh-lanta--ferry",
+        "from": "koh-phi-phi",
+        "to": "koh-lanta",
+        "via": [],
+        "mode": "ferry",
+        "geometry": "schematic-corridor",
+        "sourceIds": [
+          "map-andaman"
+        ],
+        "kind": "schematic-connection"
+      }
+    }
+  ]
+}
