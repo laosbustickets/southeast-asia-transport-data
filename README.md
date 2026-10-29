@@ -25,6 +25,10 @@ tags:
 - maps
 - geojson
 configs:
+- config_name: laos_border_checkpoints
+  data_files: laos/checkpoints.csv
+- config_name: laos_routes
+  data_files: laos/routes.csv
 - config_name: vietnam_border_crossings
   data_files: vietnam/vietnam-border-crossings.csv
 - config_name: cambodia_border_crossings
@@ -44,7 +48,7 @@ If a copy and its website ever differ, trust the website, and cite its pages.
 
 | Folder | Website | Files | Licence | Archived on Zenodo (all versions) |
 |---|---|---|---|---|
-| `laos/` | [Laos Bus Tickets](https://laosbustickets.com/sources/#open-data) | Border checkpoints register, bus, train and flight routes, Laos–China Railway timetable (next 7 days), transport map (SVG) | CC BY 4.0 | [10.5281/zenodo.23751855](https://doi.org/10.5281/zenodo.23751855) |
+| `laos/` | [Laos Bus Tickets](https://laosbustickets.com/sources/#open-data) | Border checkpoints register and bus, train and flight routes (JSON, CSV), Laos–China Railway timetable (next 7 days), transport map (SVG) | CC BY 4.0 | [10.5281/zenodo.23751855](https://doi.org/10.5281/zenodo.23751855) |
 | `thailand/` | [Thailand Transport Hub](https://thailandtransporthub.com/about/#open-data) | Places with coordinates (CSV, JSON, GeoJSON), rail, road and ferry corridors, transport map (SVG, PNG) | ODbL 1.0 (data), CC BY 4.0 (map images) | [10.5281/zenodo.23751896](https://doi.org/10.5281/zenodo.23751896) |
 | `vietnam/` | [Vietnam Transport Guide](https://vietnamtransportguide.com/about/#open-data) | Land border crossings with China, Laos and Cambodia (CSV, JSON), map GeoJSON, transport map (SVG) | ODbL 1.0 | [10.5281/zenodo.23751898](https://doi.org/10.5281/zenodo.23751898) |
 | `cambodia/` | [Cambodia Transport Guide](https://cambodiatransportguide.com/about/#open-data) | Border crossings with Vietnam, Laos and Thailand (CSV, JSON), map GeoJSON, transport map (SVG) | ODbL 1.0 | [10.5281/zenodo.23751900](https://doi.org/10.5281/zenodo.23751900) |
