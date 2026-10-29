@@ -14,6 +14,8 @@
         { "key": "README.md", "path": "laos/README.md" },
         { "key": "checkpoints.json", "path": "laos/checkpoints.json" },
         { "key": "routes.json", "path": "laos/routes.json" },
+        { "key": "checkpoints.csv", "path": "laos/checkpoints.csv" },
+        { "key": "routes.csv", "path": "laos/routes.csv" },
         { "key": "laos-train-timetable.json", "path": "laos/laos-train-timetable.json", "volatile": true }
       ],
       "maps": { "pattern": "laos-transport-map-{lang}{variant}.svg", "variants": ["", "-landscape"], "dir": "laos/maps" },
