@@ -1,0 +1,33 @@
+name: Archive new versions on Zenodo
+
+# Every Saturday, after the week's site updates: a new Zenodo version for each country
+# whose files changed. Run it by hand with "dry run" to see what would be published.
+on:
+  schedule:
+    - cron: "17 4 * * 6"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only report what changed"
+        type: boolean
+        default: true
+
+concurrency:
+  group: zenodo-southeast-asia-transport-data
+  cancel-in-progress: false
+
+jobs:
+  zenodo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Publish changed datasets
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+        run: node scripts/zenodo.mjs
