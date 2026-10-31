@@ -1,0 +1,16 @@
+number,from,from_lat,from_lon,to,to_lat,to_lon,operators,page,checked,source_urls
+1,Batangas Port,13.75209,121.04191,Boracay,11.9684,121.92003,Starlite Ferries (Chelsea); 2GO Travel,https://philippinestransport.com/boracay/,2026-10-31,https://starliteferries.com/ https://2go.com.ph/travel/book/sailing-schedule/
+2,Manila North Harbor,14.60944,120.96008,Puerto Princesa port,9.74492,118.73583,2GO Travel,https://philippinestransport.com/manila/,2026-10-31,https://2go.com.ph/travel/book/sailing-schedule/
+3,Manila North Harbor,14.60944,120.96008,Coron Port,11.99087,120.21151,2GO Travel,https://philippinestransport.com/manila/,2026-10-31,https://2go.com.ph/travel/book/sailing-schedule/
+4,El Nido Ferry Terminal,11.18169,119.38689,Coron Port,11.99087,120.21151,Montenegro Lines,https://philippinestransport.com/el-nido-to-coron/,2026-10-31,https://montenegrolines.com.ph/
+5,Hagnaya port,11.09356,123.94539,Bantayan,11.15379,123.80686,Super Shuttle Ferry (Asian Marine Transport Corporation); Island Shipping Corporation,https://philippinestransport.com/cebu-to-bantayan/,2026-10-31, 
+6,"Liloan port, Santander",9.4166,123.30296,Sibulan port,9.36185,123.28543,Maayo Shipping,https://philippinestransport.com/cebu/,2026-10-31,
+7,Oslob port,9.4314,123.35985,Larena,9.24889,123.591,Super Shuttle Ferry (Asian Marine Transport Corporation),https://philippinestransport.com/cebu-to-siquijor/,2026-10-31,
+8,Cebu Pier 1,10.29254,123.9089,Tagbilaran port,9.64841,123.84592,OceanJet,https://philippinestransport.com/cebu-to-bohol/,2026-10-31,https://oceanjet.net/
+9,Cebu Pier 1,10.29254,123.9089,Tubigon port,9.95736,123.95671,Lite Ferries; FastCat (Archipelago Philippine Ferries Corporation),https://philippinestransport.com/cebu-to-bohol/,2026-10-31,https://liteferries.com.ph/ https://fastcat.ph/
+10,Tagbilaran port,9.64841,123.84592,Siquijor port,9.21891,123.51204,OceanJet,https://philippinestransport.com/bohol/,2026-10-31,https://oceanjet.net/
+11,Tagbilaran port,9.64841,123.84592,Larena,9.24889,123.591,Lite Ferries,https://philippinestransport.com/bohol/,2026-10-31,https://liteferries.com.ph/
+12,Tagbilaran port,9.64841,123.84592,Dumaguete port,9.31315,123.31141,OceanJet,https://philippinestransport.com/bohol/,2026-10-31,https://oceanjet.net/
+13,Dumaguete port,9.31315,123.31141,Siquijor port,9.21891,123.51204,OceanJet,https://philippinestransport.com/bohol/,2026-10-31,https://oceanjet.net/
+14,Cebu Pier 1,10.29254,123.9089,Surigao City Ferry Terminal,9.78233,125.50148,Starlite Ferries (Chelsea); OceanJet,https://philippinestransport.com/siargao/,2026-10-31,https://starliteferries.com/ https://oceanjet.net/
+15,Surigao City Ferry Terminal,9.78233,125.50148,Dapa port,9.75453,126.0499,Evaristo & Sons Sea Transport,https://philippinestransport.com/surigao-to-siargao/,2026-10-31,https://www.facebook.com/evaristoandsonsseatransportcorp/

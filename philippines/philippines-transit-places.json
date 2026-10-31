@@ -1,0 +1,436 @@
+{
+  "name": "Philippines transit places",
+  "publisher": "PhilippinesTransport.com",
+  "homepage": "https://philippinestransport.com/philippines-transport-map/",
+  "updated": "2026-10-31",
+  "license": "ODbL-1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "Positions © OpenStreetMap contributors (ODbL). Connections: PhilippinesTransport.com.",
+  "places": [
+    {
+      "id": "manila",
+      "name": "Manila",
+      "kind": "town",
+      "lat": 14.59045,
+      "lon": 120.98036,
+      "position": "node/198493613",
+      "wikidata": "Q1461"
+    },
+    {
+      "id": "cebu",
+      "name": "Cebu",
+      "kind": "town",
+      "lat": 10.29349,
+      "lon": 123.90182,
+      "position": "node/259009337 (Cebu City)",
+      "wikidata": null
+    },
+    {
+      "id": "davao",
+      "name": "Davao",
+      "kind": "town",
+      "lat": 7.06483,
+      "lon": 125.60806,
+      "position": "node/325091453 (Davao City)",
+      "wikidata": "Q1473"
+    },
+    {
+      "id": "puerto-princesa",
+      "name": "Puerto Princesa",
+      "kind": "town",
+      "lat": 9.73986,
+      "lon": 118.74382,
+      "position": "node/278516701",
+      "wikidata": "Q111739"
+    },
+    {
+      "id": "baguio",
+      "name": "Baguio",
+      "kind": "town",
+      "lat": 16.41199,
+      "lon": 120.59339,
+      "position": "node/1435307555",
+      "wikidata": "Q1822"
+    },
+    {
+      "id": "banaue",
+      "name": "Banaue",
+      "kind": "town",
+      "lat": 16.91177,
+      "lon": 121.06138,
+      "position": "node/198500414",
+      "wikidata": "Q806138"
+    },
+    {
+      "id": "batangas",
+      "name": "Batangas",
+      "kind": "town",
+      "lat": 13.75526,
+      "lon": 121.05908,
+      "position": "node/944867369 (Batangas City)",
+      "wikidata": "Q1723"
+    },
+    {
+      "id": "boracay",
+      "name": "Boracay",
+      "kind": "town",
+      "lat": 11.9684,
+      "lon": 121.92003,
+      "position": "node/358670720 (Balabag, Boracay)",
+      "wikidata": "Q31477589"
+    },
+    {
+      "id": "el-nido",
+      "name": "El Nido",
+      "kind": "town",
+      "lat": 11.18004,
+      "lon": 119.3905,
+      "position": "node/701810290",
+      "wikidata": "Q111483"
+    },
+    {
+      "id": "coron",
+      "name": "Coron",
+      "kind": "town",
+      "lat": 11.99855,
+      "lon": 120.20516,
+      "position": "node/188143013",
+      "wikidata": "Q111414"
+    },
+    {
+      "id": "port-barton",
+      "name": "Port Barton",
+      "kind": "town",
+      "lat": 10.4114,
+      "lon": 119.17796,
+      "position": "node/589734328",
+      "wikidata": "Q14229805"
+    },
+    {
+      "id": "moalboal",
+      "name": "Moalboal",
+      "kind": "town",
+      "lat": 9.93722,
+      "lon": 123.39219,
+      "position": "node/198527169",
+      "wikidata": "Q316171"
+    },
+    {
+      "id": "bantayan",
+      "name": "Bantayan",
+      "kind": "town",
+      "lat": 11.15379,
+      "lon": 123.80686,
+      "position": "node/198516406 (Santa Fe, Bantayan Island)",
+      "wikidata": "Q316370"
+    },
+    {
+      "id": "tagbilaran",
+      "name": "Tagbilaran",
+      "kind": "town",
+      "lat": 9.64026,
+      "lon": 123.85598,
+      "position": "node/250652000",
+      "wikidata": "Q1826"
+    },
+    {
+      "id": "siquijor",
+      "name": "Siquijor",
+      "kind": "town",
+      "lat": 9.21559,
+      "lon": 123.51382,
+      "position": "node/198523061",
+      "wikidata": "Q174373"
+    },
+    {
+      "id": "dumaguete",
+      "name": "Dumaguete",
+      "kind": "town",
+      "lat": 9.30548,
+      "lon": 123.30804,
+      "position": "node/611962905",
+      "wikidata": "Q873377"
+    },
+    {
+      "id": "surigao",
+      "name": "Surigao",
+      "kind": "town",
+      "lat": 9.7905,
+      "lon": 125.49357,
+      "position": "node/319858811 (Surigao City)",
+      "wikidata": "Q1019949"
+    },
+    {
+      "id": "siargao",
+      "name": "Siargao",
+      "kind": "town",
+      "lat": 9.75772,
+      "lon": 126.05288,
+      "position": "node/198505570 (Dapa, Siargao Island)",
+      "wikidata": "Q155763"
+    },
+    {
+      "id": "manila-north-harbor",
+      "name": "Manila North Harbor",
+      "kind": "ferry-port",
+      "lat": 14.60944,
+      "lon": 120.96008,
+      "position": "node/969621020",
+      "wikidata": null
+    },
+    {
+      "id": "batangas-port",
+      "name": "Batangas Port",
+      "kind": "ferry-port",
+      "lat": 13.75209,
+      "lon": 121.04191,
+      "position": "node/378785274",
+      "wikidata": null
+    },
+    {
+      "id": "coron-port",
+      "name": "Coron Port",
+      "kind": "ferry-port",
+      "lat": 11.99087,
+      "lon": 120.21151,
+      "position": "node/1690160023",
+      "wikidata": null
+    },
+    {
+      "id": "el-nido",
+      "name": "El Nido Ferry Terminal",
+      "kind": "ferry-port",
+      "lat": 11.18169,
+      "lon": 119.38689,
+      "position": "node/540663077",
+      "wikidata": null
+    },
+    {
+      "id": "puerto-princesa-port",
+      "name": "Puerto Princesa port",
+      "kind": "ferry-port",
+      "lat": 9.74492,
+      "lon": 118.73583,
+      "position": "node/25384299",
+      "wikidata": null
+    },
+    {
+      "id": "cebu-pier-1",
+      "name": "Cebu Pier 1",
+      "kind": "ferry-port",
+      "lat": 10.29254,
+      "lon": 123.9089,
+      "position": "node/281446272",
+      "wikidata": null
+    },
+    {
+      "id": "hagnaya",
+      "name": "Hagnaya port",
+      "kind": "ferry-port",
+      "lat": 11.09356,
+      "lon": 123.94539,
+      "position": "node/953343746",
+      "wikidata": null
+    },
+    {
+      "id": "tubigon",
+      "name": "Tubigon port",
+      "kind": "ferry-port",
+      "lat": 9.95736,
+      "lon": 123.95671,
+      "position": "node/953409020",
+      "wikidata": null
+    },
+    {
+      "id": "tagbilaran",
+      "name": "Tagbilaran port",
+      "kind": "ferry-port",
+      "lat": 9.64841,
+      "lon": 123.84592,
+      "position": "node/394807640",
+      "wikidata": null
+    },
+    {
+      "id": "oslob",
+      "name": "Oslob port",
+      "kind": "ferry-port",
+      "lat": 9.4314,
+      "lon": 123.35985,
+      "position": "node/1809572400",
+      "wikidata": null
+    },
+    {
+      "id": "liloan",
+      "name": "Liloan port, Santander",
+      "kind": "ferry-port",
+      "lat": 9.4166,
+      "lon": 123.30296,
+      "position": "node/986753392",
+      "wikidata": null
+    },
+    {
+      "id": "sibulan",
+      "name": "Sibulan port",
+      "kind": "ferry-port",
+      "lat": 9.36185,
+      "lon": 123.28543,
+      "position": "node/4550375194",
+      "wikidata": null
+    },
+    {
+      "id": "larena",
+      "name": "Larena",
+      "kind": "ferry-port",
+      "lat": 9.24889,
+      "lon": 123.591,
+      "position": "node/198521621 (Larena town)",
+      "wikidata": null
+    },
+    {
+      "id": "siquijor",
+      "name": "Siquijor port",
+      "kind": "ferry-port",
+      "lat": 9.21891,
+      "lon": 123.51204,
+      "position": "node/268430782",
+      "wikidata": null
+    },
+    {
+      "id": "dumaguete",
+      "name": "Dumaguete port",
+      "kind": "ferry-port",
+      "lat": 9.31315,
+      "lon": 123.31141,
+      "position": "node/582448189",
+      "wikidata": null
+    },
+    {
+      "id": "surigao",
+      "name": "Surigao City Ferry Terminal",
+      "kind": "ferry-port",
+      "lat": 9.78233,
+      "lon": 125.50148,
+      "position": "node/3394026098",
+      "wikidata": null
+    },
+    {
+      "id": "dapa",
+      "name": "Dapa port",
+      "kind": "ferry-port",
+      "lat": 9.75453,
+      "lon": 126.0499,
+      "position": "node/1021703341",
+      "wikidata": null
+    },
+    {
+      "id": "naia",
+      "name": "Ninoy Aquino International Airport (NAIA)",
+      "kind": "airport",
+      "iata": "MNL",
+      "lat": 14.51219,
+      "lon": 121.01466,
+      "position": "relation/12733706",
+      "wikidata": null
+    },
+    {
+      "id": "mactan-cebu",
+      "name": "Mactan-Cebu International Airport",
+      "kind": "airport",
+      "iata": "CEB",
+      "lat": 10.31009,
+      "lon": 123.97969,
+      "position": "relation/4040104",
+      "wikidata": null
+    },
+    {
+      "id": "bohol-panglao",
+      "name": "Bohol-Panglao International Airport",
+      "kind": "airport",
+      "iata": "TAG",
+      "lat": 9.5737,
+      "lon": 123.77097,
+      "position": "relation/13149256",
+      "wikidata": null
+    },
+    {
+      "id": "puerto-princesa",
+      "name": "Puerto Princesa International Airport",
+      "kind": "airport",
+      "iata": "PPS",
+      "lat": 9.74234,
+      "lon": 118.7584,
+      "position": "way/106045775",
+      "wikidata": null
+    },
+    {
+      "id": "el-nido-lio",
+      "name": "El Nido Airport (Lio)",
+      "kind": "airport",
+      "iata": "ENI",
+      "lat": 11.20141,
+      "lon": 119.41618,
+      "position": "way/921548878",
+      "wikidata": null
+    },
+    {
+      "id": "busuanga",
+      "name": "Francisco B. Reyes Airport (Busuanga, for Coron)",
+      "kind": "airport",
+      "iata": "USU",
+      "lat": 12.12109,
+      "lon": 120.09954,
+      "position": "way/152008514",
+      "wikidata": null
+    },
+    {
+      "id": "caticlan",
+      "name": "Godofredo P. Ramos Airport (Caticlan)",
+      "kind": "airport",
+      "iata": "MPH",
+      "lat": 11.92632,
+      "lon": 121.95953,
+      "position": "way/272052509",
+      "wikidata": null
+    },
+    {
+      "id": "kalibo",
+      "name": "Kalibo International Airport",
+      "kind": "airport",
+      "iata": "KLO",
+      "lat": 11.67896,
+      "lon": 122.3749,
+      "position": "relation/12190487",
+      "wikidata": null
+    },
+    {
+      "id": "dumaguete-sibulan",
+      "name": "DGT",
+      "kind": "airport",
+      "iata": "DGT",
+      "lat": 9.33395,
+      "lon": 123.3016,
+      "position": "way/562640170",
+      "wikidata": null
+    },
+    {
+      "id": "sayak",
+      "name": "Sayak Airport (Siargao)",
+      "kind": "airport",
+      "iata": "IAO",
+      "lat": 9.85861,
+      "lon": 126.01528,
+      "position": "way/322145759",
+      "wikidata": null
+    },
+    {
+      "id": "francisco-bangoy",
+      "name": "Francisco Bangoy International Airport (Davao)",
+      "kind": "airport",
+      "iata": "DVO",
+      "lat": 7.12499,
+      "lon": 125.64478,
+      "position": "way/313088016",
+      "wikidata": null
+    }
+  ]
+}

@@ -1,0 +1,357 @@
+{
+  "name": "Philippines inter-island ferry routes",
+  "publisher": "PhilippinesTransport.com",
+  "homepage": "https://philippinestransport.com/philippines-transport-map/",
+  "updated": "2026-10-31",
+  "license": "ODbL-1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "Positions © OpenStreetMap contributors (ODbL). Connections: PhilippinesTransport.com.",
+  "note": "Ferry connections between the ports a traveller uses, with the operators named on the page that covers each one. Current times and fares are on those pages.",
+  "routes": [
+    {
+      "number": 1,
+      "from": "Batangas Port",
+      "fromId": "batangas-port",
+      "fromLat": 13.75209,
+      "fromLon": 121.04191,
+      "to": "Boracay",
+      "toId": "boracay",
+      "toLat": 11.9684,
+      "toLon": 121.92003,
+      "operators": [
+        "Starlite Ferries (Chelsea)",
+        "2GO Travel"
+      ],
+      "page": "https://philippinestransport.com/boracay/",
+      "checked": "2026-10-31",
+      "sources": [
+        {
+          "name": "Starlite Ferries (Chelsea)",
+          "url": "https://starliteferries.com/"
+        },
+        {
+          "name": "2GO Travel",
+          "url": "https://2go.com.ph/travel/book/sailing-schedule/"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "from": "Manila North Harbor",
+      "fromId": "manila-north-harbor",
+      "fromLat": 14.60944,
+      "fromLon": 120.96008,
+      "to": "Puerto Princesa port",
+      "toId": "puerto-princesa-port",
+      "toLat": 9.74492,
+      "toLon": 118.73583,
+      "operators": [
+        "2GO Travel"
+      ],
+      "page": "https://philippinestransport.com/manila/",
+      "checked": "2026-10-31",
+      "sources": [
+        {
+          "name": "2GO Travel",
+          "url": "https://2go.com.ph/travel/book/sailing-schedule/"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "from": "Manila North Harbor",
+      "fromId": "manila-north-harbor",
+      "fromLat": 14.60944,
+      "fromLon": 120.96008,
+      "to": "Coron Port",
+      "toId": "coron-port",
+      "toLat": 11.99087,
+      "toLon": 120.21151,
+      "operators": [
+        "2GO Travel"
+      ],
+      "page": "https://philippinestransport.com/manila/",
+      "checked": "2026-10-31",
+      "sources": [
+        {
+          "name": "2GO Travel",
+          "url": "https://2go.com.ph/travel/book/sailing-schedule/"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "from": "El Nido Ferry Terminal",
+      "fromId": "el-nido",
+      "fromLat": 11.18169,
+      "fromLon": 119.38689,
+      "to": "Coron Port",
+      "toId": "coron-port",
+      "toLat": 11.99087,
+      "toLon": 120.21151,
+      "operators": [
+        "Montenegro Lines"
+      ],
+      "page": "https://philippinestransport.com/el-nido-to-coron/",
+      "checked": "2026-10-31",
+      "sources": [
+        {
+          "name": "Montenegro Lines",
+          "url": "https://montenegrolines.com.ph/"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "from": "Hagnaya port",
+      "fromId": "hagnaya",
+      "fromLat": 11.09356,
+      "fromLon": 123.94539,
+      "to": "Bantayan",
+      "toId": "bantayan",
+      "toLat": 11.15379,
+      "toLon": 123.80686,
+      "operators": [
+        "Super Shuttle Ferry (Asian Marine Transport Corporation)",
+        "Island Shipping Corporation"
+      ],
+      "page": "https://philippinestransport.com/cebu-to-bantayan/",
+      "checked": "2026-10-31",
+      "sources": [
+        {
+          "name": "Super Shuttle Ferry (Asian Marine Transport Corporation)",
+          "url": null
+        },
+        {
+          "name": "Island Shipping Corporation",
+          "url": null
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "from": "Liloan port, Santander",
+      "fromId": "liloan",
+      "fromLat": 9.4166,
+      "fromLon": 123.30296,
+      "to": "Sibulan port",
+      "toId": "sibulan",
+      "toLat": 9.36185,
+      "toLon": 123.28543,
+      "operators": [
+        "Maayo Shipping"
+      ],
+      "page": "https://philippinestransport.com/cebu/",
+      "checked": "2026-10-31",
+      "sources": []
+    },
+    {
+      "number": 7,
+      "from": "Oslob port",
+      "fromId": "oslob",
+      "fromLat": 9.4314,
+      "fromLon": 123.35985,
+      "to": "Larena",
+      "toId": "larena",
+      "toLat": 9.24889,
+      "toLon": 123.591,
+      "operators": [
+        "Super Shuttle Ferry (Asian Marine Transport Corporation)"
+      ],
+      "page": "https://philippinestransport.com/cebu-to-siquijor/",
+      "checked": "2026-10-31",
+      "sources": [
+        {
+          "name": "Super Shuttle Ferry (Asian Marine Transport Corporation)",
+          "url": null
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "from": "Cebu Pier 1",
+      "fromId": "cebu-pier-1",
+      "fromLat": 10.29254,
+      "fromLon": 123.9089,
+      "to": "Tagbilaran port",
+      "toId": "tagbilaran",
+      "toLat": 9.64841,
+      "toLon": 123.84592,
+      "operators": [
+        "OceanJet"
+      ],
+      "page": "https://philippinestransport.com/cebu-to-bohol/",
+      "checked": "2026-10-31",
+      "sources": [
+        {
+          "name": "OceanJet",
+          "url": "https://oceanjet.net/"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "from": "Cebu Pier 1",
+      "fromId": "cebu-pier-1",
+      "fromLat": 10.29254,
+      "fromLon": 123.9089,
+      "to": "Tubigon port",
+      "toId": "tubigon",
+      "toLat": 9.95736,
+      "toLon": 123.95671,
+      "operators": [
+        "Lite Ferries",
+        "FastCat (Archipelago Philippine Ferries Corporation)"
+      ],
+      "page": "https://philippinestransport.com/cebu-to-bohol/",
+      "checked": "2026-10-31",
+      "sources": [
+        {
+          "name": "Lite Ferries",
+          "url": "https://liteferries.com.ph/"
+        },
+        {
+          "name": "FastCat (Archipelago Philippine Ferries Corporation)",
+          "url": "https://fastcat.ph/"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "from": "Tagbilaran port",
+      "fromId": "tagbilaran",
+      "fromLat": 9.64841,
+      "fromLon": 123.84592,
+      "to": "Siquijor port",
+      "toId": "siquijor",
+      "toLat": 9.21891,
+      "toLon": 123.51204,
+      "operators": [
+        "OceanJet"
+      ],
+      "page": "https://philippinestransport.com/bohol/",
+      "checked": "2026-10-31",
+      "sources": [
+        {
+          "name": "OceanJet",
+          "url": "https://oceanjet.net/"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "from": "Tagbilaran port",
+      "fromId": "tagbilaran",
+      "fromLat": 9.64841,
+      "fromLon": 123.84592,
+      "to": "Larena",
+      "toId": "larena",
+      "toLat": 9.24889,
+      "toLon": 123.591,
+      "operators": [
+        "Lite Ferries"
+      ],
+      "page": "https://philippinestransport.com/bohol/",
+      "checked": "2026-10-31",
+      "sources": [
+        {
+          "name": "Lite Ferries",
+          "url": "https://liteferries.com.ph/"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "from": "Tagbilaran port",
+      "fromId": "tagbilaran",
+      "fromLat": 9.64841,
+      "fromLon": 123.84592,
+      "to": "Dumaguete port",
+      "toId": "dumaguete",
+      "toLat": 9.31315,
+      "toLon": 123.31141,
+      "operators": [
+        "OceanJet"
+      ],
+      "page": "https://philippinestransport.com/bohol/",
+      "checked": "2026-10-31",
+      "sources": [
+        {
+          "name": "OceanJet",
+          "url": "https://oceanjet.net/"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "from": "Dumaguete port",
+      "fromId": "dumaguete",
+      "fromLat": 9.31315,
+      "fromLon": 123.31141,
+      "to": "Siquijor port",
+      "toId": "siquijor",
+      "toLat": 9.21891,
+      "toLon": 123.51204,
+      "operators": [
+        "OceanJet"
+      ],
+      "page": "https://philippinestransport.com/bohol/",
+      "checked": "2026-10-31",
+      "sources": [
+        {
+          "name": "OceanJet",
+          "url": "https://oceanjet.net/"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "from": "Cebu Pier 1",
+      "fromId": "cebu-pier-1",
+      "fromLat": 10.29254,
+      "fromLon": 123.9089,
+      "to": "Surigao City Ferry Terminal",
+      "toId": "surigao",
+      "toLat": 9.78233,
+      "toLon": 125.50148,
+      "operators": [
+        "Starlite Ferries (Chelsea)",
+        "OceanJet"
+      ],
+      "page": "https://philippinestransport.com/siargao/",
+      "checked": "2026-10-31",
+      "sources": [
+        {
+          "name": "Starlite Ferries (Chelsea)",
+          "url": "https://starliteferries.com/"
+        },
+        {
+          "name": "OceanJet",
+          "url": "https://oceanjet.net/"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "from": "Surigao City Ferry Terminal",
+      "fromId": "surigao",
+      "fromLat": 9.78233,
+      "fromLon": 125.50148,
+      "to": "Dapa port",
+      "toId": "dapa",
+      "toLat": 9.75453,
+      "toLon": 126.0499,
+      "operators": [
+        "Evaristo & Sons Sea Transport"
+      ],
+      "page": "https://philippinestransport.com/surigao-to-siargao/",
+      "checked": "2026-10-31",
+      "sources": [
+        {
+          "name": "Evaristo & Sons Sea Transport",
+          "url": "https://www.facebook.com/evaristoandsonsseatransportcorp/"
+        }
+      ]
+    }
+  ]
+}

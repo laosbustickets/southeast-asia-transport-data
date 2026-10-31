@@ -1,0 +1,47 @@
+id,name,kind,iata,lat,lon,osm,wikidata
+manila,Manila,town,,14.59045,120.98036,node/198493613,Q1461
+cebu,Cebu,town,,10.29349,123.90182,node/259009337 (Cebu City),
+davao,Davao,town,,7.06483,125.60806,node/325091453 (Davao City),Q1473
+puerto-princesa,Puerto Princesa,town,,9.73986,118.74382,node/278516701,Q111739
+baguio,Baguio,town,,16.41199,120.59339,node/1435307555,Q1822
+banaue,Banaue,town,,16.91177,121.06138,node/198500414,Q806138
+batangas,Batangas,town,,13.75526,121.05908,node/944867369 (Batangas City),Q1723
+boracay,Boracay,town,,11.9684,121.92003,"node/358670720 (Balabag, Boracay)",Q31477589
+el-nido,El Nido,town,,11.18004,119.3905,node/701810290,Q111483
+coron,Coron,town,,11.99855,120.20516,node/188143013,Q111414
+port-barton,Port Barton,town,,10.4114,119.17796,node/589734328,Q14229805
+moalboal,Moalboal,town,,9.93722,123.39219,node/198527169,Q316171
+bantayan,Bantayan,town,,11.15379,123.80686,"node/198516406 (Santa Fe, Bantayan Island)",Q316370
+tagbilaran,Tagbilaran,town,,9.64026,123.85598,node/250652000,Q1826
+siquijor,Siquijor,town,,9.21559,123.51382,node/198523061,Q174373
+dumaguete,Dumaguete,town,,9.30548,123.30804,node/611962905,Q873377
+surigao,Surigao,town,,9.7905,125.49357,node/319858811 (Surigao City),Q1019949
+siargao,Siargao,town,,9.75772,126.05288,"node/198505570 (Dapa, Siargao Island)",Q155763
+manila-north-harbor,Manila North Harbor,ferry-port,,14.60944,120.96008,node/969621020,
+batangas-port,Batangas Port,ferry-port,,13.75209,121.04191,node/378785274,
+coron-port,Coron Port,ferry-port,,11.99087,120.21151,node/1690160023,
+el-nido,El Nido Ferry Terminal,ferry-port,,11.18169,119.38689,node/540663077,
+puerto-princesa-port,Puerto Princesa port,ferry-port,,9.74492,118.73583,node/25384299,
+cebu-pier-1,Cebu Pier 1,ferry-port,,10.29254,123.9089,node/281446272,
+hagnaya,Hagnaya port,ferry-port,,11.09356,123.94539,node/953343746,
+tubigon,Tubigon port,ferry-port,,9.95736,123.95671,node/953409020,
+tagbilaran,Tagbilaran port,ferry-port,,9.64841,123.84592,node/394807640,
+oslob,Oslob port,ferry-port,,9.4314,123.35985,node/1809572400,
+liloan,"Liloan port, Santander",ferry-port,,9.4166,123.30296,node/986753392,
+sibulan,Sibulan port,ferry-port,,9.36185,123.28543,node/4550375194,
+larena,Larena,ferry-port,,9.24889,123.591,node/198521621 (Larena town),
+siquijor,Siquijor port,ferry-port,,9.21891,123.51204,node/268430782,
+dumaguete,Dumaguete port,ferry-port,,9.31315,123.31141,node/582448189,
+surigao,Surigao City Ferry Terminal,ferry-port,,9.78233,125.50148,node/3394026098,
+dapa,Dapa port,ferry-port,,9.75453,126.0499,node/1021703341,
+naia,Ninoy Aquino International Airport (NAIA),airport,MNL,14.51219,121.01466,relation/12733706,
+mactan-cebu,Mactan-Cebu International Airport,airport,CEB,10.31009,123.97969,relation/4040104,
+bohol-panglao,Bohol-Panglao International Airport,airport,TAG,9.5737,123.77097,relation/13149256,
+puerto-princesa,Puerto Princesa International Airport,airport,PPS,9.74234,118.7584,way/106045775,
+el-nido-lio,El Nido Airport (Lio),airport,ENI,11.20141,119.41618,way/921548878,
+busuanga,"Francisco B. Reyes Airport (Busuanga, for Coron)",airport,USU,12.12109,120.09954,way/152008514,
+caticlan,Godofredo P. Ramos Airport (Caticlan),airport,MPH,11.92632,121.95953,way/272052509,
+kalibo,Kalibo International Airport,airport,KLO,11.67896,122.3749,relation/12190487,
+dumaguete-sibulan,DGT,airport,DGT,9.33395,123.3016,way/562640170,
+sayak,Sayak Airport (Siargao),airport,IAO,9.85861,126.01528,way/322145759,
+francisco-bangoy,Francisco Bangoy International Airport (Davao),airport,DVO,7.12499,125.64478,way/313088016,
