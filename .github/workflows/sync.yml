@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add laos thailand vietnam cambodia
+          git add laos thailand vietnam cambodia philippines
           if git diff --cached --quiet; then
             echo "No dataset changes."
           else
@@ -60,7 +60,7 @@ jobs:
               folder_path=".",
               repo_id="laosbustickets/southeast-asia-transport-data",
               repo_type="dataset",
-              allow_patterns=["README.md", "datasets.json", "laos/**", "thailand/**", "vietnam/**", "cambodia/**"],
+              allow_patterns=["README.md", "datasets.json", "laos/**", "thailand/**", "vietnam/**", "cambodia/**", "philippines/**"],
               commit_message="Sync from GitHub",
           )
           PY

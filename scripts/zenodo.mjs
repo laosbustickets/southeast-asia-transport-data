@@ -50,7 +50,11 @@ function cleanMetadata(md, d, versionDois) {
   };
 }
 
-const { datasets } = loadManifest();
+const all = loadManifest().datasets;
+/* A country whose first record is not published yet has no zenodo block: its first version is made by hand
+   on zenodo.org, then the block is added. Until then it is only copied by sync.mjs. */
+for (const d of all) if (!d.zenodo) say(`${d.id}: no Zenodo record yet, skipped`);
+const datasets = all.filter((d) => d.zenodo);
 /* A link to a first-version DOI in an old record is rewritten to the concept DOI (all versions). */
 const versionDois = Object.fromEntries(datasets.map((d) => [`10.5281/zenodo.${d.zenodo.recordId}`, d.zenodo.conceptDoi]));
 if (!TOKEN && !DRY) throw new Error('ZENODO_TOKEN is not set (or run with DRY_RUN=1).');

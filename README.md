@@ -17,11 +17,13 @@ tags:
 - thailand
 - vietnam
 - cambodia
+- philippines
 - southeast-asia
 - transport
 - border-crossings
 - railway
 - bus-routes
+- ferries
 - maps
 - geojson
 configs:
@@ -35,15 +37,21 @@ configs:
   data_files: cambodia/cambodia-border-crossings.csv
 - config_name: thailand_places
   data_files: thailand/thailand-transport-map-places.csv
+- config_name: philippines_ferry_routes
+  data_files: philippines/philippines-ferry-routes.csv
+- config_name: philippines_places
+  data_files: philippines/philippines-transit-places.csv
 ---
 
 # Southeast Asia Transport Data
 
-Open data from four independent travel guides to mainland Southeast Asia: border crossings with
-their visa status and sources, routes and timetables, and each country's transport map as data
+Open data from five independent travel guides to Southeast Asia (Laos, Thailand, Vietnam, Cambodia
+and the Philippines): border crossings with their visa status and sources, routes and timetables,
+inter-island ferry routes, and each country's transport map as data
 and as images in eight languages. **Each website is the original source**; this repository is a
 copy, synced every night by a GitHub Action, and mirrored to
-[Hugging Face](https://huggingface.co/datasets/laosbustickets/southeast-asia-transport-data).
+[Hugging Face](https://huggingface.co/datasets/laosbustickets/southeast-asia-transport-data) and
+[Kaggle](https://www.kaggle.com/datasets/seatransport/southeast-asia-transport-data) (refreshed daily from here).
 If a copy and its website ever differ, trust the website, and cite its pages.
 
 | Folder | Website | Files | Licence | Archived on Zenodo (all versions) |
@@ -52,6 +60,7 @@ If a copy and its website ever differ, trust the website, and cite its pages.
 | `thailand/` | [Thailand Transport Hub](https://thailandtransporthub.com/about/#open-data) | Places with coordinates (CSV, JSON, GeoJSON), rail, road and ferry corridors, transport map (SVG, PNG) | ODbL 1.0 (data), CC BY 4.0 (map images) | [10.5281/zenodo.23751896](https://doi.org/10.5281/zenodo.23751896) |
 | `vietnam/` | [Vietnam Transport Guide](https://vietnamtransportguide.com/about/#open-data) | Land border crossings with China, Laos and Cambodia (CSV, JSON), map GeoJSON, transport map (SVG) | ODbL 1.0 | [10.5281/zenodo.23751898](https://doi.org/10.5281/zenodo.23751898) |
 | `cambodia/` | [Cambodia Transport Guide](https://cambodiatransportguide.com/about/#open-data) | Border crossings with Vietnam, Laos and Thailand (CSV, JSON), map GeoJSON, transport map (SVG) | ODbL 1.0 | [10.5281/zenodo.23751900](https://doi.org/10.5281/zenodo.23751900) |
+| `philippines/` | [Philippines Transport](https://philippinestransport.com/about/#open-data) | Inter-island ferry routes, port to port (CSV, JSON), ports, towns and airports with coordinates (CSV, JSON, GeoJSON with the bus and ferry lines), transport map (SVG) | ODbL 1.0 (data), CC BY 4.0 (map images) | [10.5281/zenodo.23830271](https://doi.org/10.5281/zenodo.23830271) |
 
 Map images sit in each country's `maps/` folder, one per language (en, fr, de, es, ja, ko, ru,
 zh). `datasets.json` lists every file with the address it is copied from.
@@ -76,6 +85,9 @@ All the sites' collection: [Southeast Asia Transport Open Data on Zenodo](https:
 - **Vietnam** and **Cambodia**: [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/),
   positions © OpenStreetMap contributors. Credit "Vietnam Transport Guide
   (vietnamtransportguide.com)" or "Cambodia Transport Guide (cambodiatransportguide.com)".
+- **Philippines**: data files under the [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/),
+  positions © OpenStreetMap contributors; map images under CC BY 4.0. Credit "Philippines Transport
+  (philippinestransport.com)".
 
 ## Citation
 

@@ -69,6 +69,24 @@
       ],
       "maps": { "pattern": "cambodia-transport-map-{lang}{variant}.svg", "variants": ["", "-landscape"], "dir": "cambodia/maps" },
       "description": "<p>Open data behind the <a href=\"https://cambodiatransportguide.com/cambodia-transport-map/\">Cambodia transport map</a> on <a href=\"https://cambodiatransportguide.com/\">cambodiatransportguide.com</a>, an independent eight-language guide to buses, trains, ferries and border crossings in and around Cambodia, archived as they were on the publication date of this version.</p><ul><li><strong>cambodia-border-crossings.json</strong> and <strong>.csv</strong>: Cambodia's international border crossings with Vietnam, Laos and Thailand, each with coordinates, status, whether Cambodia's e-visa is accepted for entry, and the sources checked.</li><li><strong>cambodia-transport-map.geo.json</strong>: the towns, airports, stations, piers, crossings, connections and railway behind the map.</li><li><strong>cambodia-transport-map-&lt;lang&gt;.svg</strong>: the finished map in eight languages (en, fr, de, es, ja, ko, ru, zh), portrait and landscape.</li></ul><p>Lines show which crossing or pier a route uses, not the exact road.</p><p><strong>Licence:</strong> Open Database License (ODbL 1.0). Positions © OpenStreetMap contributors; status and e-visa fields by CambodiaTransportGuide.com from the sources listed per crossing. Please credit \"Cambodia Transport Guide (cambodiatransportguide.com)\" and link to <a href=\"https://cambodiatransportguide.com/cambodia-transport-map/\">cambodiatransportguide.com/cambodia-transport-map</a>.</p>"
+    },
+    {
+      "id": "philippines",
+      "name": "Philippines",
+      "site": "https://philippinestransport.com",
+      "siteName": "Philippines Transport",
+      "dataPage": "https://philippinestransport.com/about/#open-data",
+      "license": "ODbL 1.0 (data files), CC BY 4.0 (map images)",
+      "zenodo": { "recordId": "23830272", "conceptDoi": "10.5281/zenodo.23830271" },
+      "files": [
+        { "key": "philippines-ferry-routes.csv", "path": "philippines/philippines-ferry-routes.csv" },
+        { "key": "philippines-ferry-routes.json", "path": "philippines/philippines-ferry-routes.json" },
+        { "key": "philippines-transit-places.csv", "path": "philippines/philippines-transit-places.csv" },
+        { "key": "philippines-transit-places.json", "path": "philippines/philippines-transit-places.json" },
+        { "key": "philippines-transit-places.geojson", "path": "philippines/philippines-transit-places.geojson" }
+      ],
+      "maps": { "pattern": "philippines-transport-map-{lang}{variant}.svg", "variants": ["", "-landscape"], "dir": "philippines/maps" },
+      "description": "<p>Open data behind the <a href=\"https://philippinestransport.com/philippines-transport-map/\">Philippines ferry routes map</a> on <a href=\"https://philippinestransport.com/\">philippinestransport.com</a>, an independent eight-language guide to ferries, buses and domestic flights between the Philippine islands, archived as they were on the publication date of this version.</p><ul><li><strong>philippines-ferry-routes.json</strong> and <strong>.csv</strong>: the inter-island ferry connections on the map, port to port, each with the coordinates of both ends, the shipping lines that sail it, the guide page that holds its times and fares, and source URLs.</li><li><strong>philippines-transit-places.json</strong> and <strong>.csv</strong>: the towns, ferry ports and piers, and airports on the map, with their OpenStreetMap node and, for airports, the IATA code; <strong>.geojson</strong> adds the bus, van and ferry lines.</li><li><strong>philippines-transport-map-&lt;lang&gt;.svg</strong>: the finished map in eight languages (en, fr, de, es, ja, ko, ru, zh), portrait and landscape.</li></ul><p>Times and fares are not in the files; they live on the site's route pages. Lines show which ports or towns a route uses, not the exact road or sea lane.</p><p><strong>Licence:</strong> data files under the Open Database License (ODbL 1.0), positions © OpenStreetMap contributors; map images under CC BY 4.0. Please credit \"Philippines Transport (philippinestransport.com)\" and link to <a href=\"https://philippinestransport.com/philippines-transport-map/\">philippinestransport.com/philippines-transport-map</a>.</p>"
     }
   ]
 }
