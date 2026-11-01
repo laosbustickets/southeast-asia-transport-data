@@ -1,6 +1,6 @@
 # Laos Bus Tickets, open data
 
-Verified 2026-10-25 (checkpoints.json) and 2026-10-21 (routes.json). The files here are exactly what this site's own pages
+Verified 2026-11-01 (checkpoints.json) and 2026-11-01 (routes.json). The files here are exactly what this site's own pages
 are generated from, republished as-is so they can be linked to, diffed over time, or
 used directly rather than scraped. Both JSON files carry schema.org Dataset markup on
 their own canonical page (/laos-border-checkpoints/ and /routes/ respectively), and
@@ -19,6 +19,9 @@ file-level date, since not every checkpoint is necessarily re-confirmed in the s
   seven days (stations, times, running days, through trains to Kunming), refreshed every
   morning at 06:00 Laos time from the official LCR Ticket app. Canonical page:
   https://laosbustickets.com/train-tickets-laos/#timetable
+- `laos-china-railway-gtfs.zip`: Laos–China Railway timetable as a standard GTFS Schedule
+  feed (transit timetables for journey-planning apps, Google Maps, OpenTripPlanner, Transitous
+  and researchers), refreshed every morning from the official LCR Ticket app.
 - `laos-transport-map-<lang>.svg` (and `-landscape.svg`): the Laos transport map in eight
   languages, redrawn from the two JSON files above. Canonical page:
   https://laosbustickets.com/laos-transport-map/
@@ -30,7 +33,7 @@ Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Please credit
 "Laos Bus Tickets (laosbustickets.com)" and link to the canonical page:
 https://laosbustickets.com/laos-border-checkpoints/ for checkpoints.json, or
 https://laosbustickets.com/routes/ for routes.json. Suggested citation:
-Laos Bus Tickets, "Laos Border Checkpoints Register", verified 2026-10-25,
+Laos Bus Tickets, "Laos Border Checkpoints Register", verified 2026-11-01,
 https://laosbustickets.com/laos-border-checkpoints/.
 In routes.json, bookingUrl and reverseBookingUrl are this site's own booking redirects
 (affiliate links; see https://laosbustickets.com/affiliate-disclosure/), and every

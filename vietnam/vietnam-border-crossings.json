@@ -2,7 +2,7 @@
   "name": "Vietnam border crossings",
   "publisher": "VietnamTransportGuide.com",
   "homepage": "https://vietnamtransportguide.com/vietnam-transport-map/",
-  "updated": "2026-10-25",
+  "updated": "2026-11-01",
   "license": "ODbL-1.0",
   "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
   "attribution": "Positions © OpenStreetMap contributors (ODbL); Laos gates from LaosBusTickets.com. Status and visa notes: VietnamTransportGuide.com.",
@@ -19,7 +19,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "Chinese visa or exemption",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-china-border",
@@ -38,7 +38,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "Chinese visa or exemption",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-china-border",
@@ -57,7 +57,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "Chinese visa or exemption",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-china-border",
@@ -76,7 +76,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "Chinese visa or exemption",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-china-border",
@@ -95,7 +95,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "no Lao e-visa",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-laos-border",
@@ -114,7 +114,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "no Lao e-visa",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-laos-border",
@@ -133,7 +133,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "no Lao e-visa",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-laos-border",
@@ -152,7 +152,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "no Lao e-visa",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-laos-border",
@@ -171,7 +171,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "no Lao e-visa",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-laos-border",
@@ -190,7 +190,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "no Lao e-visa",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-laos-border",
@@ -209,7 +209,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "Lao visa on arrival",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-laos-border",
@@ -228,7 +228,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "no Lao e-visa",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-laos-border",
@@ -247,7 +247,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "no Lao e-visa",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-laos-border",
@@ -266,7 +266,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "no Lao e-visa",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-laos-border",
@@ -285,7 +285,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "Cambodian e-visa",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-cambodia-border",
@@ -304,7 +304,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "no Cambodian e-visa",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-cambodia-border",
@@ -323,7 +323,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "no Cambodian e-visa",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-cambodia-border",
@@ -342,7 +342,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "no Cambodian e-visa",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-cambodia-border",
@@ -361,7 +361,7 @@
       "status": "open",
       "vietnameseEvisaForEntry": true,
       "otherSide": "no Cambodian e-visa",
-      "checked": "2026-10-25",
+      "checked": "2026-11-01",
       "sources": [
         {
           "name": "VietnamTransportGuide: vietnam-cambodia-border",
