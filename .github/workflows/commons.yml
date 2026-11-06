@@ -1,11 +1,9 @@
 name: Keep the Commons maps current
 
-# Every Saturday, after the week's site updates: a new version of each Wikimedia Commons map file
-# (same file name) whose live SVG changed, so every wiki page using it shows the current map.
-# Run it by hand with "dry run" to see what would be uploaded.
+# Manual only: Wikimedia blocks uploads from GitHub's runners (Azure range 20.64.0.0/16 is globally
+# blocked as "open proxy/webhost" until 2028), so the weekly upload runs on the owner's PC instead
+# (node scripts/commons.mjs). This workflow stays for a dry run: it reports which maps changed.
 on:
-  schedule:
-    - cron: "17 5 * * 6"
   workflow_dispatch:
     inputs:
       dry_run:
