@@ -1,0 +1,39 @@
+name: Keep the Figshare maps current
+
+# Every Saturday, after the week's site updates and the Zenodo run: a new Figshare version of each
+# map whose SVG (or the item text in figshare.json) changed. Run it by hand with "dry run" to see
+# what would be published.
+on:
+  schedule:
+    - cron: "47 4 * * 6"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only report what changed"
+        type: boolean
+        default: true
+
+concurrency:
+  group: figshare-southeast-asia-transport-maps
+  cancel-in-progress: false
+
+jobs:
+  figshare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Chromium (renders the PNG from each SVG)
+        run: |
+          npm install --no-save --no-package-lock playwright@1.57.0
+          npx playwright install --with-deps chromium
+
+      - name: Publish changed maps
+        env:
+          FIGSHARE_TOKEN: ${{ secrets.FIGSHARE_TOKEN }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+        run: node scripts/figshare.mjs
