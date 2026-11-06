@@ -129,6 +129,12 @@ async function upload(articleId, name, buf) {
   return file.id;
 }
 
+/* Check the token every run, so an expired or wrong secret fails the job even in a week with no change. */
+if (TOKEN) {
+  const me = await api('GET', '/account').catch((e) => { throw new Error(`FIGSHARE_TOKEN rejected: ${e.message}`); });
+  if (!me?.id) throw new Error('FIGSHARE_TOKEN rejected: no account');
+}
+
 let failures = 0;
 for (const item of cfg.items) {
   if (ONLY.length && !ONLY.includes(item.id)) continue;
