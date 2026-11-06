@@ -19,7 +19,8 @@ concurrency:
 
 jobs:
   figshare:
-    runs-on: ubuntu-latest
+    # Pinned: Playwright 1.57 cannot install Chromium on ubuntu-latest (Ubuntu 26.04 since Oct 2026).
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
 
