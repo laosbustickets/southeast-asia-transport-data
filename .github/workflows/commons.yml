@@ -1,0 +1,41 @@
+name: Keep the Commons maps current
+
+# Every Saturday, after the week's site updates: a new version of each Wikimedia Commons map file
+# (same file name) whose live SVG changed, so every wiki page using it shows the current map.
+# Run it by hand with "dry run" to see what would be uploaded.
+on:
+  schedule:
+    - cron: "17 5 * * 6"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only report what changed"
+        type: boolean
+        default: true
+
+concurrency:
+  group: commons-southeast-asia-transport-maps
+  cancel-in-progress: false
+
+jobs:
+  commons:
+    # Pinned: Playwright 1.57 cannot install Chromium on ubuntu-latest (Ubuntu 26.04 since Oct 2026).
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install Chromium (renders the PNG from each SVG)
+        run: |
+          npm install --no-save --no-package-lock playwright@1.57.0
+          npx playwright install --with-deps chromium
+
+      - name: Upload changed maps
+        env:
+          COMMONS_BOT_USER: ${{ secrets.COMMONS_BOT_USER }}
+          COMMONS_BOT_PASSWORD: ${{ secrets.COMMONS_BOT_PASSWORD }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+        run: node scripts/commons.mjs
