@@ -8,23 +8,23 @@
  },
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "citation": "Laos Bus Tickets, \"Laos–China Railway timetable\", https://laosbustickets.com/train-tickets-laos/",
- "checkedAt": "2026-11-05T23:00:07.682Z",
+ "checkedAt": "2026-11-06T23:00:08.204Z",
  "updated": "every morning at 06:00 Laos time; if a check fails the previous timetable is kept",
  "timezones": {
   "LA": "Asia/Vientiane, UTC+7",
   "CN": "Asia/Shanghai, UTC+8 (stops in China)"
  },
  "dates": [
-  "2026-11-06",
   "2026-11-07",
   "2026-11-08",
   "2026-11-09",
   "2026-11-10",
   "2026-11-11",
-  "2026-11-12"
+  "2026-11-12",
+  "2026-11-13"
  ],
  "summary": {
-  "trainsNorthbound": 6,
+  "trainsNorthbound": 7,
   "trainsSouthbound": 6,
   "fastestVientianeLuangPrabangMinutes": 106,
   "slowestVientianeLuangPrabangMinutes": 174
@@ -36,13 +36,13 @@
    "from": "Vientiane",
    "to": "Kunming South",
    "runsOn": [
-    "2026-11-06",
     "2026-11-07",
     "2026-11-08",
     "2026-11-09",
     "2026-11-10",
     "2026-11-11",
-    "2026-11-12"
+    "2026-11-12",
+    "2026-11-13"
    ],
    "weekdays": [
     "Monday",
@@ -143,21 +143,21 @@
    "from": "Vientiane",
    "to": "Boten",
    "runsOn": [
-    "2026-11-06",
     "2026-11-07",
     "2026-11-08",
-    "2026-11-09"
+    "2026-11-09",
+    "2026-11-10"
    ],
    "weekdays": [
     "Monday",
-    "Friday",
+    "Tuesday",
     "Saturday",
     "Sunday"
    ],
    "weekdaysNotOnSaleYet": [
-    "Tuesday",
     "Wednesday",
-    "Thursday"
+    "Thursday",
+    "Friday"
    ],
    "stops": [
     {
@@ -248,13 +248,13 @@
    "from": "Vientiane",
    "to": "Luang Prabang",
    "runsOn": [
-    "2026-11-06",
     "2026-11-07",
     "2026-11-08",
     "2026-11-09",
     "2026-11-10",
     "2026-11-11",
-    "2026-11-12"
+    "2026-11-12",
+    "2026-11-13"
    ],
    "weekdays": [
     "Monday",
@@ -299,13 +299,13 @@
    "from": "Vientiane",
    "to": "Kunming",
    "runsOn": [
-    "2026-11-06",
     "2026-11-07",
     "2026-11-08",
     "2026-11-09",
     "2026-11-10",
     "2026-11-11",
-    "2026-11-12"
+    "2026-11-12",
+    "2026-11-13"
    ],
    "weekdays": [
     "Monday",
@@ -398,7 +398,6 @@
    "from": "Vientiane",
    "to": "Boten",
    "runsOn": [
-    "2026-11-06",
     "2026-11-07",
     "2026-11-08",
     "2026-11-09",
@@ -407,9 +406,71 @@
    "weekdays": [
     "Monday",
     "Thursday",
-    "Friday",
     "Saturday",
     "Sunday"
+   ],
+   "weekdaysNotOnSaleYet": [],
+   "stops": [
+    {
+     "station": "Vientiane",
+     "code": "LAVTM",
+     "country": "LA",
+     "arrive": null,
+     "depart": "14:05",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vang Vieng",
+     "code": "LAVOM",
+     "country": "LA",
+     "arrive": "15:08",
+     "depart": "15:15",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Luang Prabang",
+     "code": "LAVJM",
+     "country": "LA",
+     "arrive": "16:48",
+     "depart": "16:52",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Muang Xai",
+     "code": "LAVFM",
+     "country": "LA",
+     "arrive": "17:50",
+     "depart": "17:53",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Nateuy",
+     "code": "LAVCM",
+     "country": "LA",
+     "arrive": "18:20",
+     "depart": "18:25",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Boten",
+     "code": "LAVBM",
+     "country": "LA",
+     "arrive": "18:35",
+     "depart": null,
+     "utcOffset": "+07:00"
+    }
+   ]
+  },
+  {
+   "train": "C96",
+   "direction": "northbound",
+   "from": "Vientiane",
+   "to": "Boten",
+   "runsOn": [
+    "2026-11-13"
+   ],
+   "weekdays": [
+    "Friday"
    ],
    "weekdaysNotOnSaleYet": [],
    "stops": [
@@ -469,13 +530,13 @@
    "from": "Vientiane",
    "to": "Luang Prabang",
    "runsOn": [
-    "2026-11-06",
     "2026-11-07",
     "2026-11-08",
     "2026-11-09",
     "2026-11-10",
     "2026-11-11",
-    "2026-11-12"
+    "2026-11-12",
+    "2026-11-13"
    ],
    "weekdays": [
     "Monday",
@@ -528,11 +589,11 @@
    "from": "Boten",
    "to": "Vientiane",
    "runsOn": [
-    "2026-11-06",
     "2026-11-07",
     "2026-11-08",
     "2026-11-09",
-    "2026-11-10"
+    "2026-11-10",
+    "2026-11-13"
    ],
    "weekdays": [
     "Monday",
@@ -541,10 +602,7 @@
     "Saturday",
     "Sunday"
    ],
-   "weekdaysNotOnSaleYet": [
-    "Wednesday",
-    "Thursday"
-   ],
+   "weekdaysNotOnSaleYet": [],
    "stops": [
     {
      "station": "Boten",
@@ -602,13 +660,13 @@
    "from": "Luang Prabang",
    "to": "Vientiane",
    "runsOn": [
-    "2026-11-06",
     "2026-11-07",
     "2026-11-08",
     "2026-11-09",
     "2026-11-10",
     "2026-11-11",
-    "2026-11-12"
+    "2026-11-12",
+    "2026-11-13"
    ],
    "weekdays": [
     "Monday",
@@ -653,13 +711,13 @@
    "from": "Kunming South",
    "to": "Vientiane",
    "runsOn": [
-    "2026-11-06",
     "2026-11-07",
     "2026-11-08",
     "2026-11-09",
     "2026-11-10",
     "2026-11-11",
-    "2026-11-12"
+    "2026-11-12",
+    "2026-11-13"
    ],
    "weekdays": [
     "Monday",
@@ -760,21 +818,21 @@
    "from": "Boten",
    "to": "Vientiane",
    "runsOn": [
-    "2026-11-06",
     "2026-11-07",
     "2026-11-08",
-    "2026-11-09"
+    "2026-11-09",
+    "2026-11-10"
    ],
    "weekdays": [
     "Monday",
-    "Friday",
+    "Tuesday",
     "Saturday",
     "Sunday"
    ],
    "weekdaysNotOnSaleYet": [
-    "Tuesday",
     "Wednesday",
-    "Thursday"
+    "Thursday",
+    "Friday"
    ],
    "stops": [
     {
@@ -865,13 +923,13 @@
    "from": "Kunming",
    "to": "Vientiane",
    "runsOn": [
-    "2026-11-06",
     "2026-11-07",
     "2026-11-08",
     "2026-11-09",
     "2026-11-10",
     "2026-11-11",
-    "2026-11-12"
+    "2026-11-12",
+    "2026-11-13"
    ],
    "weekdays": [
     "Monday",
@@ -972,13 +1030,13 @@
    "from": "Luang Prabang",
    "to": "Vientiane",
    "runsOn": [
-    "2026-11-06",
     "2026-11-07",
     "2026-11-08",
     "2026-11-09",
     "2026-11-10",
     "2026-11-11",
-    "2026-11-12"
+    "2026-11-12",
+    "2026-11-13"
    ],
    "weekdays": [
     "Monday",
