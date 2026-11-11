@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "verified": "2026-11-01",
+    "verified": "2026-11-11",
     "deeplinkPattern": "https://laosbustickets.com/go/{from}-{to}{suffix}",
     "deeplinkNote": "bookingUrl and reverseBookingUrl are this site's own booking links for the route in each direction.",
     "note": "'bookable: false' means no bookable online inventory on any of several future dates checked, spread over weeks; the route stays listed as a real option with no booking link. A route that sells on any checked date stays bookable. fromLAK is an indicative 'from' fare snapshot in LAK, taken on the verified date, for sanity-checking only; never publish it as a fixed fare.",
@@ -30,7 +30,7 @@
       "direct": true,
       "priority": 1,
       "editorialNote": "The long-haul option on this border, usually run as an overnight sleeper. Many travellers cover the same ground more cheaply by crossing at Nong Khai and continuing separately on a Thai bus or train.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "The Man in Seat 61",
@@ -62,7 +62,7 @@
       "direct": true,
       "priority": 1,
       "editorialNote": "The busiest hop on this border, and the easiest place to change onto Thailand's onward network, including the overnight sleeper train to Bangkok.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "The Man in Seat 61",
@@ -94,7 +94,7 @@
       "bookable": true,
       "direct": true,
       "editorialNote": "Thailand's Transport Co. (BKS) launched a direct Route No. 2 service on 9 September 2026: an 80-baht, 40-seat second-class coach that calls at Udon Thani International Airport before continuing to Vientiane, one round trip a day. Departs Udon Thani Bus Terminal 1 at 09:00, the airport at 09:30, arriving Vientiane 12:00; returns from Vientiane at 14:00, the airport at 16:30, Udon Thani at 17:00. Not sold online yet; buy at the terminal.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "Southeast Asia Infrastructure",
@@ -130,7 +130,7 @@
       "bookable": true,
       "direct": true,
       "editorialNote": "Passes through Nong Khai on the way to northeastern Thailand's largest city, a common changeover point for onward Isaan destinations.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-thailand-border-crossings/",
       "bookingUrl": "https://laosbustickets.com/go/vientiane-khonkaen",
       "reverseBookingUrl": "https://laosbustickets.com/go/khonkaen-vientiane",
@@ -144,7 +144,7 @@
       "checkpoint": "friendship-bridge-4",
       "duration": "PT20H",
       "durationText": "approx 20 hrs",
-      "fromLAK": 1225798,
+      "fromLAK": 1593103,
       "modes": [
         "bus",
         "van",
@@ -155,7 +155,7 @@
       "direct": true,
       "priority": 1,
       "editorialNote": "The long way round by road. Many travellers do only one leg this way and take the Mekong slow boat for the other, rather than the same road twice.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/chiang-mai-luang-prabang-bus/",
       "bookingUrl": "https://laosbustickets.com/go/luangprabang-chiangmai",
       "reverseBookingUrl": "https://laosbustickets.com/go/chiangmai-luangprabang",
@@ -178,7 +178,7 @@
       ],
       "bookable": true,
       "editorialNote": "Several hours shorter than the Chiang Mai run, on the same road through Huay Xai.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/chiang-mai-luang-prabang-bus/",
       "bookingUrl": "https://laosbustickets.com/go/luangprabang-chiangrai",
       "reverseBookingUrl": "https://laosbustickets.com/go/chiangrai-luangprabang",
@@ -190,8 +190,8 @@
       "to": "Chiang Rai",
       "country": "thailand",
       "checkpoint": "friendship-bridge-4",
-      "duration": "PT3H",
-      "durationText": "approx 3 hrs",
+      "duration": "PT2H30M",
+      "durationText": "2–3 hrs",
       "fromLAK": 379319,
       "modes": [
         "van",
@@ -202,7 +202,7 @@
       "direct": true,
       "priority": 1,
       "editorialNote": "The short final hop for travellers who took the two-day Mekong slow boat down from Luang Prabang.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/chiang-khong-huay-xai-border/",
       "bookingUrl": "https://laosbustickets.com/go/huayxai-chiangrai",
       "reverseBookingUrl": "https://laosbustickets.com/go/chiangrai-huayxai",
@@ -218,7 +218,7 @@
       "modes": [],
       "bookable": false,
       "editorialNote": "The bridge shuttle isn't sold online, buy the ticket at the counter after Thai immigration, about 20 baht. Book the onward leg from Huay Xai instead, to Chiang Rai or on to Luang Prabang.",
-      "verified": "2026-10-14",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/chiang-khong-huay-xai-border/",
       "checkpointRegisterUrl": "https://immigration.gov.la/en/checkpoints/detail/friendship-bridge-4"
     },
@@ -238,7 +238,7 @@
       "bookable": true,
       "direct": true,
       "editorialNote": "The only Laos–Thailand crossing on this list that is a plain land border rather than a river bridge.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-thailand-border-crossings/",
       "bookingUrl": "https://laosbustickets.com/go/pakse-ubonratchathani",
       "reverseBookingUrl": "https://laosbustickets.com/go/ubonratchathani-pakse",
@@ -259,7 +259,7 @@
       "bookable": false,
       "direct": true,
       "editorialNote": "Not sold online up to 4 November 2026, in either direction. The international bus between Savannakhet and Mukdahan still appears on the operator timetable, with departures from 08:15, so buy the ticket locally rather than online.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-thailand-border-crossings/",
       "checkpointRegisterUrl": "https://immigration.gov.la/en/checkpoints/detail/friendship-bridge-2"
     },
@@ -279,7 +279,7 @@
       "bookable": true,
       "direct": true,
       "editorialNote": "The crossing where the Thakhek Loop motorbike route begins on the Lao side.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-thailand-border-crossings/",
       "bookingUrl": "https://laosbustickets.com/go/thakhek-nakhonphanom",
       "reverseBookingUrl": "https://laosbustickets.com/go/nakhonphanom-thakhek",
@@ -299,7 +299,7 @@
       "bookable": false,
       "isNew": true,
       "editorialNote": "Served by the cross-border bus that launched on 8 January 2026, 100 baht flat, four departures a day each way. Not sold online yet; buy at Bueng Kan Provincial Bus Terminal or in Pakxan.",
-      "verified": "2026-10-14",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "Lao News Agency (KPL)",
@@ -333,7 +333,7 @@
       "direct": true,
       "priority": 1,
       "editorialNote": "An overnight sleeper between the two capitals, the main road link on this border.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/vientiane-hanoi/",
       "bookingUrl": "https://laosbustickets.com/go/vientiane-hanoi",
       "reverseBookingUrl": "https://laosbustickets.com/go/hanoi-vientiane",
@@ -357,7 +357,7 @@
       "bookable": false,
       "direct": true,
       "editorialNote": "Not sold online up to 4 November 2026, in either direction. A daily sleeper still appears on the published timetable, leaving Vientiane at 06:00 and taking about 14 hours; ask at Vientiane's Southern Bus Terminal (Dong Dok).",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
       "checkpointRegisterUrl": "https://immigration.gov.la/en/checkpoints/detail/namphao-international-checkpoint"
     },
@@ -378,7 +378,7 @@
       ],
       "bookable": true,
       "editorialNote": "Crosses into central Vietnam, with Hue's imperial citadel a short hop onward from the border.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
       "bookingUrl": "https://laosbustickets.com/go/vientiane-hue",
       "reverseBookingUrl": "https://laosbustickets.com/go/hue-vientiane",
@@ -401,7 +401,7 @@
       ],
       "bookable": true,
       "editorialNote": "The longest of the routes on this crossing, ending on Vietnam's central coast.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
       "bookingUrl": "https://laosbustickets.com/go/vientiane-danang",
       "reverseBookingUrl": "https://laosbustickets.com/go/danang-vientiane",
@@ -423,7 +423,7 @@
       "direct": true,
       "priority": 1,
       "editorialNote": "The busiest Laos–Vietnam gate, on the way to Hue's imperial citadel.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
       "bookingUrl": "https://laosbustickets.com/go/savannakhet-hue",
       "reverseBookingUrl": "https://laosbustickets.com/go/hue-savannakhet",
@@ -444,7 +444,7 @@
       "bookable": true,
       "direct": true,
       "editorialNote": "The same crossing as the Hue service, continuing further down the coast.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
       "bookingUrl": "https://laosbustickets.com/go/savannakhet-danang",
       "reverseBookingUrl": "https://laosbustickets.com/go/danang-savannakhet",
@@ -485,7 +485,7 @@
       ],
       "bookable": true,
       "editorialNote": "Direct minivans leave Pakse around 04:00 and cross at La Lay via Salavan. No Lao visa is issued at La Lay, so coming the other way you need one in advance.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "Laovietbus: Pakse to Hue and Da Nang",
@@ -514,7 +514,7 @@
       ],
       "bookable": true,
       "editorialNote": "The same early minivans as Pakse to Hue, via La Lay, continuing to the coast.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "Laovietbus: Pakse to Hue and Da Nang",
@@ -541,7 +541,7 @@
       ],
       "bookable": true,
       "editorialNote": "A quieter crossing than the others on this border, close to the Phong Nha caves.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
       "bookingUrl": "https://laosbustickets.com/go/thakhek-danang",
       "reverseBookingUrl": "https://laosbustickets.com/go/danang-thakhek",
@@ -565,7 +565,7 @@
       "bookable": true,
       "priority": 1,
       "editorialNote": "Runs through Phonsavan to the Nam Kan – Nậm Cắn border; coming the other way, that gate issues no Lao visa on arrival.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "Laovietbus",
@@ -588,7 +588,7 @@
       "modes": [],
       "bookable": false,
       "editorialNote": "No bookable service on this pair. The crossing exists, but the bus does not run to a schedule you can reserve ahead. Buy in Thakhek a day or two before, or route via Vientiane.",
-      "verified": "2026-10-14",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
       "checkpointRegisterUrl": "https://immigration.gov.la/en/checkpoints/detail/naphao-international-border-checkpoint"
     },
@@ -602,7 +602,7 @@
       "modes": [],
       "bookable": false,
       "editorialNote": "The Na Phao–Cha Lo crossing is the direct line to Phong Nha, but there is no bookable service. Travellers generally go via Vientiane or Savannakhet instead.",
-      "verified": "2026-10-14",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
       "checkpointRegisterUrl": "https://immigration.gov.la/en/checkpoints/detail/naphao-international-border-checkpoint"
     },
@@ -620,7 +620,7 @@
       ],
       "bookable": true,
       "editorialNote": "Two direct services a day, run by HTX Van Tai 277 and Thakhek Travel.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "Viet Lao Bus (vietnambus.com.vn)",
@@ -648,7 +648,7 @@
       "modes": [],
       "bookable": false,
       "editorialNote": "The Phou Keua–Bờ Y crossing is open but carries almost no scheduled passenger transport. Local buses run irregularly; ask in Attapeu.",
-      "verified": "2026-10-14",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-vietnam-border-crossings/",
       "checkpointRegisterUrl": "https://immigration.gov.la/en/checkpoints/detail/phoukeua-international-border-check-point"
     },
@@ -666,7 +666,7 @@
       "bookable": false,
       "flightOnly": true,
       "editorialNote": "No through ticket can be booked online for this pair. The flights themselves do run, all connecting through Vientiane, on Lao Airlines, Lao Skyway, Lanexang Airways or Air Cambodia. Overland, no bus across the Na Mèo crossing was sold online for November 2026; travellers report crossing by motorbike, shared taxi or hitchhiking.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "Lao Airlines",
@@ -695,7 +695,7 @@
       "direct": true,
       "priority": 1,
       "editorialNote": "The gateway to Angkor Wat, on Laos's only crossing into Cambodia.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-cambodia-border-crossing/",
       "bookingUrl": "https://laosbustickets.com/go/pakse-siemreap",
       "reverseBookingUrl": "https://laosbustickets.com/go/siemreap-pakse",
@@ -719,7 +719,7 @@
       "bookable": true,
       "direct": true,
       "editorialNote": "The same crossing as the Siem Reap service, continuing south to the Cambodian capital.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-cambodia-border-crossing/",
       "bookingUrl": "https://laosbustickets.com/go/pakse-phnompenh",
       "reverseBookingUrl": "https://laosbustickets.com/go/phnompenh-pakse",
@@ -741,7 +741,7 @@
       "bookable": true,
       "direct": true,
       "editorialNote": "The short version of this crossing, useful for breaking the longer Siem Reap or Phnom Penh journey.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-cambodia-border-crossing/",
       "bookingUrl": "https://laosbustickets.com/go/pakse-stungtreng",
       "reverseBookingUrl": "https://laosbustickets.com/go/stungtreng-pakse",
@@ -763,7 +763,7 @@
       "bookable": true,
       "priority": 1,
       "editorialNote": "Starts right at the border, shaving hours off the same journey from Pakse.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-cambodia-border-crossing/",
       "bookingUrl": "https://laosbustickets.com/go/4000islands-siemreap",
       "reverseBookingUrl": "https://laosbustickets.com/go/siemreap-4000islands",
@@ -786,7 +786,7 @@
       "bookable": true,
       "direct": true,
       "editorialNote": "The shortest leg across this border, often paired with an onward bus the same day.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-cambodia-border-crossing/",
       "bookingUrl": "https://laosbustickets.com/go/4000islands-stungtreng",
       "reverseBookingUrl": "https://laosbustickets.com/go/stungtreng-4000islands",
@@ -808,7 +808,7 @@
       ],
       "bookable": true,
       "editorialNote": "Starts closer to the crossing than the Pakse service, for travellers already based in the islands.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/laos-cambodia-border-crossing/",
       "bookingUrl": "https://laosbustickets.com/go/4000islands-phnompenh",
       "reverseBookingUrl": "https://laosbustickets.com/go/phnompenh-4000islands",
@@ -821,7 +821,7 @@
       "country": "domestic",
       "duration": "PT4H",
       "durationText": "approx 4 hrs by road",
-      "fromLAK": 283709,
+      "fromLAK": 215966,
       "modes": [
         "van",
         "train",
@@ -831,7 +831,7 @@
       "bookable": true,
       "priority": 1,
       "editorialNote": "The gateway to Vang Vieng's karst scenery, and the shortest hop on the Laos–China Railway.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "Travelfish: how to get to Vang Vieng",
@@ -861,7 +861,7 @@
       "bookable": true,
       "priority": 1,
       "editorialNote": "The country's best-connected long-haul run, with an overnight VIP bus alongside the much faster railway.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "Travelfish: how to get to Luang Prabang",
@@ -889,7 +889,7 @@
       ],
       "bookable": true,
       "editorialNote": "The overnight route south, ending near Wat Phou's Khmer ruins and the Bolaven Plateau's coffee country.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "Wikivoyage: Pakse",
@@ -916,7 +916,7 @@
       ],
       "bookable": true,
       "editorialNote": "The route into the Thakhek Loop, one of Laos's best-known motorbike circuits.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "Wikivoyage: Thakhek",
@@ -944,7 +944,7 @@
       ],
       "bookable": true,
       "editorialNote": "Links the country's two most-visited towns, with karst scenery continuing most of the way.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "Travelfish: how to get to Vang Vieng",
@@ -971,7 +971,7 @@
       ],
       "bookable": true,
       "editorialNote": "The road ends here; the Nam Ou river takes over for the boat trip north to Muang Ngoi.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "Travelfish: how to get to Nong Khiaw",
@@ -995,7 +995,7 @@
       "bookable": true,
       "reverseBookable": false,
       "editorialNote": "The two-day Mekong slow boat, with a night in Pakbeng. The public boat also sells its tickets at the counter on the Huay Xai pier, and leaves late in the morning.",
-      "verified": "2026-10-25",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/chiang-mai-luang-prabang-bus/",
       "bookingUrl": "https://laosbustickets.com/go/huayxai-luangprabang"
     },
@@ -1016,7 +1016,7 @@
       "bookable": true,
       "direct": true,
       "editorialNote": "Lao Airlines flies the same trip in 40 minutes, once or twice a day.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/phonsavan-bus-tickets/",
       "bookingUrl": "https://laosbustickets.com/go/vientiane-phonsavan",
       "reverseBookingUrl": "https://laosbustickets.com/go/phonsavan-vientiane"
@@ -1036,7 +1036,7 @@
       "bookable": true,
       "direct": true,
       "editorialNote": "Minivans leave early in the morning; there is no direct flight.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/phonsavan-bus-tickets/",
       "bookingUrl": "https://laosbustickets.com/go/luangprabang-phonsavan",
       "reverseBookingUrl": "https://laosbustickets.com/go/phonsavan-luangprabang"
@@ -1052,7 +1052,7 @@
       ],
       "bookable": false,
       "editorialNote": "Not sold online. Coming from Pakse or Thakhek, take the bus towards Vientiane, get off at Pakxan and change to a bus to Xieng Khouang; buy that ticket at the bus station.",
-      "verified": "2026-10-21",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/phonsavan-bus-tickets/"
     },
     {
@@ -1067,7 +1067,7 @@
       ],
       "bookable": false,
       "editorialNote": "Not sold online. A local bus runs between Muang Khua and Điện Biên Phủ through the Pang Hok–Tây Trang crossing; buy the ticket at the bus station, and expect to agree the fare with the driver if the counter is closed.",
-      "verified": "2026-10-16",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "Reddit r/laos (traveller report)",
@@ -1095,7 +1095,7 @@
       "fareNote": "234,000 LAK second class on the slower K11/K12; 330,000 LAK on the faster C85–C96 services",
       "bookable": true,
       "priority": 1,
-      "verified": "2026-10-14",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "The Man in Seat 61",
@@ -1121,7 +1121,7 @@
       "fromLAK": 311950,
       "bookable": true,
       "priority": 1,
-      "verified": "2026-10-14",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "The Man in Seat 61",
@@ -1147,7 +1147,7 @@
       "fromLAK": 321315,
       "bookable": true,
       "priority": 1,
-      "verified": "2026-10-14",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "The Man in Seat 61",
@@ -1172,7 +1172,7 @@
       "durationText": "3 h 6 m – 4 h 59 m",
       "fromLAK": 788371,
       "bookable": true,
-      "verified": "2026-10-14",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "The Man in Seat 61",
@@ -1197,7 +1197,7 @@
       "durationText": "9.5–10 hrs including border formalities",
       "fromLAK": 2478052,
       "bookable": true,
-      "verified": "2026-10-14",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "The Man in Seat 61",
@@ -1359,7 +1359,7 @@
       "fromNote": "from THB 3,941",
       "bookable": true,
       "priority": 1,
-      "verified": "2026-11-01",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/flights-to-laos/",
       "bookingUrl": "https://laosbustickets.com/go/bangkok-vientiane-flight",
       "reverseBookingUrl": "https://laosbustickets.com/go/vientiane-bangkok-flight"
@@ -1372,7 +1372,7 @@
       "fromNote": "from USD 112",
       "bookable": true,
       "priority": 1,
-      "verified": "2026-11-01",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/flights-to-laos/",
       "bookingUrl": "https://laosbustickets.com/go/bangkok-luangprabang-flight",
       "reverseBookingUrl": "https://laosbustickets.com/go/luangprabang-bangkok-flight"
@@ -1384,7 +1384,7 @@
       "durationText": "about 1 h 10 m",
       "fromNote": "from USD 135",
       "bookable": true,
-      "verified": "2026-11-01",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/flights-to-laos/",
       "bookingUrl": "https://laosbustickets.com/go/chiangmai-luangprabang-flight",
       "reverseBookingUrl": "https://laosbustickets.com/go/luangprabang-chiangmai-flight"
@@ -1397,7 +1397,7 @@
       "fromNote": "from USD 129",
       "bookable": true,
       "priority": 1,
-      "verified": "2026-11-01",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/flights-to-laos/",
       "bookingUrl": "https://laosbustickets.com/go/hanoi-vientiane-flight",
       "reverseBookingUrl": "https://laosbustickets.com/go/vientiane-hanoi-flight"
@@ -1409,7 +1409,7 @@
       "durationText": "about 1 h",
       "fromNote": "from USD 125",
       "bookable": true,
-      "verified": "2026-11-01",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/flights-to-laos/",
       "bookingUrl": "https://laosbustickets.com/go/hanoi-luangprabang-flight",
       "reverseBookingUrl": "https://laosbustickets.com/go/luangprabang-hanoi-flight"
@@ -1421,7 +1421,7 @@
       "durationText": "about 2 h",
       "fromNote": "from USD 195",
       "bookable": true,
-      "verified": "2026-11-01",
+      "verified": "2026-11-11",
       "sources": [
         {
           "name": "Vietnam Airlines",
@@ -1437,11 +1437,11 @@
       "name": "Vientiane to Pakse",
       "from": "Vientiane",
       "to": "Pakse",
-      "durationText": "about 1 h 15 m",
+      "durationText": "about 1 h",
       "fromNote": "from USD 93",
       "bookable": true,
       "direct": true,
-      "verified": "2026-11-01",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/flights-to-laos/",
       "bookingUrl": "https://laosbustickets.com/go/vientiane-pakse-flight",
       "reverseBookingUrl": "https://laosbustickets.com/go/pakse-vientiane-flight"
@@ -1454,7 +1454,7 @@
       "fromNote": "from EUR 153",
       "bookable": true,
       "direct": true,
-      "verified": "2026-11-01",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/flights-to-laos/",
       "bookingUrl": "https://laosbustickets.com/go/hochiminhcity-pakse-flight",
       "reverseBookingUrl": "https://laosbustickets.com/go/pakse-hochiminhcity-flight"
@@ -1466,7 +1466,7 @@
       "durationText": "about 1 h 40 m",
       "fromNote": "from USD 208",
       "bookable": true,
-      "verified": "2026-11-01",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/flights-to-laos/",
       "bookingUrl": "https://laosbustickets.com/go/vientiane-phnompenh-flight",
       "reverseBookingUrl": "https://laosbustickets.com/go/phnompenh-vientiane-flight"
@@ -1475,10 +1475,10 @@
       "name": "Pakse to Siem Reap",
       "from": "Pakse",
       "to": "Siem Reap",
-      "durationText": "about 55 min",
-      "fromNote": "from USD 178",
+      "durationText": "about 1 h",
+      "fromNote": "from USD 139",
       "bookable": true,
-      "verified": "2026-11-01",
+      "verified": "2026-11-11",
       "pageUrl": "https://laosbustickets.com/flights-to-laos/",
       "bookingUrl": "https://laosbustickets.com/go/pakse-siemreap-flight",
       "reverseBookingUrl": "https://laosbustickets.com/go/siemreap-pakse-flight"

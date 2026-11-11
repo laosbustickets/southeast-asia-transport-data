@@ -2,7 +2,7 @@
   "name": "Philippines inter-island ferry routes",
   "publisher": "PhilippinesTransport.com",
   "homepage": "https://philippinestransport.com/philippines-transport-map/",
-  "updated": "2026-11-05",
+  "updated": "2026-11-11",
   "license": "ODbL-1.0",
   "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
   "attribution": "Positions © OpenStreetMap contributors (ODbL). Connections: PhilippinesTransport.com.",
@@ -23,7 +23,7 @@
         "2GO Travel"
       ],
       "page": "https://philippinestransport.com/boracay/",
-      "checked": "2026-11-05",
+      "checked": "2026-11-11",
       "sources": [
         {
           "name": "Starlite Ferries (Chelsea)",
@@ -49,7 +49,7 @@
         "2GO Travel"
       ],
       "page": "https://philippinestransport.com/manila/",
-      "checked": "2026-11-05",
+      "checked": "2026-11-11",
       "sources": [
         {
           "name": "2GO Travel",
@@ -71,7 +71,7 @@
         "2GO Travel"
       ],
       "page": "https://philippinestransport.com/manila/",
-      "checked": "2026-11-05",
+      "checked": "2026-11-11",
       "sources": [
         {
           "name": "2GO Travel",
@@ -93,7 +93,7 @@
         "Montenegro Lines"
       ],
       "page": "https://philippinestransport.com/el-nido-to-coron/",
-      "checked": "2026-11-05",
+      "checked": "2026-11-11",
       "sources": [
         {
           "name": "Montenegro Lines",
@@ -116,7 +116,7 @@
         "Island Shipping Corporation"
       ],
       "page": "https://philippinestransport.com/cebu-to-bantayan/",
-      "checked": "2026-11-05",
+      "checked": "2026-11-11",
       "sources": [
         {
           "name": "Super Shuttle Ferry (Asian Marine Transport Corporation)",
@@ -142,7 +142,7 @@
         "Maayo Shipping"
       ],
       "page": "https://philippinestransport.com/cebu/",
-      "checked": "2026-11-05",
+      "checked": "2026-11-11",
       "sources": []
     },
     {
@@ -159,7 +159,7 @@
         "Super Shuttle Ferry (Asian Marine Transport Corporation)"
       ],
       "page": "https://philippinestransport.com/cebu-to-siquijor/",
-      "checked": "2026-11-05",
+      "checked": "2026-11-11",
       "sources": [
         {
           "name": "Super Shuttle Ferry (Asian Marine Transport Corporation)",
@@ -181,7 +181,7 @@
         "OceanJet"
       ],
       "page": "https://philippinestransport.com/cebu-to-bohol/",
-      "checked": "2026-11-05",
+      "checked": "2026-11-11",
       "sources": [
         {
           "name": "OceanJet",
@@ -204,7 +204,7 @@
         "FastCat (Archipelago Philippine Ferries Corporation)"
       ],
       "page": "https://philippinestransport.com/cebu-to-bohol/",
-      "checked": "2026-11-05",
+      "checked": "2026-11-11",
       "sources": [
         {
           "name": "Lite Ferries",
@@ -230,7 +230,7 @@
         "OceanJet"
       ],
       "page": "https://philippinestransport.com/bohol/",
-      "checked": "2026-11-05",
+      "checked": "2026-11-11",
       "sources": [
         {
           "name": "OceanJet",
@@ -252,7 +252,7 @@
         "Lite Ferries"
       ],
       "page": "https://philippinestransport.com/bohol/",
-      "checked": "2026-11-05",
+      "checked": "2026-11-11",
       "sources": [
         {
           "name": "Lite Ferries",
@@ -274,7 +274,7 @@
         "OceanJet"
       ],
       "page": "https://philippinestransport.com/bohol/",
-      "checked": "2026-11-05",
+      "checked": "2026-11-11",
       "sources": [
         {
           "name": "OceanJet",
@@ -296,7 +296,7 @@
         "OceanJet"
       ],
       "page": "https://philippinestransport.com/bohol/",
-      "checked": "2026-11-05",
+      "checked": "2026-11-11",
       "sources": [
         {
           "name": "OceanJet",
@@ -319,7 +319,7 @@
         "OceanJet"
       ],
       "page": "https://philippinestransport.com/siargao/",
-      "checked": "2026-11-05",
+      "checked": "2026-11-11",
       "sources": [
         {
           "name": "Starlite Ferries (Chelsea)",
@@ -345,7 +345,7 @@
         "Evaristo & Sons Sea Transport"
       ],
       "page": "https://philippinestransport.com/surigao-to-siargao/",
-      "checked": "2026-11-05",
+      "checked": "2026-11-11",
       "sources": [
         {
           "name": "Evaristo & Sons Sea Transport",

@@ -1,6 +1,6 @@
 # Laos Bus Tickets, open data
 
-Verified 2026-11-01 (checkpoints.json) and 2026-11-01 (routes.json). The files here are exactly what this site's own pages
+Verified 2026-11-11 (checkpoints.json) and 2026-11-11 (routes.json). The files here are exactly what this site's own pages
 are generated from, republished as-is so they can be linked to, diffed over time, or
 used directly rather than scraped. Both JSON files carry schema.org Dataset markup on
 their own canonical page (/laos-border-checkpoints/ and /routes/ respectively), and
@@ -33,7 +33,7 @@ Licence: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Please credit
 "Laos Bus Tickets (laosbustickets.com)" and link to the canonical page:
 https://laosbustickets.com/laos-border-checkpoints/ for checkpoints.json, or
 https://laosbustickets.com/routes/ for routes.json. Suggested citation:
-Laos Bus Tickets, "Laos Border Checkpoints Register", verified 2026-11-01,
+Laos Bus Tickets, "Laos Border Checkpoints Register", verified 2026-11-11,
 https://laosbustickets.com/laos-border-checkpoints/.
 In routes.json, bookingUrl and reverseBookingUrl are this site's own booking redirects
 (affiliate links; see https://laosbustickets.com/affiliate-disclosure/), and every
