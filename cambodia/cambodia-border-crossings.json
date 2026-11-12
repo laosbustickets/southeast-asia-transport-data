@@ -2,7 +2,7 @@
   "name": "Cambodia border crossings",
   "publisher": "CambodiaTransportGuide.com",
   "homepage": "https://cambodiatransportguide.com/cambodia-transport-map/",
-  "updated": "2026-11-04",
+  "updated": "2026-11-12",
   "license": "ODbL-1.0",
   "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
   "attribution": "Positions © OpenStreetMap contributors (ODbL). Status and e-visa fields: CambodiaTransportGuide.com from the sources listed per crossing.",
@@ -18,7 +18,7 @@
       "position": "relation/6923723 (border_control)",
       "status": "open",
       "cambodianEvisaForEntry": true,
-      "checked": "2026-11-04",
+      "checked": "2026-11-12",
       "sources": [
         {
           "name": "Cambodia Ministry of Foreign Affairs: e-Visa entry ports",
@@ -37,7 +37,7 @@
       "position": "way/251721577 (Ha Tien international gate)",
       "status": "open",
       "cambodianEvisaForEntry": false,
-      "checked": "2026-11-04",
+      "checked": "2026-11-12",
       "sources": [
         {
           "name": "Cambodia Ministry of Foreign Affairs: e-Visa entry ports",
@@ -56,7 +56,7 @@
       "position": "way/1100970581 (Tinh Bien gate)",
       "status": "open",
       "cambodianEvisaForEntry": false,
-      "checked": "2026-11-04",
+      "checked": "2026-11-12",
       "sources": [
         {
           "name": "Cambodia Ministry of Foreign Affairs: e-Visa entry ports",
@@ -75,7 +75,7 @@
       "position": "node/7004450185 (named for the gate; approximate)",
       "status": "open",
       "cambodianEvisaForEntry": false,
-      "checked": "2026-11-04",
+      "checked": "2026-11-12",
       "sources": [
         {
           "name": "Cambodia Ministry of Foreign Affairs: e-Visa entry ports",
@@ -94,7 +94,7 @@
       "position": "LaosBusTickets checkpoints.json (satellite-checked)",
       "status": "open",
       "cambodianEvisaForEntry": true,
-      "checked": "2026-11-04",
+      "checked": "2026-11-12",
       "sources": [
         {
           "name": "Cambodia Ministry of Foreign Affairs: e-Visa entry ports",
@@ -118,7 +118,7 @@
       "position": "relation/10704749 (Khlong Luek checkpoint)",
       "status": "suspended",
       "cambodianEvisaForEntry": false,
-      "checked": "2026-11-04",
+      "checked": "2026-11-12",
       "sources": [
         {
           "name": "UK FCDO: Cambodia travel advice",
@@ -147,7 +147,7 @@
       "position": "way/1565355210 (Khlong Yai checkpoint)",
       "status": "suspended",
       "cambodianEvisaForEntry": false,
-      "checked": "2026-11-04",
+      "checked": "2026-11-12",
       "sources": [
         {
           "name": "UK FCDO: Cambodia travel advice",
