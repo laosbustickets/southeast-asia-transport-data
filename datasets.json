@@ -222,6 +222,10 @@
       "siteName": "Indonesia Transport",
       "dataPage": "https://indonesiatransport.com/indonesia-transport-map/#data-desk",
       "license": "ODbL 1.0 (data files), CC BY 4.0 (map images)",
+      "zenodo": {
+        "recordId": "24192837",
+        "conceptDoi": "10.5281/zenodo.24192836"
+      },
       "files": [
         {
           "key": "indonesia-transport-routes.csv",
