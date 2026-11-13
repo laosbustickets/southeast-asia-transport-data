@@ -1,0 +1,326 @@
+{
+  "name": "Indonesia transit places",
+  "publisher": "IndonesiaTransport.com",
+  "homepage": "https://indonesiatransport.com/indonesia-transport-map/",
+  "updated": "2026-11-13",
+  "license": "ODbL-1.0",
+  "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution": "Positions © OpenStreetMap contributors (ODbL). Connections: IndonesiaTransport.com.",
+  "places": [
+    {
+      "id": "jakarta",
+      "name": "Jakarta",
+      "kind": "town",
+      "lat": -6.1754,
+      "lon": 106.82717,
+      "position": "node/29939632",
+      "wikidata": "Q3630"
+    },
+    {
+      "id": "bandung",
+      "name": "Bandung",
+      "kind": "town",
+      "lat": -6.92185,
+      "lon": 107.60708,
+      "position": "node/264158895",
+      "wikidata": null
+    },
+    {
+      "id": "yogyakarta",
+      "name": "Yogyakarta",
+      "kind": "town",
+      "lat": -7.80135,
+      "lon": 110.36474,
+      "position": "node/1390375711",
+      "wikidata": null
+    },
+    {
+      "id": "semarang",
+      "name": "Semarang",
+      "kind": "town",
+      "lat": -6.9904,
+      "lon": 110.42291,
+      "position": "node/256555232",
+      "wikidata": null
+    },
+    {
+      "id": "surabaya",
+      "name": "Surabaya",
+      "kind": "town",
+      "lat": -7.26532,
+      "lon": 112.75221,
+      "position": "node/7991949185",
+      "wikidata": null
+    },
+    {
+      "id": "solo",
+      "name": "Solo",
+      "kind": "town",
+      "lat": -7.56925,
+      "lon": 110.82845,
+      "position": "node/260119406",
+      "wikidata": null
+    },
+    {
+      "id": "malang",
+      "name": "Malang",
+      "kind": "town",
+      "lat": -7.97713,
+      "lon": 112.63403,
+      "position": "node/2518173352",
+      "wikidata": null
+    },
+    {
+      "id": "probolinggo",
+      "name": "Probolinggo",
+      "kind": "town",
+      "lat": -7.74415,
+      "lon": 113.21584,
+      "position": "node/269588616",
+      "wikidata": null
+    },
+    {
+      "id": "denpasar",
+      "name": "Denpasar",
+      "kind": "town",
+      "lat": -8.66533,
+      "lon": 115.21762,
+      "position": "node/274113797",
+      "wikidata": null
+    },
+    {
+      "id": "mataram",
+      "name": "Mataram",
+      "kind": "town",
+      "lat": -8.58377,
+      "lon": 116.10685,
+      "position": "node/413451054",
+      "wikidata": null
+    },
+    {
+      "id": "labuan-bajo",
+      "name": "Labuan Bajo",
+      "kind": "town",
+      "lat": -8.49595,
+      "lon": 119.89356,
+      "position": "node/1271856012",
+      "wikidata": null
+    },
+    {
+      "id": "padang-bai",
+      "name": "Padang Bai",
+      "kind": "ferry-port",
+      "lat": -8.53388,
+      "lon": 115.50894,
+      "position": "node/1668113859",
+      "wikidata": null
+    },
+    {
+      "id": "lembar",
+      "name": "Lembar",
+      "kind": "ferry-port",
+      "lat": -8.73,
+      "lon": 116.07709,
+      "position": "node/1415931301",
+      "wikidata": null
+    },
+    {
+      "id": "ketapang",
+      "name": "Ketapang",
+      "kind": "ferry-port",
+      "lat": -8.14595,
+      "lon": 114.4015,
+      "position": "node/457736527",
+      "wikidata": null
+    },
+    {
+      "id": "gilimanuk",
+      "name": "Gilimanuk",
+      "kind": "ferry-port",
+      "lat": -8.162,
+      "lon": 114.43615,
+      "position": "way/247742372",
+      "wikidata": null
+    },
+    {
+      "id": "gili-air",
+      "name": "Gili Air",
+      "kind": "ferry-port",
+      "lat": -8.36418,
+      "lon": 116.08295,
+      "position": "node/5539123556",
+      "wikidata": null
+    },
+    {
+      "id": "gili-trawangan",
+      "name": "Gili Trawangan",
+      "kind": "ferry-port",
+      "lat": -8.35463,
+      "lon": 116.04385,
+      "position": "node/1443522675",
+      "wikidata": null
+    },
+    {
+      "id": "senggigi",
+      "name": "Senggigi",
+      "kind": "ferry-port",
+      "lat": -8.49864,
+      "lon": 116.04478,
+      "position": "node/5684266592",
+      "wikidata": null
+    },
+    {
+      "id": "bangsal",
+      "name": "Bangsal",
+      "kind": "ferry-port",
+      "lat": -8.39358,
+      "lon": 116.10038,
+      "position": "node/2905365290",
+      "wikidata": null
+    },
+    {
+      "id": "nusa-penida",
+      "name": "Nusa Penida",
+      "kind": "ferry-port",
+      "lat": -8.67963,
+      "lon": 115.48743,
+      "position": "node/4614809699",
+      "wikidata": null
+    },
+    {
+      "id": "sanur",
+      "name": "Sanur",
+      "kind": "ferry-port",
+      "lat": -8.69465,
+      "lon": 115.26058,
+      "position": "node/274116432",
+      "wikidata": null
+    },
+    {
+      "id": "kayangan",
+      "name": "Kayangan",
+      "kind": "ferry-port",
+      "lat": -8.48839,
+      "lon": 116.67493,
+      "position": "node/413468959",
+      "wikidata": null
+    },
+    {
+      "id": "poto-tano",
+      "name": "Poto Tano",
+      "kind": "ferry-port",
+      "lat": -8.52162,
+      "lon": 116.83077,
+      "position": "way/611450663",
+      "wikidata": null
+    },
+    {
+      "id": "sape",
+      "name": "Sape",
+      "kind": "ferry-port",
+      "lat": -8.57257,
+      "lon": 119.02178,
+      "position": "node/1818583252",
+      "wikidata": null
+    },
+    {
+      "id": "labuan-bajo",
+      "name": "Labuan Bajo",
+      "kind": "ferry-port",
+      "lat": -8.49364,
+      "lon": 119.87536,
+      "position": "node/3335120748",
+      "wikidata": null
+    },
+    {
+      "id": "soekarno-hatta",
+      "name": "CGK",
+      "kind": "airport",
+      "iata": "CGK",
+      "lat": -6.12388,
+      "lon": 106.6576,
+      "position": "relation/19104217",
+      "wikidata": null
+    },
+    {
+      "id": "halim",
+      "name": "HLP",
+      "kind": "airport",
+      "iata": "HLP",
+      "lat": -6.26302,
+      "lon": 106.89108,
+      "position": "way/155963037",
+      "wikidata": null
+    },
+    {
+      "id": "ngurah-rai",
+      "name": "DPS",
+      "kind": "airport",
+      "iata": "DPS",
+      "lat": -8.74658,
+      "lon": 115.16735,
+      "position": "way/82162575",
+      "wikidata": null
+    },
+    {
+      "id": "lombok",
+      "name": "LOP",
+      "kind": "airport",
+      "iata": "LOP",
+      "lat": -8.75913,
+      "lon": 116.27769,
+      "position": "way/404339178",
+      "wikidata": null
+    },
+    {
+      "id": "komodo",
+      "name": "LBJ",
+      "kind": "airport",
+      "iata": "LBJ",
+      "lat": -8.48072,
+      "lon": 119.88845,
+      "position": "way/449593745",
+      "wikidata": null
+    },
+    {
+      "id": "yogyakarta-yia",
+      "name": "YIA",
+      "kind": "airport",
+      "iata": "YIA",
+      "lat": -7.90054,
+      "lon": 110.05756,
+      "position": "way/544170813",
+      "wikidata": null
+    },
+    {
+      "id": "juanda",
+      "name": "SUB",
+      "kind": "airport",
+      "iata": "SUB",
+      "lat": -7.38073,
+      "lon": 112.78519,
+      "position": "way/312366913",
+      "wikidata": null
+    },
+    {
+      "id": "banyuwangi",
+      "name": "BWX",
+      "kind": "airport",
+      "iata": "BWX",
+      "lat": -8.31025,
+      "lon": 114.34018,
+      "position": "way/896377208",
+      "wikidata": null
+    },
+    {
+      "id": "ahmad-yani",
+      "name": "SRG",
+      "kind": "airport",
+      "iata": "SRG",
+      "lat": -6.97162,
+      "lon": 110.37209,
+      "position": "relation/20438368",
+      "wikidata": null
+    }
+  ]
+}
