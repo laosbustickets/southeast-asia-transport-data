@@ -18,6 +18,7 @@ tags:
 - vietnam
 - cambodia
 - philippines
+- indonesia
 - southeast-asia
 - transport
 - border-crossings
@@ -41,12 +42,16 @@ configs:
   data_files: philippines/philippines-ferry-routes.csv
 - config_name: philippines_places
   data_files: philippines/philippines-transit-places.csv
+- config_name: indonesia_routes
+  data_files: indonesia/indonesia-transport-routes.csv
+- config_name: indonesia_places
+  data_files: indonesia/indonesia-transit-places.csv
 ---
 
 # Southeast Asia Transport Data
 
-Open data from five independent travel guides to Southeast Asia (Laos, Thailand, Vietnam, Cambodia
-and the Philippines): border crossings with their visa status and sources, routes and timetables,
+Open data from six independent travel guides to Southeast Asia (Laos, Thailand, Vietnam, Cambodia,
+the Philippines and Indonesia): border crossings with their visa status and sources, routes and timetables,
 inter-island ferry routes, and each country's transport map as data
 and as images in eight languages. **Each website is the original source**; this repository is a
 copy, synced every night by a GitHub Action, and mirrored to
@@ -61,6 +66,7 @@ If a copy and its website ever differ, trust the website, and cite its pages.
 | `vietnam/` | [Vietnam Transport Guide](https://vietnamtransportguide.com/about/#open-data) | Land border crossings with China, Laos and Cambodia (CSV, JSON), map GeoJSON, transport map (SVG) | ODbL 1.0 | [10.5281/zenodo.23751898](https://doi.org/10.5281/zenodo.23751898) |
 | `cambodia/` | [Cambodia Transport Guide](https://cambodiatransportguide.com/about/#open-data) | Border crossings with Vietnam, Laos and Thailand (CSV, JSON), map GeoJSON, transport map (SVG) | ODbL 1.0 | [10.5281/zenodo.23751900](https://doi.org/10.5281/zenodo.23751900) |
 | `philippines/` | [Philippines Transport](https://philippinestransport.com/about/#open-data) | Inter-island ferry routes, port to port (CSV, JSON), ports, towns and airports with coordinates (CSV, JSON, GeoJSON with the bus and ferry lines), transport map (SVG) | ODbL 1.0 (data), CC BY 4.0 (map images) | [10.5281/zenodo.23830271](https://doi.org/10.5281/zenodo.23830271) |
+| `indonesia/` | [Indonesia Transport](https://indonesiatransport.com/indonesia-transport-map/#data-desk) | Train, ferry and fast-boat routes (CSV, JSON), towns, ports, stations and airports with coordinates (CSV, JSON, GeoJSON), transport map (SVG) | ODbL 1.0 (data), CC BY 4.0 (map images) | first version to come |
 
 Map images sit in each country's `maps/` folder, one per language (en, fr, de, es, ja, ko, ru,
 zh). `datasets.json` lists every file with the address it is copied from.
@@ -88,6 +94,9 @@ All the sites' collection: [Southeast Asia Transport Open Data on Zenodo](https:
 - **Philippines**: data files under the [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/),
   positions © OpenStreetMap contributors; map images under CC BY 4.0. Credit "Philippines Transport
   (philippinestransport.com)".
+- **Indonesia**: data files under the [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/),
+  positions © OpenStreetMap contributors; map images under CC BY 4.0. Credit "Indonesia Transport
+  (indonesiatransport.com)".
 
 ## Citation
 
