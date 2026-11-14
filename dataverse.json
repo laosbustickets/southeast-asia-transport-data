@@ -1,0 +1,131 @@
+{
+  "note": "Harvard Dataverse copies (owner, 14 Nov 2026). scripts/dataverse.mjs creates the collection and one dataset per country on its first run, then publishes a new version when a file on the website changed. Datasets are found by title in the collection, so a title here never changes once published.",
+  "server": "https://dataverse.harvard.edu",
+  "parent": "harvard",
+  "collection": {
+    "alias": "southeast-asia-transport",
+    "name": "Southeast Asia Transport Data",
+    "affiliation": "Independent travel guides",
+    "contactEmail": "contact@laosbustickets.com",
+    "description": "Open data behind six independent travel guides to Laos, Thailand, Vietnam, Cambodia, the Philippines and Indonesia: border crossings and checkpoints, bus, train and ferry routes, transit places and transport maps in eight languages. Each dataset is copied from its website, where the newest files always live."
+  },
+  "datasets": {
+    "laos": {
+      "title": "Laos Border Checkpoints, Routes and Transport Map (LaosBusTickets)",
+      "keywords": [
+        "Laos",
+        "border crossing",
+        "border checkpoint",
+        "visa on arrival",
+        "eVisa",
+        "bus routes",
+        "Laos–China Railway",
+        "train timetable",
+        "transport map",
+        "Southeast Asia",
+        "travel",
+        "open data"
+      ]
+    },
+    "thailand": {
+      "title": "Thailand Transport Map: Places, Corridors and Border Crossings (Thailand Transport Hub)",
+      "keywords": [
+        "Thailand",
+        "transport map",
+        "border crossing",
+        "railway",
+        "ferry",
+        "airports",
+        "islands",
+        "Bangkok",
+        "Laos",
+        "Cambodia",
+        "Malaysia",
+        "Southeast Asia",
+        "travel",
+        "open data",
+        "GeoJSON"
+      ]
+    },
+    "vietnam": {
+      "title": "Vietnam Border Crossings and Transport Map (VietnamTransportGuide)",
+      "keywords": [
+        "Vietnam",
+        "border crossing",
+        "e-visa",
+        "land border",
+        "China",
+        "Laos",
+        "Cambodia",
+        "railway",
+        "transport map",
+        "Southeast Asia",
+        "travel",
+        "open data",
+        "GeoJSON",
+        "CSV"
+      ]
+    },
+    "cambodia": {
+      "title": "Cambodia Border Crossings and Transport Map (CambodiaTransportGuide)",
+      "keywords": [
+        "Cambodia",
+        "border crossing",
+        "e-visa",
+        "Phnom Penh",
+        "Siem Reap",
+        "Vietnam",
+        "Laos",
+        "Thailand",
+        "ferry",
+        "transport map",
+        "Southeast Asia",
+        "travel",
+        "open data",
+        "GeoJSON",
+        "CSV"
+      ]
+    },
+    "philippines": {
+      "title": "Philippines Ferry Routes, Ports and Transport Map (PhilippinesTransport)",
+      "keywords": [
+        "Philippines",
+        "ferry routes",
+        "island hopping",
+        "ports",
+        "airports",
+        "bus",
+        "Cebu",
+        "Bohol",
+        "Palawan",
+        "Boracay",
+        "Siargao",
+        "transport map",
+        "Southeast Asia",
+        "travel",
+        "open data",
+        "GeoJSON",
+        "CSV"
+      ]
+    },
+    "indonesia": {
+      "title": "Indonesia Transport Routes, Ports and Transport Map (IndonesiaTransport)",
+      "keywords": [
+        "Indonesia",
+        "Bali",
+        "Lombok",
+        "Gili Islands",
+        "Java",
+        "fast boats",
+        "car ferries",
+        "railway",
+        "ports",
+        "airports",
+        "transport map",
+        "Southeast Asia",
+        "GeoJSON",
+        "OpenStreetMap"
+      ]
+    }
+  }
+}
