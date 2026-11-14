@@ -59,14 +59,14 @@ copy, synced every night by a GitHub Action, and mirrored to
 [Kaggle](https://www.kaggle.com/datasets/seatransport/southeast-asia-transport-data) (refreshed daily from here).
 If a copy and its website ever differ, trust the website, and cite its pages.
 
-| Folder | Website | Files | Licence | Archived on Zenodo (all versions) |
-|---|---|---|---|---|
-| `laos/` | [Laos Bus Tickets](https://laosbustickets.com/sources/#open-data) | Border checkpoints register and bus, train and flight routes (JSON, CSV), Laos–China Railway timetable (next 7 days), transport map (SVG) | CC BY 4.0 | [10.5281/zenodo.23751855](https://doi.org/10.5281/zenodo.23751855) |
-| `thailand/` | [Thailand Transport Hub](https://thailandtransporthub.com/about/#open-data) | Places with coordinates (CSV, JSON, GeoJSON), rail, road and ferry corridors, transport map (SVG, PNG) | ODbL 1.0 (data), CC BY 4.0 (map images) | [10.5281/zenodo.23751896](https://doi.org/10.5281/zenodo.23751896) |
-| `vietnam/` | [Vietnam Transport Guide](https://vietnamtransportguide.com/about/#open-data) | Land border crossings with China, Laos and Cambodia (CSV, JSON), map GeoJSON, transport map (SVG) | ODbL 1.0 | [10.5281/zenodo.23751898](https://doi.org/10.5281/zenodo.23751898) |
-| `cambodia/` | [Cambodia Transport Guide](https://cambodiatransportguide.com/about/#open-data) | Border crossings with Vietnam, Laos and Thailand (CSV, JSON), map GeoJSON, transport map (SVG) | ODbL 1.0 | [10.5281/zenodo.23751900](https://doi.org/10.5281/zenodo.23751900) |
-| `philippines/` | [Philippines Transport](https://philippinestransport.com/about/#open-data) | Inter-island ferry routes, port to port (CSV, JSON), ports, towns and airports with coordinates (CSV, JSON, GeoJSON with the bus and ferry lines), transport map (SVG) | ODbL 1.0 (data), CC BY 4.0 (map images) | [10.5281/zenodo.23830271](https://doi.org/10.5281/zenodo.23830271) |
-| `indonesia/` | [Indonesia Transport](https://indonesiatransport.com/indonesia-transport-map/#data-desk) | Train, ferry and fast-boat routes (CSV, JSON), towns, ports, stations and airports with coordinates (CSV, JSON, GeoJSON), transport map (SVG) | ODbL 1.0 (data), CC BY 4.0 (map images) | [10.5281/zenodo.24192836](https://doi.org/10.5281/zenodo.24192836) |
+| Folder | Website | Files | Licence | Archived on Zenodo (all versions) | Harvard Dataverse |
+|---|---|---|---|---|---|
+| `laos/` | [Laos Bus Tickets](https://laosbustickets.com/sources/#open-data) | Border checkpoints register and bus, train and flight routes (JSON, CSV), Laos–China Railway timetable (next 7 days), transport map (SVG) | CC BY 4.0 | [10.5281/zenodo.23751855](https://doi.org/10.5281/zenodo.23751855) | [10.7910/DVN/SMS3IB](https://doi.org/10.7910/DVN/SMS3IB) |
+| `thailand/` | [Thailand Transport Hub](https://thailandtransporthub.com/about/#open-data) | Places with coordinates (CSV, JSON, GeoJSON), rail, road and ferry corridors, transport map (SVG, PNG) | ODbL 1.0 (data), CC BY 4.0 (map images) | [10.5281/zenodo.23751896](https://doi.org/10.5281/zenodo.23751896) | [10.7910/DVN/O83O47](https://doi.org/10.7910/DVN/O83O47) |
+| `vietnam/` | [Vietnam Transport Guide](https://vietnamtransportguide.com/about/#open-data) | Land border crossings with China, Laos and Cambodia (CSV, JSON), map GeoJSON, transport map (SVG) | ODbL 1.0 | [10.5281/zenodo.23751898](https://doi.org/10.5281/zenodo.23751898) | [10.7910/DVN/PWPXB7](https://doi.org/10.7910/DVN/PWPXB7) |
+| `cambodia/` | [Cambodia Transport Guide](https://cambodiatransportguide.com/about/#open-data) | Border crossings with Vietnam, Laos and Thailand (CSV, JSON), map GeoJSON, transport map (SVG) | ODbL 1.0 | [10.5281/zenodo.23751900](https://doi.org/10.5281/zenodo.23751900) | [10.7910/DVN/FTWHFF](https://doi.org/10.7910/DVN/FTWHFF) |
+| `philippines/` | [Philippines Transport](https://philippinestransport.com/about/#open-data) | Inter-island ferry routes, port to port (CSV, JSON), ports, towns and airports with coordinates (CSV, JSON, GeoJSON with the bus and ferry lines), transport map (SVG) | ODbL 1.0 (data), CC BY 4.0 (map images) | [10.5281/zenodo.23830271](https://doi.org/10.5281/zenodo.23830271) | [10.7910/DVN/JFGSYE](https://doi.org/10.7910/DVN/JFGSYE) |
+| `indonesia/` | [Indonesia Transport](https://indonesiatransport.com/indonesia-transport-map/#data-desk) | Train, ferry and fast-boat routes (CSV, JSON), towns, ports, stations and airports with coordinates (CSV, JSON, GeoJSON), transport map (SVG) | ODbL 1.0 (data), CC BY 4.0 (map images) | [10.5281/zenodo.24192836](https://doi.org/10.5281/zenodo.24192836) | [10.7910/DVN/1EU33Q](https://doi.org/10.7910/DVN/1EU33Q) |
 
 Map images sit in each country's `maps/` folder, one per language (en, fr, de, es, ja, ko, ru,
 zh). `datasets.json` lists every file with the address it is copied from.
@@ -78,6 +78,9 @@ zh). `datasets.json` lists every file with the address it is copied from.
 - **Every Saturday** (04:17 UTC): a new Zenodo version is archived for each country whose files
   changed that week. The Laos train timetable changes every morning and is archived with each
   new version, but never triggers one on its own.
+- **Every Saturday** (04:47 UTC): the same check for Harvard Dataverse, where each country has a
+  dataset in the [Southeast Asia Transport Data](https://dataverse.harvard.edu/dataverse/southeast-asia-transport)
+  collection; a new version is published only when a file changed.
 
 All the sites' collection: [Southeast Asia Transport Open Data on Zenodo](https://zenodo.org/communities/sea-transport-open-data/).
 

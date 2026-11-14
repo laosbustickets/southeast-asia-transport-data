@@ -25,7 +25,8 @@
         "Southeast Asia",
         "travel",
         "open data"
-      ]
+      ],
+      "doi": "10.7910/DVN/SMS3IB"
     },
     "thailand": {
       "title": "Thailand Transport Map: Places, Corridors and Border Crossings (Thailand Transport Hub)",
@@ -45,7 +46,8 @@
         "travel",
         "open data",
         "GeoJSON"
-      ]
+      ],
+      "doi": "10.7910/DVN/O83O47"
     },
     "vietnam": {
       "title": "Vietnam Border Crossings and Transport Map (VietnamTransportGuide)",
@@ -64,7 +66,8 @@
         "open data",
         "GeoJSON",
         "CSV"
-      ]
+      ],
+      "doi": "10.7910/DVN/PWPXB7"
     },
     "cambodia": {
       "title": "Cambodia Border Crossings and Transport Map (CambodiaTransportGuide)",
@@ -84,7 +87,8 @@
         "open data",
         "GeoJSON",
         "CSV"
-      ]
+      ],
+      "doi": "10.7910/DVN/FTWHFF"
     },
     "philippines": {
       "title": "Philippines Ferry Routes, Ports and Transport Map (PhilippinesTransport)",
@@ -106,7 +110,8 @@
         "open data",
         "GeoJSON",
         "CSV"
-      ]
+      ],
+      "doi": "10.7910/DVN/JFGSYE"
     },
     "indonesia": {
       "title": "Indonesia Transport Routes, Ports and Transport Map (IndonesiaTransport)",
@@ -125,7 +130,8 @@
         "Southeast Asia",
         "GeoJSON",
         "OpenStreetMap"
-      ]
+      ],
+      "doi": "10.7910/DVN/1EU33Q"
     }
   }
 }
