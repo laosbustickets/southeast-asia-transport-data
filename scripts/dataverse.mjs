@@ -7,6 +7,7 @@
 import { createHash } from 'node:crypto';
 import { appendFileSync, readFileSync } from 'node:fs';
 import { loadManifest, download } from './manifest.mjs';
+import { pacer } from './pace.mjs';
 
 const cfg = JSON.parse(readFileSync(new URL('../dataverse.json', import.meta.url), 'utf8'));
 const API = cfg.server + '/api';
@@ -16,6 +17,8 @@ const log = [];
 const say = (s) => { console.log(s); log.push(s); };
 const md5 = (buf) => createHash('md5').update(buf).digest('hex');
 const sleep = (ms) => new Promise((ok) => setTimeout(ok, ms));
+/* Paced (owner, 15 Nov 2026: "pace the uploads (for all platforms)"): one request every 500 ms, retries on 429 and 5xx. */
+const dfetch = pacer(500, { label: 'dataverse' });
 if (!TOKEN && !DRY) throw new Error('DATAVERSE_TOKEN is not set (or run with DRY_RUN=1).');
 
 async function api(method, path, body) {
@@ -23,7 +26,7 @@ async function api(method, path, body) {
   if (TOKEN) headers['X-Dataverse-key'] = TOKEN;
   let payload = body;
   if (body !== undefined && !(body instanceof FormData)) { headers['Content-Type'] = 'application/json'; payload = JSON.stringify(body); }
-  const r = await fetch(API + path, { method, headers, body: payload });
+  const r = await dfetch(API + path, { method, headers, body: payload });
   const text = await r.text();
   let json; try { json = JSON.parse(text); } catch { json = text; }
   if (!r.ok) { const e = new Error(`${method} ${path.split('?')[0]}: HTTP ${r.status} ${(typeof json === 'string' ? json : JSON.stringify(json)).slice(0, 300)}`); e.status = r.status; throw e; }
