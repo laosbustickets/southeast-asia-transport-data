@@ -5,6 +5,7 @@
 import { createHash } from 'node:crypto';
 import { appendFileSync } from 'node:fs';
 import { loadManifest, download } from './manifest.mjs';
+import { pacer } from './pace.mjs';
 
 const API = 'https://zenodo.org/api';
 const TOKEN = process.env.ZENODO_TOKEN;
@@ -13,6 +14,10 @@ const today = new Date().toISOString().slice(0, 10);
 const log = [];
 const say = (s) => { console.log(s); log.push(s); };
 
+/* Zenodo allows 133 requests a minute per token (HTTP 429 beyond it; the 14 Nov 2026 run failed for the
+   Philippines mid-upload and for Indonesia at its first call): one request every 600 ms, retries in pace.mjs. */
+const zfetch = pacer(600, { label: 'zenodo' });
+
 async function api(method, path, body, type = 'application/json') {
   /* Zenodo turns away requests without a User-Agent (HTTP 403). */
   /* Record and draft endpoints answer in the InvenioRDM format; file endpoints only in plain JSON. */
@@ -20,7 +25,7 @@ async function api(method, path, body, type = 'application/json') {
   const headers = { Accept: accept, 'User-Agent': 'southeast-asia-transport-data (+https://github.com/laosbustickets/southeast-asia-transport-data)' };
   if (TOKEN) headers.Authorization = `Bearer ${TOKEN}`;
   if (body !== undefined) headers['Content-Type'] = type;
-  const r = await fetch(API + path, { method, headers, body: body === undefined ? undefined : type === 'application/json' ? JSON.stringify(body) : body });
+  const r = await zfetch(API + path, { method, headers, body: body === undefined ? undefined : type === 'application/json' ? JSON.stringify(body) : body });
   const text = await r.text();
   const json = text ? (() => { try { return JSON.parse(text); } catch { return text; } })() : null;
   if (!r.ok) throw new Error(`${method} ${path}: HTTP ${r.status} ${typeof json === 'string' ? json.slice(0, 300) : JSON.stringify(json).slice(0, 300)}`);
