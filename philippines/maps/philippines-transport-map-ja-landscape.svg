@@ -137,7 +137,7 @@
 <text x="812" y="52" font-size="15.5" font-weight="700" fill="#14243A">philippinestransport<tspan fill="#004B87">.com</tspan></text>
 <text x="772" y="102" font-size="30" font-weight="700" letter-spacing="-0.3" fill="#14243A">フィリピン交通マップ</text>
 <text x="772" y="137.6" font-size="14.5" font-weight="400" fill="#4B5C70">主要な島を結ぶフェリー・バスと空港</text>
-<text x="772" y="167.9" font-size="10" font-weight="700" letter-spacing="1.4" fill="#6A798B">更新<tspan dx="8" font-size="16" letter-spacing="0" fill="#14243A">2026年11月11日</tspan></text>
+<text x="772" y="167.9" font-size="10" font-weight="700" letter-spacing="1.4" fill="#6A798B">更新<tspan dx="8" font-size="16" letter-spacing="0" fill="#14243A">2026年11月14日</tspan></text>
 <line x1="772" y1="185.9" x2="1072" y2="185.9" stroke="#DFE5EC" stroke-width="1"/>
 <rect data-role="pill" x="772" y="193.6" width="49.9" height="24.3" rx="12.2" fill="#14243A"/><text x="782" y="211.2" font-size="14.3" font-weight="700" letter-spacing="1.3" fill="#FFFFFF">凡例</text>
 <line x1="772" y1="236.1" x2="802" y2="236.1" stroke="#1B2A44" stroke-width="4" stroke-linecap="round"/>
