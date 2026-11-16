@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sea-transport-data"
+version = "0.0.0"
+description = "Open transport data for Laos, Thailand, Vietnam, Cambodia, the Philippines and Indonesia: border crossings, routes, ferry routes, timetables and transport-map places as JSON, CSV and GeoJSON."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "CC-BY-4.0 AND ODbL-1.0"
+authors = [{ name = "Southeast Asia Transport" }]
+keywords = ["southeast asia", "laos", "thailand", "vietnam", "cambodia", "philippines", "indonesia", "transport", "border crossings", "ferries", "open data", "geojson"]
+classifiers = [
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: GIS",
+  "Topic :: Database",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/laosbustickets/southeast-asia-transport-data"
+Source = "https://github.com/laosbustickets/southeast-asia-transport-data/tree/main/packages/python"
+Zenodo = "https://zenodo.org/communities/sea-transport-open-data/"
+"Hugging Face" = "https://huggingface.co/datasets/laosbustickets/southeast-asia-transport-data"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/sea_transport_data"]
+
+[tool.hatch.build.targets.sdist]
+include = ["src/sea_transport_data", "README.md", "pyproject.toml"]
