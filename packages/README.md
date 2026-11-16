@@ -5,9 +5,8 @@ visa status and sources, bus, train and ferry routes, the Laos train timetable, 
 transport map. Each country's files come from an independent travel guide that publishes and maintains them; the
 guide's website is the original source.
 
-The same package is on npm (`@seatransport/data`) and PyPI (`sea-transport-data`). A new version is published
-automatically when the data changes (checked every Saturday), and `loadLatest` / `load_latest` read the current copy
-from GitHub, which is synced from the websites every night.
+A new version of `@seatransport/data` is published automatically when the data changes (checked every Saturday), and
+`loadLatest` reads the current copy from GitHub, which is synced from the websites every night.
 
 ## Countries and files
 
@@ -39,23 +38,8 @@ path('vietnam', 'vietnam-transport-map.geo.json');               // absolute pat
 const today = await loadLatest('laos', 'laos-train-timetable.json'); // current copy from GitHub
 ```
 
-CommonJS works too: `const sea = require('@seatransport/data')`.
-
-## Python (3.9+)
-
-```sh
-pip install sea-transport-data
-```
-
-```python
-import sea_transport_data as sea
-import pandas as pd
-
-sea.countries()
-checkpoints = sea.load("laos", "checkpoints.json")                          # parsed JSON
-routes = pd.read_csv(sea.path("indonesia", "indonesia-transport-routes.csv"))
-timetable = sea.load_latest("laos", "laos-train-timetable.json")            # current copy from GitHub
-```
+CommonJS works too: `const sea = require('@seatransport/data')`. From Python or any other language, read the same
+files from the GitHub repository below or its [Hugging Face copy](https://huggingface.co/datasets/laosbustickets/southeast-asia-transport-data).
 
 ## Credit
 
