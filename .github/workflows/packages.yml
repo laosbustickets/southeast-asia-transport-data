@@ -1,9 +1,9 @@
 name: Publish the npm and PyPI packages
 
 # Saturdays after the Zenodo run: publish @seatransport/data (npm) and sea-transport-data (PyPI), versioned
-# YYYY.M.D, to each registry whose last version has older data (packages/state.mjs). Setup: secret NPM_TOKEN;
-# PyPI trusted publisher (workflow packages.yml, environment pypi) and variable PYPI_TRUSTED=true.
-# A registry not set up is skipped. Manual runs default to a dry run.
+# YYYY.M.D, to each registry whose last version has older data (packages/state.mjs). Setup: packages/SETUP.md
+# (npm: secret NPM_TOKEN, later trusted publishing with variable NPM_TRUSTED=true; PyPI: trusted publisher and
+# variable PYPI_TRUSTED=true). A registry not set up is skipped. Manual runs default to a dry run.
 on:
   schedule:
     - cron: "17 5 * * 6"
@@ -58,9 +58,11 @@ jobs:
         if: steps.build.outputs.npm == 'true' && env.LIVE == 'true'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          TRUSTED: ${{ vars.NPM_TRUSTED }}
           V: ${{ steps.build.outputs.version }}
         run: |
-          [ -z "$NODE_AUTH_TOKEN" ] && { echo "::notice::NPM_TOKEN not set, npm skipped"; exit 0; }
+          if [ "$TRUSTED" = "true" ]; then npm install -g npm@11 >/dev/null; export NODE_AUTH_TOKEN=""
+          elif [ -z "$NODE_AUTH_TOKEN" ]; then echo "::notice::npm not set up, skipped"; exit 0; fi
           npm view "@seatransport/data@$V" version >/dev/null 2>&1 || (cd packages/dist/npm && npm publish --access public --provenance)
           echo "done=true" >> "$GITHUB_OUTPUT"
 
