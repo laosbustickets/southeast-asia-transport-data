@@ -1,0 +1,91 @@
+name: Publish the npm and PyPI packages
+
+# Saturdays after the Zenodo run: publish @seatransport/data (npm) and sea-transport-data (PyPI), versioned
+# YYYY.M.D, to each registry whose last version has older data (packages/state.mjs). Setup: secret NPM_TOKEN;
+# PyPI trusted publisher (workflow packages.yml, environment pypi) and variable PYPI_TRUSTED=true.
+# A registry not set up is skipped. Manual runs default to a dry run.
+on:
+  schedule:
+    - cron: "17 5 * * 6"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        type: boolean
+        default: true
+      force:
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: packages
+  cancel-in-progress: false
+
+jobs:
+  packages:
+    runs-on: ubuntu-latest
+    environment: pypi
+    env:
+      LIVE: ${{ !(github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
+      FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Build and check
+        id: build
+        run: |
+          node packages/build.mjs
+          node packages/state.mjs check
+          python -m pip install -q build twine
+          python -m build packages/dist/python -o packages/dist/pypi
+          python -m twine check --strict packages/dist/pypi/*
+          cd packages/dist/npm && npm pack --dry-run
+
+      - name: npm
+        id: npm
+        if: steps.build.outputs.npm == 'true' && env.LIVE == 'true'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          V: ${{ steps.build.outputs.version }}
+        run: |
+          [ -z "$NODE_AUTH_TOKEN" ] && { echo "::notice::NPM_TOKEN not set, npm skipped"; exit 0; }
+          npm view "@seatransport/data@$V" version >/dev/null 2>&1 || (cd packages/dist/npm && npm publish --access public --provenance)
+          echo "done=true" >> "$GITHUB_OUTPUT"
+
+      - name: PyPI
+        id: pypi
+        if: steps.build.outputs.pypi == 'true' && env.LIVE == 'true' && vars.PYPI_TRUSTED == 'true'
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: packages/dist/pypi
+          skip-existing: true
+
+      - name: Record
+        if: always() && env.LIVE == 'true' && (steps.npm.outputs.done == 'true' || steps.pypi.outcome == 'success')
+        run: |
+          regs=""
+          [ "${{ steps.npm.outputs.done }}" = "true" ] && regs="npm"
+          [ "${{ steps.pypi.outcome }}" = "success" ] && regs="$regs pypi"
+          node packages/state.mjs record $regs
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add packages/published.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Packages ${{ steps.build.outputs.version }} published"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            git rebase --abort 2>/dev/null || true; sleep 10
+          done
+          exit 1
