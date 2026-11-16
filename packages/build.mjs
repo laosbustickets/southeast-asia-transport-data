@@ -1,9 +1,9 @@
-// Builds the npm package (@seatransport/data) and the PyPI package (sea-transport-data) from the files the nightly
-// sync keeps in this repository. Maps (SVG) stay out: the packages carry the data files only (about 0.7 MB).
+// Builds the npm package (@seatransport/data) from the files the nightly
+// sync keeps in this repository. Maps (SVG) stay out: the package carries the data files only (about 0.7 MB).
 //
 // Usage: node packages/build.mjs [--root <dir>] [--version <x.y.z>]
 //   --root     where the country folders are (default: the repository root)
-//   --version  package version (default: today's date as YYYY.M.D, the same for npm and PyPI)
+//   --version  package version (default: today's date as YYYY.M.D)
 //
 // Prints a JSON line { version, dataHash, files } and writes packages/dist/state.json. The hash covers every
 // non-volatile data file, so the workflow publishes only when the data really changed (the Laos train timetable is
@@ -23,7 +23,7 @@ const version = opt('--version', `${now.getUTCFullYear()}.${now.getUTCMonth() + 
 const manifest = JSON.parse(readFileSync(join(here, '..', 'datasets.json'), 'utf8'));
 const REPO = 'laosbustickets/southeast-asia-transport-data';
 
-// One catalogue for both packages: what each country holds and where it comes from.
+// The package catalogue: what each country holds and where it comes from.
 const catalogue = {
   name: 'Southeast Asia Transport Data',
   version,
@@ -64,21 +64,14 @@ const pkg = JSON.parse(readFileSync(join(npmOut, 'package.json'), 'utf8'));
 pkg.version = version;
 writeFileSync(join(npmOut, 'package.json'), JSON.stringify(pkg, null, 2) + '\n');
 
-// PyPI
-const pyOut = join(dist, 'python');
-cpSync(join(here, 'python'), pyOut, { recursive: true });
-const pyproject = join(pyOut, 'pyproject.toml');
-writeFileSync(pyproject, readFileSync(pyproject, 'utf8').replace(/^version = ".*"$/m, `version = "${version}"`));
-
-for (const [dataDir] of [[join(npmOut, 'data')], [join(pyOut, 'src', 'sea_transport_data', 'data')]]) {
-  for (const f of files) {
-    const out = join(dataDir, f.path);
-    mkdirSync(dirname(out), { recursive: true });
-    cpSync(f.src, out);
-  }
-  writeFileSync(join(dataDir, 'catalogue.json'), JSON.stringify(catalogue, null, 2) + '\n');
+const dataDir = join(npmOut, 'data');
+for (const f of files) {
+  const out = join(dataDir, f.path);
+  mkdirSync(dirname(out), { recursive: true });
+  cpSync(f.src, out);
 }
-for (const out of [npmOut, pyOut]) cpSync(join(here, 'README.md'), join(out, 'README.md'));
+writeFileSync(join(dataDir, 'catalogue.json'), JSON.stringify(catalogue, null, 2) + '\n');
+cpSync(join(here, 'README.md'), join(npmOut, 'README.md'));
 
 const state = { version, dataHash, files: files.length };
 writeFileSync(join(dist, 'state.json'), JSON.stringify(state) + '\n');
