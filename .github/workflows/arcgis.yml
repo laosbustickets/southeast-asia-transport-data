@@ -1,0 +1,45 @@
+name: Refresh the ArcGIS Online copies
+
+# Every day after the nightly sync: replace the ArcGIS Online copy of each country GeoJSON file (account
+# seatransport) when the file here changed (scripts/arcgis.mjs). Needs the secret ARCGIS_PASSWORD; without it the
+# run only reports. Manual runs default to a dry run.
+on:
+  schedule:
+    - cron: "7 4 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Only report what changed"
+        type: boolean
+        default: true
+      force:
+        description: "Refresh every item even if unchanged"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: arcgis
+  cancel-in-progress: false
+
+jobs:
+  arcgis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: Refresh changed items
+        env:
+          ARCGIS_USERNAME: ${{ secrets.ARCGIS_USERNAME }}
+          ARCGIS_PASSWORD: ${{ secrets.ARCGIS_PASSWORD }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && '1' || '0' }}
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force && '1' || '0' }}
+        run: node scripts/arcgis.mjs
