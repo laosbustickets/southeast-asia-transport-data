@@ -1,11 +1,19 @@
-# The npm package (owner hand-off, 16 November 2026)
+# The npm and PyPI packages (owner hand-off, 16 and 17 November 2026)
 
-`@seatransport/data` is built and published by the GitHub Action `.github/workflows/packages.yml` in
-`laosbustickets/southeast-asia-transport-data`, every Saturday at 05:17 UTC, only when the data changed. The npm account
-is `seatransport` (the package's scope is the account itself; no organization is needed). PyPI was dropped by the
-owner on 16 November 2026.
+`@seatransport/data` (npm) and `sea-transport-data` (PyPI) are built and published by the GitHub Action
+`.github/workflows/packages.yml` in `laosbustickets/southeast-asia-transport-data`, every Saturday at 05:17 UTC, only
+when the data changed. The npm account is `seatransport` (the package's scope is the account itself; no organization
+is needed). PyPI was dropped on 16 November 2026 and brought back by the owner on 17 November 2026 ("yes lets add
+it"): its project page links the six websites (`project.urls` in `python/pyproject.toml`).
 
 Accounts, passwords and tokens are the owner's to create; an agent never types them.
+
+## PyPI (17 November 2026): trusted publishing, no token
+
+PyPI's two-factor login is for the website only; the workflow publishes with GitHub's OIDC token, so no password,
+token or 2FA code is stored anywhere. The trusted publisher on PyPI (account **Publishing**): project
+`sea-transport-data`, owner `laosbustickets`, repository `southeast-asia-transport-data`, workflow `packages.yml`,
+environment `pypi`. The job `pypi` runs after the job `npm` and records its release in `published.json` the same way.
 
 ## Done on 16 November 2026
 
@@ -26,7 +34,7 @@ Recommended: turn on two-factor authentication on the npm account (**Account** �
 
 ## Publishing by hand
 
-GitHub → **Actions** → **Publish the npm package** → **Run workflow**. With **dry_run** ticked (the default) it
+GitHub → **Actions** → **Publish the npm and PyPI packages** → **Run workflow**. With **dry_run** ticked (the default) it
 builds and checks the package and publishes nothing; untick it to publish now (only if the data changed since the last
 release, or tick **force**).
 

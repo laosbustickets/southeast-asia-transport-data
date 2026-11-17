@@ -1,8 +1,9 @@
-name: Publish the npm package
+name: Publish the npm and PyPI packages
 
-# Saturdays after the Zenodo run: publish @seatransport/data to npm, versioned YYYY.M.D, when its data changed
-# since the last release (packages/state.mjs). Setup: packages/SETUP.md (secret NPM_TOKEN; later trusted
-# publishing with variable NPM_TRUSTED=true). Manual runs default to a dry run.
+# Saturdays after the Zenodo run: publish @seatransport/data (npm) and sea-transport-data (PyPI), versioned
+# YYYY.M.D, to each registry whose last release has older data (packages/state.mjs). Setup: packages/SETUP.md
+# (npm: secret NPM_TOKEN, later trusted publishing with variable NPM_TRUSTED=true; PyPI: trusted publisher for this
+# workflow and the environment pypi, no token). Manual runs default to a dry run.
 on:
   schedule:
     - cron: "17 5 * * 6"
@@ -67,6 +68,58 @@ jobs:
           git add packages/published.json
           git diff --cached --quiet && exit 0
           git commit -m "npm package ${{ steps.build.outputs.version }} published"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            git rebase --abort 2>/dev/null || true; sleep 10
+          done
+          exit 1
+
+  # Runs after the npm job, whatever it did, and starts from main as npm left it, so the two records never collide.
+  pypi:
+    needs: npm
+    if: ${{ !cancelled() }}
+    runs-on: ubuntu-latest
+    environment: pypi
+    env:
+      LIVE: ${{ !(github.event_name == 'workflow_dispatch' && inputs.dry_run) }}
+      FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Build and check
+        id: build
+        run: |
+          node packages/build.mjs
+          node packages/state.mjs check
+          python -m pip install -q build twine
+          python -m build packages/dist/python -o packages/dist/pypi
+          python -m twine check --strict packages/dist/pypi/*
+
+      - name: Publish
+        id: pypi
+        if: steps.build.outputs.pypi == 'true' && env.LIVE == 'true'
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          packages-dir: packages/dist/pypi
+          skip-existing: true
+
+      - name: Record
+        if: steps.pypi.outcome == 'success'
+        run: |
+          node packages/state.mjs record pypi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add packages/published.json
+          git diff --cached --quiet && exit 0
+          git commit -m "PyPI package ${{ steps.build.outputs.version }} published"
           for i in 1 2 3; do
             git pull --rebase origin main && git push origin HEAD:main && exit 0
             git rebase --abort 2>/dev/null || true; sleep 10
