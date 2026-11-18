@@ -8,23 +8,23 @@
  },
  "license": "https://creativecommons.org/licenses/by/4.0/",
  "citation": "Laos Bus Tickets, \"Laos–China Railway timetable\", https://laosbustickets.com/train-tickets-laos/",
- "checkedAt": "2026-11-16T23:00:08.024Z",
+ "checkedAt": "2026-11-17T23:00:07.646Z",
  "updated": "every morning at 06:00 Laos time; if a check fails the previous timetable is kept",
  "timezones": {
   "LA": "Asia/Vientiane, UTC+7",
   "CN": "Asia/Shanghai, UTC+8 (stops in China)"
  },
  "dates": [
-  "2026-11-17",
   "2026-11-18",
   "2026-11-19",
   "2026-11-20",
   "2026-11-21",
   "2026-11-22",
-  "2026-11-23"
+  "2026-11-23",
+  "2026-11-24"
  ],
  "summary": {
-  "trainsNorthbound": 6,
+  "trainsNorthbound": 7,
   "trainsSouthbound": 7,
   "fastestVientianeLuangPrabangMinutes": 106,
   "slowestVientianeLuangPrabangMinutes": 174
@@ -36,13 +36,13 @@
    "from": "Vientiane",
    "to": "Kunming South",
    "runsOn": [
-    "2026-11-17",
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
     "2026-11-21",
     "2026-11-22",
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
    ],
    "weekdays": [
     "Monday",
@@ -143,20 +143,20 @@
    "from": "Vientiane",
    "to": "Boten",
    "runsOn": [
-    "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21"
    ],
    "weekdays": [
-    "Tuesday",
     "Wednesday",
     "Thursday",
-    "Friday"
+    "Friday",
+    "Saturday"
    ],
    "weekdaysNotOnSaleYet": [
     "Monday",
-    "Saturday",
+    "Tuesday",
     "Sunday"
    ],
    "stops": [
@@ -248,13 +248,13 @@
    "from": "Vientiane",
    "to": "Luang Prabang",
    "runsOn": [
-    "2026-11-17",
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
     "2026-11-21",
     "2026-11-22",
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
    ],
    "weekdays": [
     "Monday",
@@ -299,13 +299,13 @@
    "from": "Vientiane",
    "to": "Kunming",
    "runsOn": [
-    "2026-11-17",
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
     "2026-11-21",
     "2026-11-22",
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
    ],
    "weekdays": [
     "Monday",
@@ -398,6 +398,71 @@
    "from": "Vientiane",
    "to": "Boten",
    "runsOn": [
+    "2026-11-18",
+    "2026-11-24"
+   ],
+   "weekdays": [
+    "Tuesday",
+    "Wednesday"
+   ],
+   "weekdaysNotOnSaleYet": [],
+   "stops": [
+    {
+     "station": "Vientiane",
+     "code": "LAVTM",
+     "country": "LA",
+     "arrive": null,
+     "depart": "14:05",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Vang Vieng",
+     "code": "LAVOM",
+     "country": "LA",
+     "arrive": "15:08",
+     "depart": "15:15",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Luang Prabang",
+     "code": "LAVJM",
+     "country": "LA",
+     "arrive": "16:48",
+     "depart": "16:52",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Muang Xai",
+     "code": "LAVFM",
+     "country": "LA",
+     "arrive": "17:50",
+     "depart": "17:53",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Nateuy",
+     "code": "LAVCM",
+     "country": "LA",
+     "arrive": "18:20",
+     "depart": "18:25",
+     "utcOffset": "+07:00"
+    },
+    {
+     "station": "Boten",
+     "code": "LAVBM",
+     "country": "LA",
+     "arrive": "18:35",
+     "depart": null,
+     "utcOffset": "+07:00"
+    }
+   ]
+  },
+  {
+   "train": "C96",
+   "direction": "northbound",
+   "from": "Vientiane",
+   "to": "Boten",
+   "runsOn": [
     "2026-11-19",
     "2026-11-20",
     "2026-11-21",
@@ -469,13 +534,13 @@
    "from": "Vientiane",
    "to": "Luang Prabang",
    "runsOn": [
-    "2026-11-17",
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
     "2026-11-21",
     "2026-11-22",
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
    ],
    "weekdays": [
     "Monday",
@@ -528,19 +593,12 @@
    "from": "Boten",
    "to": "Vientiane",
    "runsOn": [
-    "2026-11-17"
+    "2026-11-19"
    ],
    "weekdays": [
-    "Tuesday"
+    "Thursday"
    ],
-   "weekdaysNotOnSaleYet": [
-    "Monday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-    "Sunday"
-   ],
+   "weekdaysNotOnSaleYet": [],
    "stops": [
     {
      "station": "Boten",
@@ -601,10 +659,12 @@
     "2026-11-20",
     "2026-11-21",
     "2026-11-22",
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
    ],
    "weekdays": [
     "Monday",
+    "Tuesday",
     "Friday",
     "Saturday",
     "Sunday"
@@ -667,13 +727,13 @@
    "from": "Luang Prabang",
    "to": "Vientiane",
    "runsOn": [
-    "2026-11-17",
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
     "2026-11-21",
     "2026-11-22",
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
    ],
    "weekdays": [
     "Monday",
@@ -718,13 +778,13 @@
    "from": "Kunming South",
    "to": "Vientiane",
    "runsOn": [
-    "2026-11-17",
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
     "2026-11-21",
     "2026-11-22",
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
    ],
    "weekdays": [
     "Monday",
@@ -825,20 +885,20 @@
    "from": "Boten",
    "to": "Vientiane",
    "runsOn": [
-    "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21"
    ],
    "weekdays": [
-    "Tuesday",
     "Wednesday",
     "Thursday",
-    "Friday"
+    "Friday",
+    "Saturday"
    ],
    "weekdaysNotOnSaleYet": [
     "Monday",
-    "Saturday",
+    "Tuesday",
     "Sunday"
    ],
    "stops": [
@@ -930,13 +990,13 @@
    "from": "Kunming",
    "to": "Vientiane",
    "runsOn": [
-    "2026-11-17",
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
     "2026-11-21",
     "2026-11-22",
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
    ],
    "weekdays": [
     "Monday",
@@ -1037,13 +1097,13 @@
    "from": "Luang Prabang",
    "to": "Vientiane",
    "runsOn": [
-    "2026-11-17",
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
     "2026-11-21",
     "2026-11-22",
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
    ],
    "weekdays": [
     "Monday",
