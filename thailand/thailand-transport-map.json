@@ -1,6 +1,6 @@
 {
   "name": "Thailand transport map geographic data",
-  "dateModified": "2026-11-12",
+  "dateModified": "2026-11-19",
   "attribution": "Geography: Natural Earth (public domain), GeoNames (CC BY 4.0), airport-codes/OurAirports (PDDL); inherited checkpoint positions © OpenStreetMap contributors (ODbL).",
   "license": "https://thailandtransporthub.com/data/LICENSE.txt",
   "note": "Geographic area references and schematic connections, not boarding entrances, current passenger services, fares or border permission.",
@@ -1013,7 +1013,7 @@
         "de": "Koh Tao",
         "es": "Koh Tao",
         "ja": "タオ島",
-        "ko": "코타오",
+        "ko": "꼬따오",
         "ru": "Ко Тао",
         "zh": "龜島"
       },
