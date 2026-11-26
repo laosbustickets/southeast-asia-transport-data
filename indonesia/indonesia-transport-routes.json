@@ -2,7 +2,7 @@
   "name": "Indonesia transport routes",
   "publisher": "IndonesiaTransport.com",
   "homepage": "https://indonesiatransport.com/indonesia-transport-map/",
-  "updated": "2026-11-20",
+  "updated": "2026-11-26",
   "license": "ODbL-1.0",
   "licenseUrl": "https://opendatacommons.org/licenses/odbl/1-0/",
   "attribution": "Positions © OpenStreetMap contributors (ODbL). Connections: IndonesiaTransport.com.",
@@ -20,7 +20,7 @@
       "toLon": 114.43615,
       "operators": [],
       "page": "https://indonesiatransport.com/jakarta-to-bali/",
-      "checked": "2026-11-20",
+      "checked": "2026-11-26",
       "sources": [
         {
           "name": "Radar Banyuwangi: Ketapang-Gilimanuk crossing guide (16 October 2026)",
@@ -40,7 +40,7 @@
       "toLon": 116.07709,
       "operators": [],
       "page": "https://indonesiatransport.com/bali-to-lombok/",
-      "checked": "2026-11-20",
+      "checked": "2026-11-26",
       "sources": [
         {
           "name": "Satpel Pelabuhan Penyeberangan Lembar (Kemenhub BPTD Kelas II NTB): Padang Bai - Lembar fares",
@@ -62,7 +62,7 @@
         "Eka Jaya Fast Ferry"
       ],
       "page": "https://indonesiatransport.com/bali-to-gili-islands/",
-      "checked": "2026-11-20",
+      "checked": "2026-11-26",
       "sources": [
         {
           "name": "Eka Jaya Fast Ferry",
@@ -84,7 +84,7 @@
         "Wahana Virendra (Wahana Gili Ocean)"
       ],
       "page": "https://indonesiatransport.com/bali-to-lombok/",
-      "checked": "2026-11-20",
+      "checked": "2026-11-26",
       "sources": [
         {
           "name": "Wahana Virendra (Wahana Gili Ocean)",
@@ -104,7 +104,7 @@
       "toLon": 115.48743,
       "operators": [],
       "page": "https://indonesiatransport.com/bali-to-nusa-penida/",
-      "checked": "2026-11-20",
+      "checked": "2026-11-26",
       "sources": [
         {
           "name": "Klungkung Regency (Diskominfo): tourism levy from 1 September 2026",
@@ -124,7 +124,7 @@
       "toLon": 116.83077,
       "operators": [],
       "page": "https://indonesiatransport.com/lombok/",
-      "checked": "2026-11-20",
+      "checked": "2026-11-26",
       "sources": [
         {
           "name": "InsideLombok: Kayangan - Poto Tano tariff (SK Gubernur NTB, 11 January 2023)",
@@ -144,7 +144,7 @@
       "toLon": 119.87536,
       "operators": [],
       "page": "https://indonesiatransport.com/labuan-bajo/",
-      "checked": "2026-11-20",
+      "checked": "2026-11-26",
       "sources": [
         {
           "name": "detikBali: Sape - Labuan Bajo ferry fares and holiday schedule (8 December 2025)",
